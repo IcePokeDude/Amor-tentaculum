@@ -1,0 +1,553 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+ <ThingDef ParentName="EggFertBase">
+    <defName>BigTEgg</defName>
+    <label>Huge Tentacle Egg</label>
+    <description>A huge tentacle egg produced in the womb.</description>
+    <possessionCount>1</possessionCount>
+    <graphicData>
+      <texPath>Things/Items/HugeEgg</texPath>
+    </graphicData>
+    <statBases>
+      <MarketValue>50.0</MarketValue>
+    </statBases>
+    <comps>
+      <li Class="CompProperties_Hatcher">
+        <hatcherDaystoHatch>10</hatcherDaystoHatch>
+        <hatcherPawn>TMatron</hatcherPawn>
+      </li>
+    </comps>
+  </ThingDef>
+
+ <ThingDef ParentName="EggFertBase">
+    <defName>MedTEgg</defName>
+    <label>Large Tentacle Egg</label>
+    <description>A large tentacle egg produced by a tentacle host.</description>
+    <possessionCount>1</possessionCount>
+    <graphicData>
+      <texPath>Things/Items/MedEgg</texPath>
+      <graphicClass>Graphic_StackCount</graphicClass>
+    </graphicData>
+    <statBases>
+      <MarketValue>50.0</MarketValue>
+    </statBases>
+    <comps>
+      <li Class="CompProperties_Hatcher">
+        <hatcherDaystoHatch>3</hatcherDaystoHatch>
+        <hatcherPawn>TLarvaMat</hatcherPawn>
+      </li>
+    </comps>
+  </ThingDef>
+
+   <ThingDef ParentName="EggFertBase">
+    <defName>DroneTEgg</defName>
+    <label>Drone Egg</label>
+    <description>A small drone egg produced by a tentacle host.</description>
+    <possessionCount>1</possessionCount>
+    <graphicData>
+      <texPath>Things/Item/Resource/AnimalProductRaw/EggBirdSmall</texPath>
+      <graphicClass>Graphic_StackCount</graphicClass>
+      <color>(203,120,227)</color>
+    </graphicData>
+    <statBases>
+      <MarketValue>50.0</MarketValue>
+    </statBases>
+    <comps>
+      <li Class="CompProperties_Hatcher">
+        <hatcherDaystoHatch>1</hatcherDaystoHatch>
+        <hatcherPawn>TDrone</hatcherPawn>
+      </li>
+    </comps>
+  </ThingDef>
+
+	<rjw.HediffDef_InsectEgg Name="RJW_ImplantEgg" Abstract="True">
+		<defName>TentacleEggSmall</defName>
+		<label>Tentacle Egg(s)</label>
+		<hediffClass>rjw.Hediff_InsectEgg</hediffClass>
+		<description>Small egg(s) that enter the host's body and feeds off their nutrients until ready to hatch.</description>
+		<defaultLabelColor>(203,120,227)</defaultLabelColor>
+		<initialSeverity>0.01</initialSeverity>
+		<isBad>false</isBad>
+		<tendable>false</tendable>
+		<eggsize>0.5</eggsize>							<!--eggsize 1 = 100%, 0 - can hold unlimited eggs, up to 100 eggs per sex-->
+		<selffertilized>true</selffertilized>			<!--egg will be implanted fertilized-->
+		<stages>
+			<li>
+				<minSeverity>0.01</minSeverity>
+				<capMods>
+					<li>
+						<capacity>Moving</capacity>
+						<offset>-0.01</offset>
+					</li>
+				</capMods>
+			</li>
+			<li>
+				<minSeverity>0.02</minSeverity>
+				<capMods>
+					<li>
+						<capacity>Moving</capacity>
+						<offset>-0.02</offset>
+					</li>
+				</capMods>
+			</li>
+			<li>
+				<minSeverity>0.05</minSeverity>
+				<capMods>
+					<li>
+						<capacity>Moving</capacity>
+						<offset>-0.03</offset>
+					</li>
+				</capMods>
+			</li>
+			<li>
+				<minSeverity>0.10</minSeverity>
+				<capMods>
+					<li>
+						<capacity>Moving</capacity>
+						<offset>-0.04</offset>
+					</li>
+				</capMods>
+			</li>
+			<li>
+				<minSeverity>0.15</minSeverity>
+				<capMods>
+					<li>
+						<capacity>Moving</capacity>
+						<offset>-0.05</offset>
+					</li>
+				</capMods>
+			</li>
+			<li>
+				<minSeverity>0.20</minSeverity>
+				<capMods>
+					<li>
+						<capacity>Moving</capacity>
+						<offset>-0.06</offset>
+					</li>
+				</capMods>
+			</li>
+			<li>
+				<minSeverity>0.25</minSeverity>
+				<capMods>
+					<li>
+						<capacity>Moving</capacity>
+						<offset>-0.07</offset>
+					</li>
+				</capMods>
+			</li>
+			<li>
+				<minSeverity>0.30</minSeverity>
+				<capMods>
+					<li>
+						<capacity>Moving</capacity>
+						<offset>-0.08</offset>
+					</li>
+				</capMods>
+			</li>
+			<li>
+				<minSeverity>0.40</minSeverity>
+				<capMods>
+					<li>
+						<capacity>Moving</capacity>
+						<offset>-0.09</offset>
+					</li>
+				</capMods>
+			</li>
+			<li>
+				<minSeverity>0.50</minSeverity>
+				<capMods>
+					<li>
+						<capacity>Moving</capacity>
+						<offset>-0.1</offset>
+					</li>
+				</capMods>
+			</li>
+			<li>
+				<minSeverity>0.75</minSeverity>
+				<capMods>
+					<li>
+						<capacity>Moving</capacity>
+						<offset>-0.11</offset>
+					</li>
+				</capMods>
+			</li>
+			<li>
+				<minSeverity>0.9</minSeverity>
+				<capMods>
+					<li>
+						<capacity>Moving</capacity>
+						<offset>-0.12</offset>
+					</li>
+				</capMods>
+			</li>
+		</stages>
+	</rjw.HediffDef_InsectEgg>
+	
+	<!--vanilla insects, can fertilize each other -->
+	<rjw.HediffDef_InsectEgg ParentName="RJW_ImplantEgg">
+		<defName>TentacleEggSmall</defName>
+		<parentDefs>	 							<!-- partial string match of pawn.kindDef.defName-->
+			<li>TDrone</li>
+			<li>TMatron</li>		
+		</parentDefs>
+		<childrenDefs>	 							<!-- list of pawnkinds to spawn from/ doesn't match implanter egg type(RJW_InsectEgg) =( , maybe needs self-fertilized eggs or something-->
+			<li>TInternal</li>
+		</childrenDefs>
+    <UnFertEggDef>SmallTEggUnfert</UnFertEggDef>
+		<FertEggDef>SmallTEggFert</FertEggDef>
+	</rjw.HediffDef_InsectEgg>
+		
+	<ThingDef ParentName="EggImplantFertBase">
+		<defName>SmallTEggFert</defName>
+		<label>Small Amor Egg (fert.)</label>
+		<description>A small fertilized amor tentacle egg.</description>
+		<graphicData>
+			<color>(203,20,227)</color>
+		</graphicData>
+		<statBases>
+			<MarketValue>10.0</MarketValue>
+		</statBases>
+		<comps>
+			<li Class="CompProperties_Hatcher">
+				<hatcherDaystoHatch>0.5</hatcherDaystoHatch>
+				<hatcherPawn>TInternal</hatcherPawn>
+			</li>
+      <li Class="CompProperties_Glower">
+				<glowRadius>2</glowRadius>
+				<glowColor>(203,20,227)</glowColor>
+			</li>
+		</comps>
+	</ThingDef>	
+
+  	<ThingDef ParentName="EggImplantUnfertBase">
+		<defName>SmallTEggUnfert</defName>
+		<label>Small Amor Egg (unfert.)</label>
+		<description>An unfertilized amor tentacle egg.</description>
+		<graphicData>
+			<color>(203,125,227)</color>
+		</graphicData>
+		<statBases>
+			<MarketValue>1.0</MarketValue>
+		</statBases>
+		<comps>
+			<li Class="CompProperties_Glower">
+				<glowRadius>2</glowRadius>
+				<glowColor>(203,125,227)</glowColor>
+			</li>
+		</comps>
+	</ThingDef>
+
+	<HediffDef>
+    <defName>TEggAss</defName>
+    <hediffClass>HediffWithComps</hediffClass>
+    <label>incubating egg</label>
+    <labelNoun>egg</labelNoun>
+    <description>Internal tentacles are working to produce and incubate a warrior egg in the hosts anus.</description>
+    <defaultLabelColor>(203,120,227)</defaultLabelColor>
+    <minSeverity>0.001</minSeverity>
+    <initialSeverity>0.001</initialSeverity>
+    <maxSeverity>1</maxSeverity>
+    <stages>
+      <li>
+        <minSeverity>0.001</minSeverity>
+        <label>pea sized</label>
+        <painOffset>0.05</painOffset>
+        <partEfficiencyOffset>-0.2</partEfficiencyOffset>
+        <statOffsets>
+          <MoveSpeed>-0.03</MoveSpeed>
+        </statOffsets>
+      </li>
+      <li>
+        <minSeverity>0.25</minSeverity>
+        <label>grape sized</label>
+        <painOffset>0.05</painOffset>
+        <statOffsets>
+          <MoveSpeed>-0.05</MoveSpeed>
+        </statOffsets>
+      </li>
+      <li>
+        <minSeverity>0.5</minSeverity>
+        <label>peach sized</label>
+        <painOffset>0.1</painOffset>
+        <statOffsets>
+          <MoveSpeed>-0.08</MoveSpeed>
+        </statOffsets>
+      </li>
+      <li>
+        <minSeverity>0.75</minSeverity>
+        <label>apple sized</label>
+        <painOffset>0.2</painOffset>
+        <statOffsets>
+          <MoveSpeed>-0.1</MoveSpeed>
+        </statOffsets>
+      </li>
+      <li>
+        <minSeverity>0.95</minSeverity>
+        <label>laying egg</label>
+        <painOffset>0.8</painOffset>
+        <statOffsets>
+          <MoveSpeed>-3</MoveSpeed>
+        </statOffsets>
+      </li>
+    </stages>
+    <comps>
+      <li Class="HediffCompProperties_SeverityPerDay">
+        <severityPerDay>0.4</severityPerDay>
+      </li>
+            <li Class="EBSGFramework.HediffCompProperties_RemoveAtSeverities">
+                <severity>1</severity>
+            </li>
+            <li Class="EBSGFramework.HediffCompProperties_CreateItems">
+                <onDeathOrRemovalThings>
+                    <li>
+                        <li><thing>MedTEgg</thing></li>
+                    </li>
+                </onDeathOrRemovalThings>
+            </li>
+    </comps>
+  </HediffDef>
+
+	<HediffDef>
+    <defName>TEggStomach</defName>
+    <hediffClass>HediffWithComps</hediffClass>
+    <label>incubating eggs</label>
+    <labelNoun>eggs</labelNoun>
+    <description>Internal tentacles are working to produce and incubate a clutch of drone eggs in the hosts stomach.</description>
+    <defaultLabelColor>(203,120,227)</defaultLabelColor>
+    <minSeverity>0.001</minSeverity>
+    <initialSeverity>0.001</initialSeverity>
+    <maxSeverity>1</maxSeverity>
+    <stages>
+      <li>
+        <minSeverity>0.001</minSeverity>
+        <label>forming</label>
+        <painOffset>0.05</painOffset>
+        <partEfficiencyOffset>-0.2</partEfficiencyOffset>
+        <statOffsets>
+          <MoveSpeed>-0.03</MoveSpeed>
+        </statOffsets>
+      </li>
+      <li>
+        <minSeverity>0.25</minSeverity>
+        <label>incubating</label>
+        <painOffset>0.05</painOffset>
+        <statOffsets>
+          <MoveSpeed>-0.05</MoveSpeed>
+        </statOffsets>
+      </li>
+      <li>
+        <minSeverity>0.5</minSeverity>
+        <label>incubating</label>
+        <painOffset>0.1</painOffset>
+        <statOffsets>
+          <MoveSpeed>-0.08</MoveSpeed>
+        </statOffsets>
+      </li>
+      <li>
+        <minSeverity>0.75</minSeverity>
+        <label>incubating</label>
+        <painOffset>0.2</painOffset>
+        <statOffsets>
+          <MoveSpeed>-0.1</MoveSpeed>
+        </statOffsets>
+      </li>
+      <li>
+        <minSeverity>0.95</minSeverity>
+        <label>vomiting eggs</label>
+        <painOffset>0.8</painOffset>
+		<vomitMtbDays>0.01</vomitMtbDays>
+        <statOffsets>
+          <MoveSpeed>-3</MoveSpeed>
+        </statOffsets>
+      </li>
+    </stages>
+    <comps>
+      <li Class="HediffCompProperties_SeverityPerDay">
+        <severityPerDay>0.95</severityPerDay>
+      </li>
+            <li Class="EBSGFramework.HediffCompProperties_RemoveAtSeverities">
+                <severity>1</severity>
+            </li>
+            <li Class="EBSGFramework.HediffCompProperties_CreateItems">
+                <intervalTicks>60900</intervalTicks>
+                <intervalThings>
+                    <li>
+                        <li>
+                            <thing>DroneTEgg</thing>
+                            <count>4</count>
+                            <weight>1</weight>
+                        </li>
+                        <li>
+                            <thing>DroneTEgg</thing>
+                            <count>3</count>
+                            <weight>2</weight>
+                        </li>
+                        <li>
+                            <thing>DroneTEgg</thing>
+                            <count>2</count>
+                            <weight>2</weight>
+                        </li>
+                    </li>
+                </intervalThings>
+                <onDeathOrRemovalThings>
+                    <li>
+                        <li><thing>DroneTEgg</thing></li>
+                    </li>
+                </onDeathOrRemovalThings>
+            </li>
+    </comps>
+  </HediffDef>
+
+    <HediffDef>
+    <hediffClass>HediffWithComps</hediffClass>
+    <defName>tentacleegg</defName>
+    <label>Amor Egg</label>
+    <labelNoun>an amor egg</labelNoun>
+    <description>A huge tentacle egg has been produced by amor queen and swollen inside the hosts body.</description>
+    <renderNodeProperties>
+      <li Class="PawnRenderNodeProperties_Eye">
+        <workerClass>PawnRenderNodeWorker_HediffEye</workerClass>
+        <texPath>Things/Pawns/Parts/Addons/Belly</texPath>
+        <parentTagDef>Body</parentTagDef>
+        <colorType>Skin</colorType>
+        <rotDrawMode>Fresh, Rotting</rotDrawMode>
+        <useSkinShader>true</useSkinShader>
+        <useRottenColor>true</useRottenColor>
+        <drawSize>1.2</drawSize>
+        <drawData>
+          <defaultData>
+            <layer>39</layer>
+            <offset>(0, 0, -0.1)</offset>
+          </defaultData>
+          <dataNorth>
+            <layer>0</layer>
+            <offset>(0, 0, 0)</offset>
+          </dataNorth>
+          <dataEast>
+            <flip>false</flip>
+            <offset>(0, 0, 0)</offset>
+            <layer>-10</layer>
+          </dataEast>
+          <dataSouth>
+            <offset>(0, 0, -0.1)</offset>
+            <layer>20</layer>
+          </dataSouth>
+          <dataWest>
+            <layer>-10</layer>
+          </dataWest>
+        </drawData>
+      </li>
+    </renderNodeProperties>
+    <stages>
+      <li>
+        <minSeverity>0.001</minSeverity>
+        <label>tiny</label>
+        <statOffsets>
+          <MoveSpeed>-0.01</MoveSpeed>
+        </statOffsets>
+      </li>
+      <li>
+        <minSeverity>0.1</minSeverity>
+        <label>small</label>
+        <painOffset>0.1</painOffset>
+        <statOffsets>
+          <MoveSpeed>-0.05</MoveSpeed>
+        </statOffsets>
+      </li>
+      <li>
+        <minSeverity>0.3</minSeverity>
+        <label>large</label>
+        <painOffset>0.1</painOffset>
+        <statOffsets>
+          <MoveSpeed>-0.05</MoveSpeed>
+        </statOffsets>
+      </li>
+      <li>
+        <minSeverity>0.5</minSeverity>
+        <label>huge</label>
+        <painOffset>0.2</painOffset>
+        <statOffsets>
+          <MoveSpeed>-0.2</MoveSpeed>
+        </statOffsets>
+      </li>
+      <li>
+        <minSeverity>0.7</minSeverity>
+        <label>watermelon sized</label>
+        <partEfficiencyOffset>-0.20</partEfficiencyOffset>
+        <painOffset>0.40</painOffset>
+        <statOffsets>
+          <MoveSpeed>-0.4</MoveSpeed>
+        </statOffsets>
+      </li>
+    </stages>
+        <comps>
+      <li Class="EBSGFramework.HediffCompProperties_GiveAbilityAtSeverity">
+                <abilitiesAtSeverities>
+                          <li>
+                        <abilityDef>BirthV</abilityDef>
+                        <validSeverity>0.98~999</validSeverity>
+                    </li>
+                </abilitiesAtSeverities>
+       </li>
+      </comps>
+  </HediffDef>
+
+      <HediffDef>
+    <defName>EggLabor</defName>
+    <hediffClass>HediffWithComps</hediffClass>
+    <label>Laying Egg</label>
+    <labelNoun>laying egg</labelNoun>
+    <description>Due too the size of the egg the labor processes is quite intensive.</description>
+    <defaultLabelColor>(255,20,147)</defaultLabelColor>
+    <minSeverity>0</minSeverity>
+    <initialSeverity>1</initialSeverity>
+    <maxSeverity>1</maxSeverity>
+    <stages>
+       <li>
+        <minSeverity>0.15</minSeverity>
+        <label>egg crowning</label>
+        <painOffset>0.9</painOffset>
+        <statOffsets>
+          <MoveSpeed>-0.9</MoveSpeed>
+        </statOffsets>
+      </li>
+      <li>
+        <minSeverity>0.4</minSeverity>
+        <label>pushing</label>
+        <painOffset>0.65</painOffset>
+        <statOffsets>
+          <MoveSpeed>-0.9</MoveSpeed>
+        </statOffsets>
+      </li>
+       <li>
+        <minSeverity>0.6</minSeverity>
+        <label>resting</label>
+        <painOffset>0.3</painOffset>
+        <statOffsets>
+          <MoveSpeed>-0.9</MoveSpeed>
+        </statOffsets>
+      </li>
+      <li>
+        <minSeverity>0.8</minSeverity>
+        <label>pushing</label>
+        <painOffset>0.65</painOffset>
+        <statOffsets>
+          <MoveSpeed>-0.9</MoveSpeed>
+        </statOffsets>
+      </li>
+    </stages>
+    <comps>
+      <li Class="HediffCompProperties_SeverityPerDay">
+        <severityPerDay>-1.7</severityPerDay>
+      </li>
+        <li Class="EBSGFramework.HediffCompProperties_CreateItems">
+                <onDeathOrRemovalThings>
+                    <li>
+                        <li><thing>BigTEgg</thing></li>
+                    </li>
+                </onDeathOrRemovalThings>
+            </li>
+        </comps>
+  </HediffDef>
+
+</Defs>

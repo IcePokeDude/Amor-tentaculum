@@ -1,0 +1,72 @@
+<Defs>
+
+      <ThoughtDef>
+    <defName>IndoWormThought</defName>
+    <workerClass>ThoughtWorker_Hediff</workerClass>
+    <hediff>IBworm</hediff>
+    <validWhileDespawned>true</validWhileDespawned>
+    <developmentalStageFilter>Baby, Child, Adult</developmentalStageFilter>
+    <stages>
+      <li>
+        <label>one of us</label>
+        <description>I am happy. I am free. I like it here</description>
+        <baseMoodEffect>25</baseMoodEffect>
+      </li>
+    </stages>
+  </ThoughtDef>
+
+      <ThoughtDef>
+    <defName>BWormThought</defName>
+    <workerClass>ThoughtWorker_Hediff</workerClass>
+    <hediff>Bworm</hediff>
+    <validWhileDespawned>true</validWhileDespawned>
+    <developmentalStageFilter>Adult</developmentalStageFilter>
+    <stages>
+      <li>
+        <label>Fuck!</label>
+        <description>I NEED TO FUCK! WHY AM I NOT FUCKING.</description>
+        <baseMoodEffect>-15</baseMoodEffect>
+      </li>
+    </stages>
+  </ThoughtDef>
+
+      <ThoughtDef>
+    <defName>FwormThought</defName>
+    <workerClass>ThoughtWorker_Hediff</workerClass>
+    <hediff>Fworm</hediff>
+    <validWhileDespawned>true</validWhileDespawned>
+    <nullifyingTraits>
+      <li>Masochist</li>
+	  <li>Nymphomaniac</li>
+      <li>Zoophile</li>
+    </nullifyingTraits>
+    <developmentalStageFilter>Adult</developmentalStageFilter>
+    <stages>
+      <li>
+        <label>Eckk!</label>
+        <description>This thing is so gross. I feel like I'm choking all time, and I can barely talk.</description>
+        <baseMoodEffect>-8</baseMoodEffect>
+      </li>
+    </stages>
+  </ThoughtDef>
+
+      <ThoughtDef>
+    <defName>FwormThoughtLiked</defName>
+    <workerClass>ThoughtWorker_Hediff</workerClass>
+    <hediff>Fworm</hediff>
+    <validWhileDespawned>true</validWhileDespawned>
+	<requiredTraits>
+      <li>Masochist</li>
+	  <li>Nymphomaniac</li>
+      <li>Zoophile</li>
+    </requiredTraits>
+    <developmentalStageFilter>Adult</developmentalStageFilter>
+    <stages>
+      <li>
+        <label>Mhmm!</label>
+        <description>This thing is so sweet! It feels like it's cumming down my throat everytime I eat.</description>
+        <baseMoodEffect>6</baseMoodEffect>
+      </li>
+    </stages>
+  </ThoughtDef>
+</Defs>

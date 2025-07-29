@@ -1,0 +1,232 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+  
+  <HediffDef ParentName="DiseaseBase">
+    <defName>vagrancy</defName>
+    <label>body vagrancy</label>
+    <labelNoun>vagrancy</labelNoun>
+    <description>This creature is suffering from not being within a host body.</description>
+    <stages>
+      <li>
+        <painOffset>0.20</painOffset>
+        <statOffsets>
+          <MoveSpeed>-0.3</MoveSpeed>
+        </statOffsets>
+      </li>
+    </stages>
+  </HediffDef>
+
+  <HediffDef>
+    <defName>AStorage</defName>
+    <hediffClass>HediffWithComps</hediffClass>
+    <label>Tentacles in Anus</label>
+    <labelNoun>Amor Internum</labelNoun>
+    <description>Amor Internum are living within the hosts ass. Tentacles in the anal cavity can be birthed into drones. In high numbers they will expand the anal opening further.</description>
+    <defaultLabelColor>(216,191,216)</defaultLabelColor>
+    <minSeverity>1</minSeverity>
+    <initialSeverity>1</initialSeverity>
+    <maxSeverity>100</maxSeverity>
+    <stages>
+      <li>
+        <minSeverity>1</minSeverity>
+        <label>Few</label>
+        <painOffset>0.01</painOffset>
+        <statOffsets>
+          <MoveSpeed>-0.01</MoveSpeed>
+        </statOffsets>
+      </li>
+      <li>
+        <minSeverity>10</minSeverity>
+        <label>Many</label>
+        <painOffset>0.05</painOffset>
+        <statOffsets>
+          <MoveSpeed>-0.05</MoveSpeed>
+        </statOffsets>
+      </li>
+      <li>
+        <minSeverity>40</minSeverity>
+        <label>A lot</label>
+        <painOffset>0.1</painOffset>
+        <statOffsets>
+          <MoveSpeed>-0.1</MoveSpeed>
+        </statOffsets>
+      </li>
+      <li>
+        <minSeverity>80</minSeverity>
+        <label>A ton</label>
+        <painOffset>0.2</painOffset>
+        <statOffsets>
+          <MoveSpeed>-0.2</MoveSpeed>
+        </statOffsets>
+      </li>
+      <li>
+        <minSeverity>100</minSeverity>
+        <label>A silly amount</label>
+        <painOffset>0.3</painOffset>
+        <statOffsets>
+          <MoveSpeed>-0.3</MoveSpeed>
+        </statOffsets>
+      </li>
+      
+    </stages>
+    <comps>
+      <li Class="EBSGFramework.HediffCompProperties_DisplaySeverity">
+                <prependString>Number of occupants: </prependString>
+                <appendString></appendString>
+                <roundDigits>0</roundDigits>
+      </li>
+            <li Class="EBSGFramework.HediffCompProperties_GiveAbilityAtSeverity">
+                <abilitiesAtSeverities>
+                          <li>
+                        <abilityDef>BirthA</abilityDef>
+                        <validSeverity>2.0~999</validSeverity>
+                    </li>
+                </abilitiesAtSeverities>
+            </li>
+    </comps>
+  </HediffDef>
+
+    <HediffDef>
+    <defName>VStorage</defName>
+    <hediffClass>HediffWithComps</hediffClass>
+    <label>Tentacles in Womb</label>
+    <labelNoun>Amor Internum</labelNoun>
+    <description>Amor Internum are living within the hosts womb. Tentacles in the womb work to incubate huge Amor Matron Eggs. In high numbers they will expand the vaginal opening further.</description>
+    <defaultLabelColor>(216,191,216)</defaultLabelColor>
+    <minSeverity>0</minSeverity>
+    <initialSeverity>1</initialSeverity>
+    <maxSeverity>100</maxSeverity>
+    <stages>
+      <li>
+        <minSeverity>1</minSeverity>
+        <label>Few</label>
+        <painOffset>0.01</painOffset>
+        <statOffsets>
+          <MoveSpeed>-0.01</MoveSpeed>
+        </statOffsets>
+      </li>
+      <li>
+        <minSeverity>10</minSeverity>
+        <label>Many</label>
+        <painOffset>0.05</painOffset>
+        <statOffsets>
+          <MoveSpeed>-0.05</MoveSpeed>
+        </statOffsets>
+      </li>
+      <li>
+        <minSeverity>40</minSeverity>
+        <label>A lot</label>
+        <painOffset>0.1</painOffset>
+        <statOffsets>
+          <MoveSpeed>-0.1</MoveSpeed>
+        </statOffsets>
+      </li>
+      <li>
+        <minSeverity>80</minSeverity>
+        <label>A ton</label>
+        <painOffset>0.2</painOffset>
+        <statOffsets>
+          <MoveSpeed>-0.2</MoveSpeed>
+        </statOffsets>
+      </li>
+      <li>
+        <minSeverity>100</minSeverity>
+        <label>A silly amount</label>
+        <painOffset>0.3</painOffset>
+        <statOffsets>
+          <MoveSpeed>-0.3</MoveSpeed>
+        </statOffsets>
+      </li>
+      
+    </stages>
+    <comps>
+      <li Class="EBSGFramework.HediffCompProperties_DisplaySeverity">
+                <prependString>Number of occupants: </prependString>
+                <appendString></appendString>
+                <roundDigits>0</roundDigits>
+      </li>
+      <li Class="EBSGFramework.HediffCompProperties_GiveOtherHediffPeriodically">
+                <hediff>tentacleegg</hediff>
+                <severity>0.01</severity>
+                <interval>96000</interval>
+                <bodyParts>
+                 <li>Genitals</li>
+                </bodyParts>
+                <validSeverities>0.1</validSeverities>
+                <multiplySeverityByParentSeverity>True</multiplySeverityByParentSeverity>
+      </li>
+    </comps>
+  </HediffDef>
+
+    <HediffDef>
+    <defName>SStorage</defName>
+    <hediffClass>HediffWithComps</hediffClass>
+    <label>Tentacles in Stomach</label>
+    <labelNoun>Amor Internum</labelNoun>
+    <description>Amor Internum are living within the hosts stomach. Tentacles in the stomach can be vomitted up as Warrior eggs.</description>
+    <defaultLabelColor>(216,191,216)</defaultLabelColor>
+    <minSeverity>0</minSeverity>
+    <initialSeverity>1</initialSeverity>
+    <maxSeverity>100</maxSeverity>
+    <stages>
+      <li>
+        <minSeverity>1</minSeverity>
+        <label>Few</label>
+        <painOffset>0.01</painOffset>
+        <statOffsets>
+          <MoveSpeed>-0.01</MoveSpeed>
+        </statOffsets>
+      </li>
+      <li>
+        <minSeverity>10</minSeverity>
+        <label>Many</label>
+        <painOffset>0.05</painOffset>
+        <statOffsets>
+          <MoveSpeed>-0.05</MoveSpeed>
+        </statOffsets>
+      </li>
+      <li>
+        <minSeverity>40</minSeverity>
+        <label>A lot</label>
+        <painOffset>0.1</painOffset>
+        <statOffsets>
+          <MoveSpeed>-0.1</MoveSpeed>
+        </statOffsets>
+      </li>
+      <li>
+        <minSeverity>80</minSeverity>
+        <label>A ton</label>
+        <painOffset>0.2</painOffset>
+        <statOffsets>
+          <MoveSpeed>-0.2</MoveSpeed>
+        </statOffsets>
+      </li>
+      <li>
+        <minSeverity>100</minSeverity>
+        <label>A silly amount</label>
+        <painOffset>0.3</painOffset>
+        <statOffsets>
+          <MoveSpeed>-0.3</MoveSpeed>
+        </statOffsets>
+      </li>
+      
+    </stages>
+    <comps>
+      <li Class="EBSGFramework.HediffCompProperties_DisplaySeverity">
+                <prependString>Number of occupants: </prependString>
+                <appendString></appendString>
+                <roundDigits>0</roundDigits>
+      </li>
+      <li Class="EBSGFramework.HediffCompProperties_GiveAbilityAtSeverity">
+                <abilitiesAtSeverities>
+                          <li>
+                        <abilityDef>BirthS</abilityDef>
+                        <validSeverity>2.0~999</validSeverity>
+                    </li>
+                </abilitiesAtSeverities>
+       </li>
+      </comps>
+  </HediffDef>
+
+
+</Defs>
