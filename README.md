@@ -25,4 +25,4 @@ If you don't like purple (or sticking tentacles in your butt) then maybe this mo
 
 Tentacle preg stuff doesn't really work on male pawns. Sorry. Maybe the sounding will come 1 day idk.
 
-Make sure rjw preg setting Implant filter is on. Otherwise you'll just get bug eggs instead of tentacle eggs.
+Make sure rjw preg setting Implant filter is off. Otherwise you'll just get bug eggs instead of tentacle eggs.
