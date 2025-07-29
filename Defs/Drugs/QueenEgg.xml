@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+    <ThingDef ParentName="MakeableDrugBase">
+        <defName>QueenEgg</defName>
+        <label>Amor Queen Egg</label>
+        <description>An Amor Tentaculum queen egg. Can be inserted into the anal or vaganal cavity of the host to hatch.</description>
+        <graphicData>
+            <texPath>Things/Items/StartEgg</texPath>
+            <graphicClass>Graphic_StackCount</graphicClass>
+        </graphicData>
+        <statBases>
+            <WorkToMake>500</WorkToMake>
+            <MarketValue>600</MarketValue>
+            <Mass>0.04</Mass>
+        </statBases>
+        <costList>
+            <Bioferrite>50</Bioferrite>
+            <Neutroamine>10</Neutroamine>
+            <Shard>1</Shard>
+        </costList>
+        <ingestible>
+            <foodType>Processed</foodType>
+            <joyKind>Chemical</joyKind>
+            <joy>0.30</joy>
+            <drugCategory>Hard</drugCategory>
+            <baseIngestTicks>150</baseIngestTicks>
+            <chairSearchRadius>4</chairSearchRadius>
+            <nurseable>true</nurseable>
+            <outcomeDoers>
+                <li Class="IngestionOutcomeDoer_GiveHediff">
+                    <hediffDef>queenimplant</hediffDef>
+                    <severity>0.01</severity>
+                </li>
+            </outcomeDoers>
+        </ingestible>
+        <comps>
+            <li Class="CompProperties_Drug">
+                <chemical>Ambrosia</chemical>
+                <addictiveness>0.030</addictiveness>
+                <minToleranceToAddict>0.15</minToleranceToAddict>
+                <listOrder>80</listOrder>
+            </li>
+        </comps>
+    </ThingDef>
+</Defs>

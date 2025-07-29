@@ -1,0 +1,50 @@
+<Defs>
+    <GeneDef>
+        <defName>THostBody</defName>
+        <label>host body</label>
+        <description>Carriers of this gene have a body that has been turned into a breeding nest for Amor tentacles and their eggs.</description>
+        <iconPath>UI/Icons/Genes/Gene_JawBaseline</iconPath>
+        <displayCategory>Cosmetic</displayCategory>
+        <displayOrderInCategory>89</displayOrderInCategory>
+        <geneClass>EBSGFramework.HediffAdder</geneClass>
+        <abilities>
+            <li>UnbirthA</li>
+            <li>UnbirthV</li>
+            <li>UnbirthS</li>
+        </abilities>
+        <modExtensions>
+            <li Class="EBSGFramework.EBSGBodyExtension">
+                <ageGraphics>
+                    <li>
+                        <ageRange>0~9000</ageRange>
+                        <body>Things/Pawns/Parts/Bodies/Tentbody</body>
+                    </li>
+                </ageGraphics>
+            </li>
+            <li Class="EBSGFramework.EquipRestrictExtension">
+                <limitedToWeapons>
+                </limitedToWeapons>
+                <limitedToEquipments>
+                    <li>Apparel_CultistMask</li>
+                </limitedToEquipments>
+            </li>
+        </modExtensions>
+    </GeneDef>
+
+      <GeneDef ParentName="GeneGenitalTypeBase">
+    <defName>rjw_genes_tentinfest_genitalia</defName>
+    <label>tentacle inhabited genitalia</label>
+    <description>Carriers of this gene develop equine genitalia.</description>
+    <iconPath>Genes/Icons/Genitalia_Equine</iconPath>
+    <modExtensions>
+      <li Class="RJW_Genes.GenitaliaTypeExtension">
+        <penis>HorsePenis</penis>
+        <vagina>TVagina</vagina>
+        <anus>TAnus</anus>
+        <breasts>TBreasts</breasts>
+      </li>
+    </modExtensions>
+    <displayOrderInCategory>802</displayOrderInCategory>
+  </GeneDef>
+
+</Defs>

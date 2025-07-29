@@ -1,0 +1,254 @@
+<Defs>
+
+  <!-- Groups -->
+
+  <BodyPartGroupDef>
+    <defName>LeftSpike</defName>
+    <label>left spike</label>
+    <labelShort>spike</labelShort>
+    <listOrder>79</listOrder>
+  </BodyPartGroupDef>
+
+  <BodyPartGroupDef>
+    <defName>RightSpike</defName>
+    <label>right spike</label>
+    <labelShort>spike</labelShort>
+    <listOrder>78</listOrder>
+  </BodyPartGroupDef>
+
+  <BodyPartGroupDef>
+    <defName>MiddleSpike</defName>
+    <label>middle spike</label>
+    <labelShort>spike</labelShort>
+    <listOrder>77</listOrder>
+  </BodyPartGroupDef>
+
+  <BodyPartGroupDef>
+    <defName>FirstTentacle</defName>
+    <label>tentacle</label>
+    <listOrder>80</listOrder>
+  </BodyPartGroupDef>
+
+  <BodyPartGroupDef>
+    <defName>SecondTentacle</defName>
+    <label>tentacle</label>
+    <listOrder>80</listOrder>
+  </BodyPartGroupDef>
+
+  <BodyPartGroupDef>
+    <defName>ThirdTentacle</defName>
+    <label>tentacle</label>
+    <listOrder>80</listOrder>
+  </BodyPartGroupDef>
+
+  <BodyPartGroupDef>
+    <defName>FourthTentacle</defName>
+    <label>tentacle</label>
+    <listOrder>80</listOrder>
+  </BodyPartGroupDef>
+
+  <BodyPartGroupDef>
+    <defName>FifthTentacle</defName>
+    <label>tentacle</label>
+    <listOrder>80</listOrder>
+  </BodyPartGroupDef>
+
+  <!-- Parts -->
+
+  <BodyPartDef>
+    <defName>MovingBodyTentaclebeast</defName>
+    <label>body</label>
+    <hitPoints>60</hitPoints>
+    <executionPartPriority>500</executionPartPriority>
+    <frostbiteVulnerability>10</frostbiteVulnerability>
+  </BodyPartDef>
+
+  <BodyPartDef>
+    <defName>TentaclebeastHead</defName>
+    <label>head</label>
+    <hitPoints>25</hitPoints>
+    <canSuggestAmputation>false</canSuggestAmputation>
+    <bleedRate>2</bleedRate>
+    <executionPartPriority>500</executionPartPriority>
+  </BodyPartDef>
+
+  <BodyPartDef>
+    <defName>Tentacle</defName>
+    <label>tentacle</label>
+    <hitPoints>30</hitPoints>
+    <tags>
+      <li>ManipulationLimbCore</li>
+    </tags>
+    <frostbiteVulnerability>1</frostbiteVulnerability>
+    <pawnGeneratorCanAmputate>true</pawnGeneratorCanAmputate>
+  </BodyPartDef>
+
+  <BodyPartDef>
+    <defName>TentacleSpike</defName>
+    <label>spike</label>
+    <hitPoints>40</hitPoints>
+    <frostbiteVulnerability>0.1</frostbiteVulnerability>
+    <permanentInjuryChanceFactor>0</permanentInjuryChanceFactor>
+    <tags>
+      <li>ManipulationLimbCore</li>
+    </tags>
+  </BodyPartDef>
+
+  <BodyPartDef>
+    <defName>TentacleLeg</defName>
+    <label>tentacle</label>
+    <hitPoints>30</hitPoints>
+    <frostbiteVulnerability>0.1</frostbiteVulnerability>
+    <tags>
+      <li>MovingLimbCore</li>
+    </tags>
+  </BodyPartDef>
+
+  <!-- Bodies -->
+  
+  <BodyDef>
+    <defName>MatronB</defName>
+    <label>MatronCore</label>
+    <corePart>
+      <def>MovingBodyTentaclebeast</def>
+      <height>Middle</height>
+      <depth>Outside</depth>
+      <parts>
+        <li>
+          <def>Spine</def>
+          <coverage>0.025</coverage>
+          <depth>Inside</depth>
+        </li>
+        <li>
+          <def>Stomach</def>
+          <coverage>0.025</coverage>
+          <depth>Inside</depth>
+        </li>
+        <li>
+          <def>Heart</def>
+          <coverage>0.020</coverage>
+          <depth>Inside</depth>
+        </li>
+        <li>
+          <def>Lung</def>
+          <customLabel>left lung</customLabel>
+          <coverage>0.025</coverage>
+          <depth>Inside</depth>
+        </li>
+        <li>
+          <def>Lung</def>
+          <customLabel>right lung</customLabel>
+          <coverage>0.025</coverage>
+          <depth>Inside</depth>
+        </li>
+        <li>
+          <def>Kidney</def>
+          <customLabel>left kidney</customLabel>
+          <coverage>0.017</coverage>
+          <depth>Inside</depth>
+        </li>
+        <li>
+          <def>Kidney</def>
+          <customLabel>right kidney</customLabel>
+          <coverage>0.017</coverage>
+          <depth>Inside</depth>
+        </li>
+        <li>
+          <def>Liver</def>
+          <coverage>0.025</coverage>
+          <depth>Inside</depth>
+        </li>
+        <li>
+          <def>TentaclebeastHead</def>
+          <coverage>0.4</coverage>
+          <groups>
+            <li>UpperHead</li>
+            <li>FullHead</li>
+            <li>HeadAttackTool</li>
+          </groups>
+          <parts>
+            <li>
+              <def>Skull</def>
+              <coverage>0.18</coverage>
+              <depth>Inside</depth>
+              <groups>
+                <li>UpperHead</li>
+                <li>Eyes</li>
+                <li>FullHead</li>
+              </groups>
+              <parts>
+                <li>
+                  <def>Brain</def>
+                  <coverage>0.8</coverage>
+                  <groups>
+                    <li>UpperHead</li>
+                    <li>Eyes</li>
+                    <li>FullHead</li>
+                  </groups>
+                </li>
+              </parts>
+            </li>
+            <li>
+              <def>Eye</def>
+              <customLabel>left eye</customLabel>
+              <coverage>0.02</coverage>
+              <groups>
+                <li>FullHead</li>
+                <li>Eyes</li>
+              </groups>
+            </li>
+            <li>
+              <def>Eye</def>
+              <customLabel>right eye</customLabel>
+              <coverage>0.02</coverage>
+              <groups>
+                <li>FullHead</li>
+                <li>Eyes</li>
+              </groups>
+            </li>
+            <li>
+              <def>Tentacle</def>
+              <coverage>0.15</coverage>
+              <depth>Outside</depth>
+              <groups>
+                <li>FirstTentacle</li>
+              </groups>
+            </li>
+            <li>
+              <def>Tentacle</def>
+              <coverage>0.15</coverage>
+              <depth>Outside</depth>
+              <groups>
+                <li>SecondTentacle</li>
+              </groups>
+            </li>
+            <li>
+              <def>Tentacle</def>
+              <coverage>0.15</coverage>
+              <depth>Outside</depth>
+              <groups>
+                <li>ThirdTentacle</li>
+              </groups>
+            </li>
+            <li>
+              <def>TentacleLeg</def>
+              <coverage>0.15</coverage>
+              <depth>Outside</depth>
+              <groups>
+                <li>FourthTentacle</li>
+              </groups>
+            </li>
+            <li>
+              <def>TentacleLeg</def>
+              <coverage>0.15</coverage>
+              <depth>Outside</depth>
+              <groups>
+                <li>FifthTentacle</li>
+              </groups>
+            </li>
+          </parts>
+        </li>
+      </parts>
+    </corePart>
+  </BodyDef>
+</Defs>
