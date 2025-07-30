@@ -45,7 +45,6 @@
     </tools>
 <comps>
 	<li Class="VEF.AnimalBehaviours.CompProperties_Draftable">
-		<makeNonFleeingToo>true</makeNonFleeingToo>
     </li>
 	<li Class="VEF.AnimalBehaviours.CompProperties_FixedGender">
 		<gender>Male</gender>
@@ -69,9 +68,9 @@
       <body>Snake</body>
       <predator>true</predator>
       <maxPreyBodySize>0.35</maxPreyBodySize>
-      <baseBodySize>0.25</baseBodySize>
-      <baseHungerRate>0.07</baseHungerRate>
-      <baseHealthScale>0.5</baseHealthScale>
+      <baseBodySize>0.4</baseBodySize>
+      <baseHungerRate>0.06</baseHungerRate>
+      <baseHealthScale>0.9</baseHealthScale>
       <foodType>CarnivoreAnimal, OvivoreAnimal</foodType>
       <leatherDef>LeatherTentacle</leatherDef>
       <meatLabel>Tentacle meat</meatLabel>
@@ -201,7 +200,6 @@
     </tools>
 <comps>
 	<li Class="VEF.AnimalBehaviours.CompProperties_Draftable">
-		<makeNonFleeingToo>true</makeNonFleeingToo>
     </li>
 	<li Class="VEF.AnimalBehaviours.CompProperties_FixedGender">
 		<gender>Male</gender>
@@ -346,7 +344,6 @@
     </tools>
 <comps>
 	<li Class="VEF.AnimalBehaviours.CompProperties_Draftable">
-		<makeNonFleeingToo>true</makeNonFleeingToo>
     </li>
 	<li Class="VEF.AnimalBehaviours.CompProperties_FixedGender">
 		<gender>Female</gender>
@@ -354,6 +351,8 @@
 	<li Class="VEF.AnimalBehaviours.CompProperties_Metamorphosis">
 		<timeInYears>0.05</timeInYears>
 		<pawnToTurnInto>TWar</pawnToTurnInto>
+	</li>
+  	<li Class="VEF.AnimalBehaviours.CompProperties_NoTamingDecay">
 	</li>
 </comps>
     <race>
@@ -452,7 +451,7 @@
     <devNote>misc</devNote>
     <description>A huge serpentine tentacle. Warriors are always female. In addition to producing tentacle slime form their tits they are good fighters, and lay drone eggs weekly.</description>
     <statBases>
-      <MoveSpeed>6.5</MoveSpeed>
+      <MoveSpeed>7.5</MoveSpeed>
       <MarketValue>350</MarketValue>
       <ComfyTemperatureMin>0</ComfyTemperatureMin>
       <ComfyTemperatureMax>90</ComfyTemperatureMax>
@@ -465,7 +464,7 @@
         <capacities>
           <li>ToxicBite</li>
         </capacities>
-        <power>20</power>
+        <power>23</power>
         <cooldownTime>2</cooldownTime>
         <linkedBodyPartsGroup>Mouth</linkedBodyPartsGroup>
         <surpriseAttack>
@@ -482,7 +481,7 @@
         <capacities>
           <li>Blunt</li>
         </capacities>
-        <power>15</power>
+        <power>20</power>
         <cooldownTime>2</cooldownTime>
         <linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
         <ensureLinkedBodyPartsGroupAlwaysUsable>true</ensureLinkedBodyPartsGroupAlwaysUsable>
@@ -491,11 +490,12 @@
     </tools>
 <comps>
 	<li Class="VEF.AnimalBehaviours.CompProperties_Draftable">
-		<makeNonFleeingToo>true</makeNonFleeingToo>
     </li>
 	<li Class="VEF.AnimalBehaviours.CompProperties_FixedGender">
 		<gender>Female</gender>
   	</li>
+    	<li Class="VEF.AnimalBehaviours.CompProperties_NoTamingDecay">
+	</li>
       <li Class="CompProperties_Milkable">
         <milkDef>slimefood</milkDef>
         <milkIntervalDays>1</milkIntervalDays>
@@ -508,14 +508,18 @@
         <eggLayIntervalDays>7</eggLayIntervalDays>
         <eggCountRange>1</eggCountRange>
       </li>
+    <li Class="VEF.AnimalBehaviours.CompProperties_InitialHediff">
+		<hediffname>aggressive_nature</hediffname>
+		<hediffseverity>1</hediffseverity>
+	</li>
 </comps>
     <race>
       <body>Snake</body>
       <predator>true</predator>
       <maxPreyBodySize>1.35</maxPreyBodySize>
       <baseBodySize>2.25</baseBodySize>
-      <baseHungerRate>1.3</baseHungerRate>
-      <baseHealthScale>2.5</baseHealthScale>
+      <baseHungerRate>1.2</baseHungerRate>
+      <baseHealthScale>4.5</baseHealthScale>
       <foodType>CarnivoreAnimal, OvivoreAnimal</foodType>
       <leatherDef>LeatherTentacle</leatherDef>
       <meatLabel>tentacle meat</meatLabel>
@@ -605,7 +609,7 @@
     <devNote>misc</devNote>
     <description>A huge mass of tentacles all ready for breeding. Matrons are the largest of the mobile Amor tentacles, and produce vast amounts of drone eggs.</description>
     <statBases>
-      <MoveSpeed>5.5</MoveSpeed>
+      <MoveSpeed>6</MoveSpeed>
       <MarketValue>950</MarketValue>
       <ComfyTemperatureMin>0</ComfyTemperatureMin>
       <ComfyTemperatureMax>90</ComfyTemperatureMax>
@@ -618,7 +622,7 @@
         <capacities>
           <li>Blunt</li>
         </capacities>
-        <power>20</power>
+        <power>34</power>
         <cooldownTime>2</cooldownTime>
         <linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
         <ensureLinkedBodyPartsGroupAlwaysUsable>true</ensureLinkedBodyPartsGroupAlwaysUsable>
@@ -627,11 +631,12 @@
     </tools>
 <comps>
 	<li Class="VEF.AnimalBehaviours.CompProperties_Draftable">
-		<makeNonFleeingToo>true</makeNonFleeingToo>
     </li>
 	<li Class="VEF.AnimalBehaviours.CompProperties_FixedGender">
 		<gender>Female</gender>
     </li>
+    	<li Class="VEF.AnimalBehaviours.CompProperties_NoTamingDecay">
+	</li>
 </comps>
     <race>
       <body>MatronB</body>
@@ -639,7 +644,7 @@
       <maxPreyBodySize>2</maxPreyBodySize>
       <baseBodySize>3.25</baseBodySize>
       <baseHungerRate>2</baseHungerRate>
-      <baseHealthScale>3.5</baseHealthScale>
+      <baseHealthScale>6</baseHealthScale>
       <foodType>CarnivoreAnimal, OvivoreAnimal</foodType>
       <leatherDef>LeatherTentacle</leatherDef>
       <meatLabel>tentacle meat</meatLabel>
@@ -799,6 +804,7 @@
 		<hediffname>vagrancy</hediffname>
 		<hediffseverity>1</hediffseverity>
 	</li>
+  
 </comps>
     <race>
       <body>Snake</body>

@@ -15,14 +15,14 @@
         <minSeverity>1</minSeverity>
         <label>thin</label>
         <statOffsets>
-          <MoveSpeed>0.05</MoveSpeed>
+          <MoveSpeed>0.15</MoveSpeed>
         </statOffsets>
       </li>
       <li>
         <minSeverity>2</minSeverity>
         <label>average</label>
         <statOffsets>
-          <MoveSpeed>0.12</MoveSpeed>
+          <MoveSpeed>0.25</MoveSpeed>
         </statOffsets>
         <capMods>
         <li>
@@ -35,7 +35,7 @@
         <minSeverity>3</minSeverity>
         <label>muscular</label>
         <statOffsets>
-          <MoveSpeed>0.25</MoveSpeed>
+          <MoveSpeed>0.35</MoveSpeed>
         </statOffsets>
         <capMods>
         <li>
@@ -48,7 +48,7 @@
         <minSeverity>4</minSeverity>
         <label>robust</label>
         <statOffsets>
-          <MoveSpeed>0.4</MoveSpeed>
+          <MoveSpeed>0.45</MoveSpeed>
         </statOffsets>
         <capMods>
         <li>
@@ -61,7 +61,7 @@
         <minSeverity>5</minSeverity>
         <label>powerful</label>
         <statOffsets>
-          <MoveSpeed>0.6</MoveSpeed>
+          <MoveSpeed>0.65</MoveSpeed>
         </statOffsets>
         <capMods>
         <li>
@@ -124,13 +124,13 @@
               <li>Stab</li>
             </capacities>
             <armorPenetration>0.6</armorPenetration>
-            <power>26.5</power> <!-- 2.5x natural fist -->
+            <power>32.5</power>
             <cooldownTime>2</cooldownTime>
           </li>
         </tools>
         </li>
       <li Class="HediffCompProperties_SeverityPerDay">
-        <severityPerDay>0.01</severityPerDay>
+        <severityPerDay>0.05</severityPerDay>
       </li>
     </comps>
     </HediffDef>
@@ -150,14 +150,14 @@
         <minSeverity>1</minSeverity>
         <label>thin</label>
         <statOffsets>
-          <MoveSpeed>0.05</MoveSpeed>
+          <MoveSpeed>0.15</MoveSpeed>
         </statOffsets>
       </li>
       <li>
         <minSeverity>2</minSeverity>
         <label>average</label>
         <statOffsets>
-          <MoveSpeed>0.12</MoveSpeed>
+          <MoveSpeed>0.25</MoveSpeed>
         </statOffsets>
         <capMods>
         <li>
@@ -170,7 +170,7 @@
         <minSeverity>3</minSeverity>
         <label>muscular</label>
         <statOffsets>
-          <MoveSpeed>0.25</MoveSpeed>
+          <MoveSpeed>0.35</MoveSpeed>
         </statOffsets>
         <capMods>
         <li>
@@ -183,7 +183,7 @@
         <minSeverity>4</minSeverity>
         <label>robust</label>
         <statOffsets>
-          <MoveSpeed>0.4</MoveSpeed>
+          <MoveSpeed>0.45</MoveSpeed>
         </statOffsets>
         <capMods>
         <li>
@@ -196,7 +196,7 @@
         <minSeverity>5</minSeverity>
         <label>powerful</label>
         <statOffsets>
-          <MoveSpeed>0.6</MoveSpeed>
+          <MoveSpeed>0.65</MoveSpeed>
         </statOffsets>
         <capMods>
         <li>
@@ -260,13 +260,13 @@
               <li>Stab</li>
             </capacities>
             <armorPenetration>0.6</armorPenetration>
-            <power>26.5</power> <!-- 2.5x natural fist -->
+            <power>34.5</power>
             <cooldownTime>2</cooldownTime>
           </li>
         </tools>
         </li>
       <li Class="HediffCompProperties_SeverityPerDay">
-        <severityPerDay>0.01</severityPerDay>
+        <severityPerDay>0.05</severityPerDay>
       </li>
     </comps>
     </HediffDef>
@@ -287,7 +287,7 @@
       <li>
         <minSeverity>1</minSeverity>
         <label>slightly stretchy</label>
-        <painOffset>-0.01</painOffset>
+        <painOffset>-0.05</painOffset>
         <statOffsets>
           <TStorage>0.02</TStorage>
         </statOffsets>
@@ -295,7 +295,7 @@
       <li>
         <minSeverity>2</minSeverity>
         <label>a little stretchy</label>
-        <painOffset>-0.01</painOffset>
+        <painOffset>-0.1</painOffset>
         <statOffsets>
           <TStorage>0.06</TStorage>
         </statOffsets>
@@ -303,7 +303,7 @@
       <li>
         <minSeverity>3</minSeverity>
         <label>stretchy</label>
-        <painOffset>-0.02</painOffset>
+        <painOffset>-0.2</painOffset>
         <statOffsets>
           <TStorage>0.14</TStorage>
         </statOffsets>
@@ -311,7 +311,7 @@
       <li>
         <minSeverity>4</minSeverity>
         <label>very stretchy</label>
-        <painOffset>-0.05</painOffset>
+        <painOffset>-0.5</painOffset>
         <statOffsets>
           <TStorage>0.30</TStorage>
         </statOffsets>
@@ -319,7 +319,7 @@
       <li>
         <minSeverity>5</minSeverity>
         <label>elastic</label>
-        <painOffset>-0.2</painOffset>
+        <painOffset>-0.7</painOffset>
         <statOffsets>
           <TStorage>0.62</TStorage>
         </statOffsets>
@@ -327,7 +327,7 @@
       <li>
         <minSeverity>6</minSeverity>
         <label>human cock sleeve</label>
-        <painOffset>-0.5</painOffset>
+        <painOffset>-0.8</painOffset>
         <statOffsets>
           <TStorage>1.26</TStorage>
         </statOffsets>
@@ -335,7 +335,7 @@
       <li>
         <minSeverity>7</minSeverity>
         <label>superhuman cock sleeve</label>
-        <painOffset>-0.8</painOffset>
+        <painOffset>-1.5</painOffset>
         <statOffsets>
           <TStorage>2.3</TStorage>
         </statOffsets>
@@ -464,8 +464,8 @@
     <label>anal speculum</label>
     <labelNoun>a speculum</labelNoun>
     <description>A plasteel speculum implant designed to open the anus wider for further tentacle insertions.</description>
-    <descriptionHyperlinks><ThingDef>TWombItem</ThingDef></descriptionHyperlinks>
-    <spawnThingOnRemoved>TWombItem</spawnThingOnRemoved>
+    <descriptionHyperlinks><ThingDef>TSpecItem</ThingDef></descriptionHyperlinks>
+    <spawnThingOnRemoved>TSpecItem</spawnThingOnRemoved>
         <stages>
           <li>
         <statOffsets>
@@ -544,8 +544,8 @@
     <label>storage stomach</label>
     <labelNoun>a storage stomach</labelNoun>
     <description>An advanced stomach implant completely removing the original use for the organ in favor of letting tentacles handle digestive processes, and allowing more of them to ocupy the host body.</description>
-    <descriptionHyperlinks><ThingDef>TWombItem</ThingDef></descriptionHyperlinks>
-    <spawnThingOnRemoved>TWombItem</spawnThingOnRemoved>
+    <descriptionHyperlinks><ThingDef>TStomachEItem</ThingDef></descriptionHyperlinks>
+    <spawnThingOnRemoved>TStomachEItem</spawnThingOnRemoved>
       <stages>
         <li>
         <partEfficiencyOffset>-0.3</partEfficiencyOffset>

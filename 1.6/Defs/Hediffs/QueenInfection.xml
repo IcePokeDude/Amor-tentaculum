@@ -165,7 +165,7 @@
     <hediffClass>HediffWithComps</hediffClass>
     <label>stretched rectum</label>
     <labelNoun>rectum</labelNoun>
-    <description>The Amor queen has grown and invaded this part of the body. The hosts rectum, and large intestine are being stretched to accommodate larger and more plentaful tentacle insertions. The processes is uncomfortable.</description>
+    <description>The Amor queen has grown and invaded this part of the body. The hosts rectum, and large intestine are being stretched to accommodate larger and more plentaful tentacle insertions. These processes are uncomfortable.</description>
     <defaultLabelColor>(255,20,147)</defaultLabelColor>
     <minSeverity>0.001</minSeverity>
     <initialSeverity>0.001</initialSeverity>
@@ -234,7 +234,7 @@
     <hediffClass>HediffWithComps</hediffClass>
     <label>stretched stomach</label>
     <labelNoun>stomach</labelNoun>
-    <description>The Amor queen has grown and invaded this part of the body. The hosts stomach, and throat are being stretched and cleared of acid to cultivate a better enviroment for tentacle offspring. The processes is uncomfortable.</description>
+    <description>The Amor queen has grown and invaded this part of the body. The hosts stomach, and throat are being stretched and cleared of acid to cultivate a better enviroment for tentacle offspring. These processes are uncomfortable.</description>
     <defaultLabelColor>(255,20,147)</defaultLabelColor>
     <minSeverity>0.001</minSeverity>
     <initialSeverity>0.001</initialSeverity>
@@ -315,7 +315,7 @@
     <hediffClass>HediffWithComps</hediffClass>
     <label>stretched womb</label>
     <labelNoun>womb</labelNoun>
-    <description>The Amor queen has grown and invaded this part of the body. The hosts womb, and cervix are being stretched open to support longterm tentacle pregnacny. The processes is uncomfortable.</description>
+    <description>The Amor queen has grown and invaded this part of the body. The hosts womb, and cervix are being stretched open to support longterm tentacle pregnacny. These processes are uncomfortable.</description>
     <defaultLabelColor>(255,20,147)</defaultLabelColor>
     <minSeverity>0.001</minSeverity>
     <initialSeverity>0.001</initialSeverity>
@@ -390,7 +390,7 @@
     <hediffClass>HediffWithComps</hediffClass>
     <label>Amor Pregnancy</label>
     <labelNoun>Pregnancy</labelNoun>
-    <description>An Adult Amor Tentaculum queen growing within the host causing a permanent pregnacny.</description>
+    <description>An Adult Amor Tentaculum queen growing within the host causing a permanent pregnancy.</description>
     <defaultLabelColor>(203,120,227)</defaultLabelColor>
     <scenarioCanAdd>true</scenarioCanAdd>
     <maxSeverity>1.5</maxSeverity>
@@ -421,6 +421,9 @@
           <PsychicSensitivity>0.4</PsychicSensitivity>
           <Vulnerability>0.5</Vulnerability>
           <SexFrequency>1</SexFrequency>
+          <ArmorRating_Sharp>0.2</ArmorRating_Sharp>
+          <ArmorRating_Blunt>0.5</ArmorRating_Blunt>
+          <ArmorRating_Heat>0.7</ArmorRating_Heat>
         </statOffsets>
         <capMods>
           <li>
@@ -438,6 +441,9 @@
           <PsychicSensitivity>0.5</PsychicSensitivity>
           <Vulnerability>0.5</Vulnerability>
           <SexFrequency>1.2</SexFrequency>
+          <ArmorRating_Sharp>0.3</ArmorRating_Sharp>
+          <ArmorRating_Blunt>0.6</ArmorRating_Blunt>
+          <ArmorRating_Heat>0.8</ArmorRating_Heat>
         </statOffsets>
         <capMods>
           <li>
@@ -455,6 +461,9 @@
           <PsychicSensitivity>1</PsychicSensitivity>
           <Vulnerability>1</Vulnerability>
           <SexFrequency>2</SexFrequency>
+          <ArmorRating_Sharp>0.4</ArmorRating_Sharp>
+          <ArmorRating_Blunt>0.8</ArmorRating_Blunt>
+          <ArmorRating_Heat>1</ArmorRating_Heat>
         </statOffsets>
         <capMods>
           <li>
@@ -472,6 +481,9 @@
           <PsychicSensitivity>2</PsychicSensitivity>
           <Vulnerability>1</Vulnerability>
           <SexFrequency>3</SexFrequency>
+          <ArmorRating_Sharp>0.8</ArmorRating_Sharp>
+          <ArmorRating_Blunt>1.6</ArmorRating_Blunt>
+          <ArmorRating_Heat>2</ArmorRating_Heat>
         </statOffsets>
         <capMods>
           <li>

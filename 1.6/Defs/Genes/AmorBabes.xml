@@ -171,7 +171,7 @@
         </comps>
     </HediffDef>
 
-    <AbilityDef>
+    <AbilityDef ParentName="AbilityTouchBase">
         <defName>UnbirthA</defName>
         <label>insert in anus</label>
         <description>Inserts the selected Amorinternum into the hosts anal cavity.</description>

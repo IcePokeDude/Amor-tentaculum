@@ -503,10 +503,18 @@
     <initialSeverity>1</initialSeverity>
     <maxSeverity>1</maxSeverity>
     <stages>
+           <li>
+        <minSeverity>0.1</minSeverity>
+        <label>recovering</label>
+        <painOffset>0.7</painOffset>
+        <statOffsets>
+          <MoveSpeed>-0.9</MoveSpeed>
+        </statOffsets>
+      </li>
        <li>
         <minSeverity>0.15</minSeverity>
         <label>egg crowning</label>
-        <painOffset>0.9</painOffset>
+        <painOffset>0.95</painOffset>
         <statOffsets>
           <MoveSpeed>-0.9</MoveSpeed>
         </statOffsets>
@@ -514,9 +522,9 @@
       <li>
         <minSeverity>0.4</minSeverity>
         <label>pushing</label>
-        <painOffset>0.65</painOffset>
+        <painOffset>0.9</painOffset>
         <statOffsets>
-          <MoveSpeed>-0.9</MoveSpeed>
+          <MoveSpeed>-1</MoveSpeed>
         </statOffsets>
       </li>
        <li>
@@ -530,22 +538,27 @@
       <li>
         <minSeverity>0.8</minSeverity>
         <label>pushing</label>
-        <painOffset>0.65</painOffset>
+        <painOffset>0.9</painOffset>
         <statOffsets>
-          <MoveSpeed>-0.9</MoveSpeed>
+          <MoveSpeed>-1</MoveSpeed>
         </statOffsets>
       </li>
     </stages>
     <comps>
       <li Class="HediffCompProperties_SeverityPerDay">
-        <severityPerDay>-1.7</severityPerDay>
+        <severityPerDay>-2</severityPerDay>
       </li>
         <li Class="EBSGFramework.HediffCompProperties_CreateItems">
-                <onDeathOrRemovalThings>
+                <intervalTicks>25400</intervalTicks>
+                <intervalThings>
                     <li>
-                        <li><thing>BigTEgg</thing></li>
+                        <li>
+                            <thing>BigTEgg</thing>
+                            <count>1</count>
+                            <weight>1</weight>
+                        </li>
                     </li>
-                </onDeathOrRemovalThings>
+                </intervalThings>
             </li>
         </comps>
   </HediffDef>

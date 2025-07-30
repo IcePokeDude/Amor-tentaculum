@@ -17,6 +17,21 @@
   </HediffDef>
 
   <HediffDef>
+    <defName>aggressive_nature</defName>
+    <label>aggressive nature</label>
+    <labelNoun>aggressive</labelNoun>
+    <description>This creature is geneticly programed by the hive to be more aggressive in it's pursuit of intruders.</description>
+    <stages>
+      <li>
+        <painOffset>-0.70</painOffset>
+        <statOffsets>
+          <MeleeCooldownFactor>1.5</MeleeCooldownFactor>
+        </statOffsets>
+      </li>
+    </stages>
+  </HediffDef>
+
+  <HediffDef>
     <defName>AStorage</defName>
     <hediffClass>HediffWithComps</hediffClass>
     <label>Tentacles in Anus</label>
