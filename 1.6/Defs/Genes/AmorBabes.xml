@@ -226,7 +226,7 @@
             </comps>
     </AbilityDef>
 
-        <AbilityDef>
+        <AbilityDef ParentName="AbilityTouchBase">
         <defName>UnbirthV</defName>
         <label>insert in vagina</label>
         <description>Inserts the selected Amorinternum into the hosts vagina to live in the womb.</description>
@@ -281,7 +281,7 @@
             </comps>
     </AbilityDef>
 
-            <AbilityDef>
+            <AbilityDef ParentName="AbilityTouchBase">
         <defName>UnbirthS</defName>
         <label>swallow</label>
         <description>Swallows the selected Amorinternum to live in the stomach.</description>
