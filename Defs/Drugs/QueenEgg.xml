@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+    <ThingDef ParentName="MakeableDrugBase">
+        <defName>QueenEgg</defName>
+        <label>Amor Queen Egg</label>
+        <description>An Amor Tentaculum queen egg. When eatten will hatch in the hosts stomach. Dangerous for pawns with higher testosterone than estrogen(pawns that have a penis).</description>
+        <graphicData>
+            <texPath>Things/Items/StartEgg</texPath>
+            <graphicClass>Graphic_StackCount</graphicClass>
+        </graphicData>
+        <statBases>
+            <WorkToMake>500</WorkToMake>
+            <MarketValue>600</MarketValue>
+            <Mass>0.04</Mass>
+        </statBases>
+        <recipeMaker>
+            <researchPrerequisite>AmorTentaculumCultavation</researchPrerequisite>
+            <recipeUsers>
+              <li>DrugLab</li>
+            </recipeUsers>
+            <soundWorking>Recipe_Drug</soundWorking>
+        </recipeMaker>
+    <techHediffsTags>
+      <li>Advanced</li>
+    </techHediffsTags>
+    <costList>
+      <HumpShroom>5</HumpShroom>
+      <Neutroamine>30</Neutroamine>
+      <Luciferium>3</Luciferium>
+    </costList>
+        <ingestible>
+            <foodType>Processed</foodType>
+            <joyKind>Chemical</joyKind>
+            <joy>0.30</joy>
+            <drugCategory>Hard</drugCategory>
+            <baseIngestTicks>150</baseIngestTicks>
+            <chairSearchRadius>4</chairSearchRadius>
+            <nurseable>true</nurseable>
+            <outcomeDoers>
+                <li Class="IngestionOutcomeDoer_GiveHediff">
+                    <hediffDef>queenimplant</hediffDef>
+                    <severity>0.01</severity>
+                </li>
+            </outcomeDoers>
+        </ingestible>
+        <comps>
+            <li Class="CompProperties_Drug">
+                <chemical>Ambrosia</chemical>
+                <addictiveness>0.030</addictiveness>
+                <minToleranceToAddict>0.15</minToleranceToAddict>
+                <listOrder>80</listOrder>
+            </li>
+        </comps>
+    </ThingDef>
+</Defs>

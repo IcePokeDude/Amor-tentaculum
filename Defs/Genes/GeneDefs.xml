@@ -1,0 +1,86 @@
+<Defs>
+    <GeneDef>
+        <defName>THostBody</defName>
+        <label>host body</label>
+        <description>Carriers of this gene have a body that has been turned into a breeding nest for Amor tentacles and their eggs.</description>
+        <iconPath>Genes/Tentacle_Body</iconPath>
+        <displayCategory>Cosmetic</displayCategory>
+        <displayOrderInCategory>89</displayOrderInCategory>
+        <geneClass>EBSGFramework.HediffAdder</geneClass>
+        <abilities>
+            <li>UnbirthA</li>
+            <li>UnbirthV</li>
+            <li>UnbirthS</li>
+            <li>AttackTent</li>
+        </abilities>
+        <modExtensions>
+            <li Class="EBSGFramework.EBSGBodyExtension">
+                <ageGraphics>
+                    <li>
+                        <ageRange>0~9000</ageRange>
+                        <body>Things/Pawns/Parts/Bodies/Tentbody</body>
+                    </li>
+                </ageGraphics>
+            </li>
+            <li Class="EBSGFramework.EquipRestrictExtension">
+                <limitedToWeapons>
+                </limitedToWeapons>
+                <limitedToEquipments>
+                    <li>Apparel_CultistMask</li>
+                    <li>Apparel_Collar</li>
+                    <li>Apparel_VisageMask</li>
+                </limitedToEquipments>
+            </li>
+        </modExtensions>
+    </GeneDef>
+
+    <GeneDef>
+        <defName>THostBodyM</defName>
+        <label>host body</label>
+        <description>Carriers of this gene have a body that has been turned into a breeding nest for Malum tentacles and their eggs.</description>
+        <iconPath>Genes/Tentacle_Body</iconPath>
+        <displayCategory>Cosmetic</displayCategory>
+        <displayOrderInCategory>89</displayOrderInCategory>
+        <geneClass>EBSGFramework.HediffAdder</geneClass>
+        <abilities>
+            <li>UnbirthAM</li>
+            <li>UnbirthSM</li>
+        </abilities>
+        <modExtensions>
+            <li Class="EBSGFramework.EBSGBodyExtension">
+                <ageGraphics>
+                    <li>
+                        <ageRange>0~9000</ageRange>
+                        <body>Things/Pawns/Parts/Bodies/Tentbody</body>
+                    </li>
+                </ageGraphics>
+            </li>
+            <li Class="EBSGFramework.EquipRestrictExtension">
+                <limitedToWeapons>
+                </limitedToWeapons>
+                <limitedToEquipments>
+                    <li>Apparel_CultistMask</li>
+                    <li>Apparel_Collar</li>
+                    <li>Apparel_VisageMask</li>
+                </limitedToEquipments>
+            </li>
+        </modExtensions>
+    </GeneDef>
+
+      <GeneDef ParentName="GeneGenitalTypeBase">
+    <defName>rjw_genes_tentinfest_genitalia</defName>
+    <label>tentacle inhabited genitalia</label>
+    <description>Carriers of this gene have genitalia permantly inhabited by tentacles.</description>
+    <iconPath>Genes/Tentacle_Vagina</iconPath>
+    <modExtensions>
+      <li Class="RJW_Genes.GenitaliaTypeExtension">
+        <penis>Penis</penis>
+        <vagina>TVagina</vagina>
+        <anus>TAnus</anus>
+        <breasts>TBreasts</breasts>
+      </li>
+    </modExtensions>
+    <displayOrderInCategory>802</displayOrderInCategory>
+  </GeneDef>
+
+</Defs>
