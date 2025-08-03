@@ -12,11 +12,11 @@
         <blocksInspirations>true</blocksInspirations>
         <pctAllThoughtNullification>1</pctAllThoughtNullification>
         <overrideMoodBase>0.9</overrideMoodBase>
-        <partEfficiencyOffset>-0.20</partEfficiencyOffset>
-        <painFactor>0</painFactor>
-        <hungerRateFactorOffset>-0.15</hungerRateFactorOffset>
+        <partEfficiencyOffset>-0.15</partEfficiencyOffset>
+        <painFactor>0.5</painFactor>
+        <hungerRateFactorOffset>-0.5</hungerRateFactorOffset>
         <statOffsets>
-          <Vulnerability>0.5</Vulnerability>
+          <Vulnerability>1</Vulnerability>
         </statOffsets>
         <statFactors>
           <RestFallRateFactor>0.5</RestFallRateFactor>
@@ -51,7 +51,7 @@
         </recipeMaker>
     <costList>
       <softresin>30</softresin>
-      <MedTEgg>1</MedTEgg>
+      <swimmers>30</swimmers>
     </costList>
     <techHediffsTags>
       <li>Advanced</li>
@@ -121,7 +121,7 @@
         </recipeMaker>
     <costList>
       <softresin>30</softresin>
-      <MedTEgg>1</MedTEgg>
+      <swimmers>30</swimmers>
     </costList>
     <techHediffsTags>
       <li>Advanced</li>
@@ -190,7 +190,7 @@
             </li>
           </capMods>
           <statOffsets>
-          <SexFrequency>2</SexFrequency>
+          <SexFrequency>6</SexFrequency>
           <WorkSpeedGlobal>0.3</WorkSpeedGlobal>
         </statOffsets>
         <statFactors>
@@ -279,6 +279,7 @@
               <texPath>Things/Pawns/Parts/TentacleM</texPath>
               <parentTagDef>Head</parentTagDef>
               <drawSize>1</drawSize>
+              <colorType>Skin</colorType>
               <drawData>
                 <defaultData>
                   <layer>70</layer>

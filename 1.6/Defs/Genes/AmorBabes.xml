@@ -3,7 +3,7 @@
     <GeneDef>
         <defName>tentaclebabyneed</defName>
         <label>Tentacle Dependance</label>
-        <description>Hosts who have been fully modified to become hives can no longer move around on their own, or support their own digestive system and body weight without the aid of the tentacles..</description>
+        <description>Hosts who have been fully modified to become hives can no longer move around on their own, or support their own digestive system and body weight without the aid of the tentacles.</description>
         <displayCategory>Miscellaneous</displayCategory>
         <iconPath>Things/Items/BrainLarve/WLarvae</iconPath>
         <geneClass>EBSGFramework.ResourceGene</geneClass>

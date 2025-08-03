@@ -25,7 +25,7 @@
       <li>
         <painOffset>-0.70</painOffset>
         <statOffsets>
-          <MeleeCooldownFactor>1.5</MeleeCooldownFactor>
+          <MeleeCooldownFactor>-0.2</MeleeCooldownFactor>
         </statOffsets>
       </li>
     </stages>
@@ -236,6 +236,10 @@
                 <abilitiesAtSeverities>
                           <li>
                         <abilityDef>BirthS</abilityDef>
+                        <validSeverity>2.0~999</validSeverity>
+                    </li>
+                          <li>
+                        <abilityDef>AttackTent</abilityDef>
                         <validSeverity>2.0~999</validSeverity>
                     </li>
                 </abilitiesAtSeverities>

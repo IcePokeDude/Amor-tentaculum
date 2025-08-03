@@ -2,8 +2,8 @@
 <Defs>
  <ThingDef ParentName="EggFertBase">
     <defName>BigTEgg</defName>
-    <label>Huge Tentacle Egg</label>
-    <description>A huge tentacle egg produced in the womb.</description>
+    <label>Huge Vaginal Egg</label>
+    <description>A huge tentacle egg produced in the womb of a tentacle host. Hataches into an Amor Matron.</description>
     <possessionCount>1</possessionCount>
     <graphicData>
       <texPath>Things/Items/HugeEgg</texPath>
@@ -13,16 +13,16 @@
     </statBases>
     <comps>
       <li Class="CompProperties_Hatcher">
-        <hatcherDaystoHatch>10</hatcherDaystoHatch>
-        <hatcherPawn>TMatron</hatcherPawn>
+        <hatcherDaystoHatch>5</hatcherDaystoHatch>
+        <hatcherPawn>TLarvaMat</hatcherPawn>
       </li>
     </comps>
   </ThingDef>
 
  <ThingDef ParentName="EggFertBase">
     <defName>MedTEgg</defName>
-    <label>Large Tentacle Egg</label>
-    <description>A large tentacle egg produced by a tentacle host.</description>
+    <label>Large Anal Egg</label>
+    <description>A large tentacle egg produced by a tentacle host. Hatches into a Amor Warrior.</description>
     <possessionCount>1</possessionCount>
     <graphicData>
       <texPath>Things/Items/MedEgg</texPath>
@@ -34,15 +34,15 @@
     <comps>
       <li Class="CompProperties_Hatcher">
         <hatcherDaystoHatch>3</hatcherDaystoHatch>
-        <hatcherPawn>TLarvaMat</hatcherPawn>
+        <hatcherPawn>TWar</hatcherPawn>
       </li>
     </comps>
   </ThingDef>
 
    <ThingDef ParentName="EggFertBase">
     <defName>DroneTEgg</defName>
-    <label>Drone Egg</label>
-    <description>A small drone egg produced by a tentacle host.</description>
+    <label>Medium Stomach Egg</label>
+    <description>A medium sized egg produced in a tentacle hosts stomach. Hataches into an Amor Drone.</description>
     <possessionCount>1</possessionCount>
     <graphicData>
       <texPath>Things/Item/Resource/AnimalProductRaw/EggBirdSmall</texPath>
@@ -563,4 +563,17 @@
         </comps>
   </HediffDef>
 
+    <HediffDef>
+        <defName>TentInteralRupture</defName>
+        <label>internal bruising</label>
+        <description>Something inside has been thrashing around. It's gonna ache for awhile.</description>
+        <hediffClass>HediffWithComps</hediffClass>
+        <initialSeverity>1</initialSeverity>
+        <stages/>
+        <comps>
+            <li Class="HediffCompProperties_SeverityPerDay">
+                <severityPerDay>-0.1</severityPerDay>
+            </li>
+        </comps>
+    </HediffDef>
 </Defs>

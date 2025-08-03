@@ -1,8 +1,6 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
 
-
-
   <StyleCategoryDef>
     <defName>Tent</defName>
     <label>tentacle</label>
@@ -31,6 +29,10 @@
 	  <li>
         <thingDef>Ideogram</thingDef>
         <styleDef>Tent_IdeogramB</styleDef>
+      </li>
+      <li>
+        <thingDef>Table1x2c</thingDef>
+        <styleDef>Tent_Table1x2c</styleDef>
       </li>
      </thingDefStyles>
   </StyleCategoryDef>

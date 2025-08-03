@@ -349,8 +349,8 @@
 		<gender>Female</gender>
 	</li>
 	<li Class="VEF.AnimalBehaviours.CompProperties_Metamorphosis">
-		<timeInYears>0.05</timeInYears>
-		<pawnToTurnInto>TWar</pawnToTurnInto>
+		<timeInYears>0.2</timeInYears>
+		<pawnToTurnInto>TMatron</pawnToTurnInto>
 	</li>
   	<li Class="VEF.AnimalBehaviours.CompProperties_NoTamingDecay">
 	</li>
@@ -449,9 +449,9 @@
     <defName>TWar</defName>
     <label>Amor Warrior</label>
     <devNote>misc</devNote>
-    <description>A huge serpentine tentacle. Warriors are always female. In addition to producing tentacle slime form their tits they are good fighters, and lay drone eggs weekly.</description>
+    <description>A huge serpentine tentacle. Warriors are always female. In addition to producing tentacle slime form their tits, they are good fighters and lay drone eggs weekly.</description>
     <statBases>
-      <MoveSpeed>7.5</MoveSpeed>
+      <MoveSpeed>7.8</MoveSpeed>
       <MarketValue>350</MarketValue>
       <ComfyTemperatureMin>0</ComfyTemperatureMin>
       <ComfyTemperatureMax>90</ComfyTemperatureMax>
@@ -464,8 +464,8 @@
         <capacities>
           <li>ToxicBite</li>
         </capacities>
-        <power>23</power>
-        <cooldownTime>2</cooldownTime>
+        <power>20</power>
+        <cooldownTime>8</cooldownTime>
         <linkedBodyPartsGroup>Mouth</linkedBodyPartsGroup>
         <surpriseAttack>
           <extraMeleeDamages>
@@ -481,11 +481,47 @@
         <capacities>
           <li>Blunt</li>
         </capacities>
-        <power>20</power>
-        <cooldownTime>2</cooldownTime>
+        <power>6</power>
+        <cooldownTime>12</cooldownTime>
         <linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
         <ensureLinkedBodyPartsGroupAlwaysUsable>true</ensureLinkedBodyPartsGroupAlwaysUsable>
         <chanceFactor>0.2</chanceFactor>
+      </li>
+      <li>
+        <label>claw</label>
+        <capacities>
+          <li>Stab</li>
+        </capacities>
+        <power>14</power>
+        <cooldownTime>2</cooldownTime>
+        <linkedBodyPartsGroup>UpperLeftClaw</linkedBodyPartsGroup>
+      </li>
+      <li>
+        <label>claw</label>
+        <capacities>
+          <li>Stab</li>
+        </capacities>
+        <power>14</power>
+        <cooldownTime>2</cooldownTime>
+        <linkedBodyPartsGroup>UpperRightClaw</linkedBodyPartsGroup>
+      </li>
+      <li>
+        <label>claw</label>
+        <capacities>
+          <li>Stab</li>
+        </capacities>
+        <power>14</power>
+        <cooldownTime>2</cooldownTime>
+        <linkedBodyPartsGroup>LowerLeftClaw</linkedBodyPartsGroup>
+      </li>
+      <li>
+        <label>claw</label>
+        <capacities>
+          <li>Stab</li>
+        </capacities>
+        <power>14</power>
+        <cooldownTime>2</cooldownTime>
+        <linkedBodyPartsGroup>LowerRightClaw</linkedBodyPartsGroup>
       </li>
     </tools>
 <comps>
@@ -514,9 +550,9 @@
 	</li>
 </comps>
     <race>
-      <body>Snake</body>
+      <body>SnakeTentacle</body>
       <predator>true</predator>
-      <maxPreyBodySize>1.35</maxPreyBodySize>
+      <maxPreyBodySize>2.35</maxPreyBodySize>
       <baseBodySize>2.25</baseBodySize>
       <baseHungerRate>1.2</baseHungerRate>
       <baseHealthScale>4.5</baseHealthScale>
@@ -572,7 +608,7 @@
     <lifeStages>
       <li>
         <bodyGraphicData>
-          <texPath>Things/Pawns/Matron/Matron</texPath>
+          <texPath>Things/Pawns/Warrior/Warrior</texPath>
           <drawSize>1.25</drawSize>
         </bodyGraphicData>
         <dessicatedBodyGraphicData>
@@ -582,7 +618,7 @@
       </li>
       <li>
         <bodyGraphicData>
-          <texPath>Things/Pawns/Matron/Matron</texPath>
+          <texPath>Things/Pawns/Warrior/Warrior</texPath>
           <drawSize>1.75</drawSize>
         </bodyGraphicData>
         <dessicatedBodyGraphicData>
@@ -592,7 +628,7 @@
       </li>
       <li>
         <bodyGraphicData>
-          <texPath>Things/Pawns/Matron/Matron</texPath>
+          <texPath>Things/Pawns/Warrior/Warrior</texPath>
           <drawSize>2.5</drawSize>
         </bodyGraphicData>
         <dessicatedBodyGraphicData>
@@ -697,7 +733,7 @@
     <lifeStages>
       <li>
         <bodyGraphicData>
-          <texPath>Things/Pawns/Warrior/Warrior</texPath>
+          <texPath>Things/Pawns/Matron/Matron</texPath>
           <drawSize>2.25</drawSize>
         </bodyGraphicData>
         <dessicatedBodyGraphicData>
@@ -707,7 +743,7 @@
       </li>
       <li>
         <bodyGraphicData>
-          <texPath>Things/Pawns/Warrior/Warrior</texPath>
+          <texPath>Things/Pawns/Matron/Matron</texPath>
           <drawSize>2.75</drawSize>
         </bodyGraphicData>
         <dessicatedBodyGraphicData>
@@ -717,7 +753,7 @@
       </li>
       <li>
         <bodyGraphicData>
-          <texPath>Things/Pawns/Warrior/Warrior</texPath>
+          <texPath>Things/Pawns/Matron/Matron</texPath>
           <drawSize>3.5</drawSize>
         </bodyGraphicData>
         <dessicatedBodyGraphicData>
@@ -809,14 +845,13 @@
     <race>
       <body>Snake</body>
       <predator>true</predator>
-      <maxPreyBodySize>0.01</maxPreyBodySize>
-      <baseBodySize>0.03</baseBodySize>
+      <maxPreyBodySize>7</maxPreyBodySize>
+      <baseBodySize>0.04</baseBodySize>
       <baseHungerRate>0.01</baseHungerRate>
-      <baseHealthScale>0.02</baseHealthScale>
+      <baseHealthScale>0.5</baseHealthScale>
       <foodType>CarnivoreAnimal, OvivoreAnimal</foodType>
       <leatherDef>LeatherTentacle</leatherDef>
       <meatLabel>tentacle meat</meatLabel>
-      <roamMtbDays>2</roamMtbDays>
       <trainability>None</trainability>
       <petness>0.05</petness>
       <manhunterOnTameFailChance>0</manhunterOnTameFailChance>
@@ -857,4 +892,5 @@
       <li>AnimalFighter</li>
     </tradeTags>
 </ThingDef>
+
 </Defs>

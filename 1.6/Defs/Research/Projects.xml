@@ -3,7 +3,7 @@
 <ResearchProjectDef>
     <defName>AmorTentaculumCultavation</defName>
     <label>Amor Tentaculum Cultavation</label>
-    <description>Unveil the basic steps to cultavating your own tentacle creatures.</description>
+    <description>Unveil the basic steps to cultavating your own tentacle creatures. Starting with consuming a queen egg.</description>
     <tab>ATentacle</tab>
     <baseCost>900</baseCost>
     <techLevel>Industrial</techLevel>

@@ -3,7 +3,7 @@
     <ThingDef ParentName="MakeableDrugBase">
         <defName>QueenEgg</defName>
         <label>Amor Queen Egg</label>
-        <description>An Amor Tentaculum queen egg. Can be inserted into the anal or vaganal cavity of the host to hatch.</description>
+        <description>An Amor Tentaculum queen egg. When eatten will hatch in the hosts stomach. Dangerous for pawns with higher testosterone than estrogen(pawns that have a penis).</description>
         <graphicData>
             <texPath>Things/Items/StartEgg</texPath>
             <graphicClass>Graphic_StackCount</graphicClass>
@@ -14,7 +14,7 @@
             <Mass>0.04</Mass>
         </statBases>
         <recipeMaker>
-            <researchPrerequisite>ATWorm</researchPrerequisite>
+            <researchPrerequisite>AmorTentaculumCultavation</researchPrerequisite>
             <recipeUsers>
               <li>DrugLab</li>
             </recipeUsers>
@@ -24,8 +24,8 @@
       <li>Advanced</li>
     </techHediffsTags>
     <costList>
-      <LeatherTentacle>30</LeatherTentacle>
-      <softresin>30</softresin>
+      <HumpShroom>5</HumpShroom>
+      <Neutroamine>30</Neutroamine>
       <Luciferium>3</Luciferium>
     </costList>
         <ingestible>

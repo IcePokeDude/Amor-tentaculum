@@ -90,6 +90,15 @@
           <thingDef>Hresin</thingDef>
           <count>100</count>
         </li>
+        <li Class="ScenPart_StartingThing_Defined">
+          <def>StartingThing_Defined</def>
+          <thingDef>Gun_PumpShotgun</thingDef>
+        </li>
+
+        <li Class="ScenPart_StartingResearch">
+          <def>StartingResearch</def>
+          <project>AmorTentaculumCultavation</project>
+        </li>
       </parts>
     </scenario>
   </ScenarioDef>

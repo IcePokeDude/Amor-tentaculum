@@ -8,29 +8,60 @@
     <description>An Amor Tentaculum queen growing within the host. Unlike a normal pregnancy, the tentacle will not only grow but altar the host body to better suit tentacle breeding.</description>
     <defaultLabelColor>(203,120,227)</defaultLabelColor>
     <scenarioCanAdd>true</scenarioCanAdd>
-    <maxSeverity>1.0</maxSeverity>
+    <maxSeverity>3</maxSeverity>
     <isBad>false</isBad>
     <tendable>false</tendable>
     <comps>
       <li Class="HediffCompProperties_SeverityPerDay">
-        <severityPerDay>0.05</severityPerDay>
+        <severityPerDay>0.07</severityPerDay>
       </li>
       <li Class="EBSGFramework.HediffCompProperties_CreateOtherHediffs">
           <hediffSets>
                 <li>
                   <hediffDef>transform</hediffDef>
-                  <validSeverity>1</validSeverity>
+                  <validSeverity>0.98~1.01</validSeverity>
                   <severityPerDay>0</severityPerDay>
                   <initialSeverity>0.1</initialSeverity>
                 </li>
                 <li>
                   <hediffDef>queenadult</hediffDef>
-                  <validSeverity>1</validSeverity>
+                  <validSeverity>0.98~1.01</validSeverity>
+                  <severityPerDay>0</severityPerDay>
+                  <initialSeverity>0.1</initialSeverity>
+                </li>
+                <li>
+                  <hediffDef>transformMale</hediffDef>
+                  <validSeverity>2.8~3</validSeverity>
                   <severityPerDay>0</severityPerDay>
                   <initialSeverity>0.1</initialSeverity>
                 </li>
           </hediffSets>
       </li>
+        <li Class="EBSGFramework.HediffCompProperties_SeverityByOtherHediffSeverities">
+                <baseSeverity>1</baseSeverity>
+                <hediffSets>
+                    <li>
+                        <hediff>Penis</hediff>
+                        <factor>1.5</factor>
+                    </li>
+                    <li>
+                        <hediff>HorsePenis</hediff>
+                        <factor>1.5</factor>
+                    </li>
+                    <li>
+                        <hediff>DogPenis</hediff>
+                        <factor>1.5</factor>
+                    </li>
+                    <li>
+                        <hediff>DemonPenis</hediff>
+                        <factor>1.5</factor>
+                    </li>
+                    <li>
+                        <hediff>DragonPenis</hediff>
+                        <factor>1.5</factor>
+                    </li>
+                </hediffSets>
+            </li>
     </comps>
     <stages>
       <li>
@@ -42,13 +73,8 @@
             <hungerRateFactorOffset>0.1</hungerRateFactorOffset>
         <statOffsets>
           <Vulnerability>0.1</Vulnerability>
+          <MoveSpeed>-0.01</MoveSpeed>
         </statOffsets>
-        <capMods>
-          <li>
-            <capacity>Moving</capacity>
-            <offset>-0.01</offset>
-          </li>
-        </capMods>
       </li>
       <li>
         <label>larvae</label>
@@ -58,6 +84,7 @@
         <statOffsets>
           <PsychicSensitivity>0.1</PsychicSensitivity>
           <Vulnerability>0.2</Vulnerability>
+          <MoveSpeed>-0.02</MoveSpeed>
         </statOffsets>
                 <hediffGivers>
           <li Class="HediffGiver_Random">
@@ -69,12 +96,6 @@
             <countToAffect>1</countToAffect>
           </li>
         </hediffGivers>
-        <capMods>
-          <li>
-            <capacity>Moving</capacity>
-            <offset>-0.02</offset>
-          </li>
-        </capMods>
         <painOffset>0.02</painOffset>
       </li>
       <li>
@@ -86,6 +107,7 @@
           <PsychicSensitivity>0.2</PsychicSensitivity>
           <Vulnerability>0.3</Vulnerability>
           <SexFrequency>0.5</SexFrequency>
+          <MoveSpeed>-0.05</MoveSpeed>
         </statOffsets>
         <hediffGivers>
           <li Class="HediffGiver_Random">
@@ -105,12 +127,6 @@
             <countToAffect>1</countToAffect>
           </li>
         </hediffGivers>
-        <capMods>
-          <li>
-            <capacity>Moving</capacity>
-            <offset>-0.1</offset>
-          </li>
-        </capMods>
         <painOffset>0.03</painOffset>
       </li>
       <li>
@@ -121,6 +137,7 @@
         <statOffsets>
           <PsychicSensitivity>0.3</PsychicSensitivity>
           <Vulnerability>0.5</Vulnerability>
+          <MoveSpeed>-0.1</MoveSpeed>
           <SexFrequency>1</SexFrequency>
         </statOffsets>
                 <hediffGivers>
@@ -149,12 +166,103 @@
             <countToAffect>1</countToAffect>
           </li>
         </hediffGivers>
-        <capMods>
-          <li>
-            <capacity>Moving</capacity>
-            <offset>-0.2</offset>
+        <painOffset>0.1</painOffset>
+      </li>
+      <li>
+        <label>incubating egg</label>
+        <minSeverity>1.015</minSeverity>
+      </li>
+      <li>
+        <label>hatched</label>
+        <minSeverity>1.4</minSeverity>
+            <hungerRateFactorOffset>0.1</hungerRateFactorOffset>
+        <statOffsets>
+          <Vulnerability>0.1</Vulnerability>
+          <MoveSpeed>-0.01</MoveSpeed>
+        </statOffsets>
+      </li>
+      <li>
+        <label>larvae</label>
+        <minSeverity>1.6</minSeverity>
+        <restFallFactor>1.05</restFallFactor>
+        <hungerRateFactorOffset>0.15</hungerRateFactorOffset>
+        <statOffsets>
+          <PsychicSensitivity>0.1</PsychicSensitivity>
+          <Vulnerability>0.2</Vulnerability>
+          <MoveSpeed>-0.02</MoveSpeed>
+        </statOffsets>
+                <hediffGivers>
+          <li Class="HediffGiver_Random">
+            <hediff>tentaclegrowthS</hediff>
+            <mtbDays>4</mtbDays>
+            <partsToAffect>
+              <li>Stomach</li>
+            </partsToAffect>
+            <countToAffect>1</countToAffect>
           </li>
-        </capMods>
+        </hediffGivers>
+        <painOffset>0.02</painOffset>
+      </li>
+      <li>
+        <label>nymph</label>
+        <minSeverity>1.8</minSeverity>
+        <restFallFactor>1.1</restFallFactor>
+        <hungerRateFactorOffset>0.3</hungerRateFactorOffset>
+        <statOffsets>
+          <PsychicSensitivity>0.2</PsychicSensitivity>
+          <Vulnerability>0.3</Vulnerability>
+          <SexFrequency>0.5</SexFrequency>
+          <MoveSpeed>-0.03</MoveSpeed>
+        </statOffsets>
+        <hediffGivers>
+          <li Class="HediffGiver_Random">
+            <hediff>tentaclegrowthS</hediff>
+            <mtbDays>3</mtbDays>
+            <partsToAffect>
+              <li>Stomach</li>
+            </partsToAffect>
+            <countToAffect>1</countToAffect>
+          </li>
+          <li Class="HediffGiver_Random">
+            <hediff>tentaclegrowthA</hediff>
+            <mtbDays>2</mtbDays>
+            <partsToAffect>
+              <li>Anus</li>
+            </partsToAffect>
+            <countToAffect>1</countToAffect>
+          </li>
+        </hediffGivers>
+        <painOffset>0.03</painOffset>
+      </li>
+      <li>
+        <label>nearly grown</label>
+        <minSeverity>2.5</minSeverity>
+        <restFallFactor>1.2</restFallFactor>
+        <hungerRateFactorOffset>0.5</hungerRateFactorOffset>
+        <statOffsets>
+          <PsychicSensitivity>0.3</PsychicSensitivity>
+          <Vulnerability>0.5</Vulnerability>
+          <SexFrequency>1</SexFrequency>
+          <MoveSpeed>-0.05</MoveSpeed>
+        </statOffsets>
+                <hediffGivers>
+          <li Class="HediffGiver_Random">
+            <hediff>tentaclegrowthS</hediff>
+            <mtbDays>0.1</mtbDays>
+            <partsToAffect>
+              <li>Stomach</li>
+            </partsToAffect>
+            <countToAffect>1</countToAffect>
+          </li>
+          <li Class="HediffGiver_Random">
+            <hediff>tentaclegrowthA</hediff>
+            <mtbDays>0.1</mtbDays>
+            <partsToAffect>
+              <li>Anus</li>
+            </partsToAffect>
+            <countToAffect>1</countToAffect>
+          </li>
+        </hediffGivers>
         <painOffset>0.1</painOffset>
       </li>
     </stages>
@@ -390,7 +498,7 @@
     <hediffClass>HediffWithComps</hediffClass>
     <label>Amor Pregnancy</label>
     <labelNoun>Pregnancy</labelNoun>
-    <description>An Adult Amor Tentaculum queen growing within the host causing a permanent pregnancy.</description>
+    <description>An Adult Amor Tentaculum queen growing within the host causing a permanent pregnancy. The host can now begin laying Amor eggs and emits soothing pheromones around them.</description>
     <defaultLabelColor>(203,120,227)</defaultLabelColor>
     <scenarioCanAdd>true</scenarioCanAdd>
     <maxSeverity>1.5</maxSeverity>
@@ -410,6 +518,17 @@
                 </li>
           </hediffSets>
       </li>
+        <li Class="HediffCompProperties_GiveHediffsInRange">
+        <range>25</range>
+        <hideMoteWhenNotDrafted>true</hideMoteWhenNotDrafted>
+        <targetingParameters>
+          <canTargetBuildings>false</canTargetBuildings>
+          <canTargetAnimals>true</canTargetAnimals>
+          <canTargetMechs>false</canTargetMechs>
+          <onlyTargetColonists>true</onlyTargetColonists>
+        </targetingParameters>
+        <hediff>painsooth</hediff>
+      </li>
     </comps>
     <stages>
       <li>
@@ -417,6 +536,7 @@
         <minSeverity>0.01</minSeverity>
         <restFallFactor>1.2</restFallFactor>
         <hungerRateFactorOffset>0.5</hungerRateFactorOffset>
+        <regeneration>10</regeneration>
         <statOffsets>
           <PsychicSensitivity>0.4</PsychicSensitivity>
           <Vulnerability>0.5</Vulnerability>
@@ -424,11 +544,12 @@
           <ArmorRating_Sharp>0.2</ArmorRating_Sharp>
           <ArmorRating_Blunt>0.5</ArmorRating_Blunt>
           <ArmorRating_Heat>0.7</ArmorRating_Heat>
+          <ComfyTemperatureMin>-16</ComfyTemperatureMin>
         </statOffsets>
         <capMods>
           <li>
             <capacity>Moving</capacity>
-            <offset>-0.2</offset>
+            <offset>-0.01</offset>
           </li>
         </capMods>
       </li>
@@ -437,6 +558,7 @@
         <minSeverity>0.2</minSeverity>
         <restFallFactor>1.2</restFallFactor>
         <hungerRateFactorOffset>0.5</hungerRateFactorOffset>
+        <regeneration>20</regeneration>
         <statOffsets>
           <PsychicSensitivity>0.5</PsychicSensitivity>
           <Vulnerability>0.5</Vulnerability>
@@ -444,11 +566,12 @@
           <ArmorRating_Sharp>0.3</ArmorRating_Sharp>
           <ArmorRating_Blunt>0.6</ArmorRating_Blunt>
           <ArmorRating_Heat>0.8</ArmorRating_Heat>
+          <ComfyTemperatureMin>-18</ComfyTemperatureMin>
         </statOffsets>
         <capMods>
           <li>
             <capacity>Moving</capacity>
-            <offset>-0.25</offset>
+            <offset>-0.03</offset>
           </li>
         </capMods>
       </li>
@@ -457,6 +580,7 @@
         <minSeverity>0.6</minSeverity>
         <restFallFactor>1.2</restFallFactor>
         <hungerRateFactorOffset>1</hungerRateFactorOffset>
+        <regeneration>30</regeneration>
         <statOffsets>
           <PsychicSensitivity>1</PsychicSensitivity>
           <Vulnerability>1</Vulnerability>
@@ -464,11 +588,12 @@
           <ArmorRating_Sharp>0.4</ArmorRating_Sharp>
           <ArmorRating_Blunt>0.8</ArmorRating_Blunt>
           <ArmorRating_Heat>1</ArmorRating_Heat>
+          <ComfyTemperatureMin>-20</ComfyTemperatureMin>
         </statOffsets>
         <capMods>
           <li>
             <capacity>Moving</capacity>
-            <offset>-0.4</offset>
+            <offset>-0.05</offset>
           </li>
         </capMods>
       </li>
@@ -477,6 +602,7 @@
         <minSeverity>0.9</minSeverity>
         <restFallFactor>1.4</restFallFactor>
         <hungerRateFactorOffset>2</hungerRateFactorOffset>
+        <regeneration>40</regeneration>
         <statOffsets>
           <PsychicSensitivity>2</PsychicSensitivity>
           <Vulnerability>1</Vulnerability>
@@ -484,11 +610,12 @@
           <ArmorRating_Sharp>0.8</ArmorRating_Sharp>
           <ArmorRating_Blunt>1.6</ArmorRating_Blunt>
           <ArmorRating_Heat>2</ArmorRating_Heat>
+          <ComfyTemperatureMin>-22</ComfyTemperatureMin>
         </statOffsets>
         <capMods>
           <li>
             <capacity>Moving</capacity>
-            <offset>-0.6</offset>
+            <offset>-0.1</offset>
           </li>
         </capMods>
       </li>

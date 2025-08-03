@@ -54,4 +54,12 @@
     </graphicData>
   </ThingStyleDef>
 
+	<ThingStyleDef ParentName="IdeoTableStyleBase">
+        <defName>Tent_Table1x2c</defName>
+        <graphicData>
+            <texPath>Ideo/Table/Tent_Table1x2</texPath>
+            <drawSize>(3,4)</drawSize>
+        </graphicData>
+    </ThingStyleDef>
+
 </Defs>

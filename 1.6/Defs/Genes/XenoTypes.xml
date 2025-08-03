@@ -2,20 +2,31 @@
 
     <XenotypeDef>
     <defName>Thost</defName>
-    <label>tentaclehost</label>
+    <label>tentaclehost amor</label>
     <description>A human host that has been modified genetically to birth amor tentacles.</description>
     <descriptionShort>A human host that has been modified genetically to birth amor tentacles.</descriptionShort>
-    <iconPath>UI/Icons/Xenotypes/Dirtmole</iconPath>
+    <iconPath>Genes/Xenotype-host</iconPath>
     <inheritable>false</inheritable>
     <chanceToUseNameMaker>0</chanceToUseNameMaker>
     <genes>
       <li>THostBody</li>
-      <li>MinTemp_LargeDecrease</li>
-      <li>WoundHealing_Fast</li>
-      <li>MoveSpeed_Slow</li>
       <li>rjw_genes_tentinfest_genitalia</li>
-      <li>Body_Standard</li>
       <li>tentaclebabyneed</li>
+    </genes>
+  </XenotypeDef>
+
+    <XenotypeDef>
+    <defName>ThostM</defName>
+    <label>tentaclehost malus</label>
+    <description>A human host that has been modified genetically to birth malar tentacles.</description>
+    <descriptionShort>A human host that has been modified genetically to birth malar tentacles.</descriptionShort>
+    <iconPath>Genes/Xenotype-host</iconPath>
+    <inheritable>false</inheritable>
+    <chanceToUseNameMaker>0</chanceToUseNameMaker>
+    <genes>
+      <li>THostBodyM</li>
+      <li>rjw_genes_tentinfest_genitalia</li>
+      <li>tentaclebabyneedM</li>
     </genes>
   </XenotypeDef>
 

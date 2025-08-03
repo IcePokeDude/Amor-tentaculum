@@ -110,12 +110,14 @@
 		</femaleBreasts>
 		
 		<femaleGenitals>
+		<li>OvipositorTFSS</li>
 		</femaleGenitals>
 
 		<maleBreasts>
 		</maleBreasts>
 
 		<maleGenitals>
+		<li>OvipositorTFSS</li>
 		</maleGenitals>
 		
 		<hasSingleGender>false</hasSingleGender>
@@ -180,6 +182,41 @@
 	<rjw.RacePartDef>
 	<defName>OvipositorTFS</defName>
 	<hediffName>OvipositorTFS</hediffName>
+	</rjw.RacePartDef>
+
+	<rjw.HediffDef_SexPart ParentName="NaturalPrivatePartVagina">
+		<defName>OvipositorTFSS</defName>
+		<label>lil tongue ovipositor</label>
+		<labelNoun>ovipositors</labelNoun>
+		<description>A retractable ovipositor that produces small eggs which hatch into Amor Internum.</description>
+		<descriptionHyperlinks>
+			<ThingDef>OvipositorF</ThingDef>
+		</descriptionHyperlinks>
+		<spawnThingOnRemoved>OvipositorF</spawnThingOnRemoved>
+		<sizeProfile>DefaultPenisSizes</sizeProfile>
+		<genitalFamily>FemaleOvipositor</genitalFamily>
+		<genitalTags>
+			<li>CanPenetrate</li>
+			<li>CanBePenetrated</li>
+			<li>CanEgg</li>
+		</genitalTags>
+		<partTags>
+        	<li>Tapered</li>
+			<li>Internal</li>
+		    <li>Prehensile</li>
+		</partTags>
+		<comps>
+			<li Class="rjw.HediffCompProperties_Ovipositor">
+				<eggCount>1~2</eggCount> <!-- How many eggs to produce at once. This is a FloatRange, so you can also have e.g. 2~5 -->
+				<!-- Time to produce new eggs -->
+				<eggIntervalTicks>120000~200000</eggIntervalTicks>
+			</li>
+		</comps>
+	</rjw.HediffDef_SexPart>
+
+	<rjw.RacePartDef>
+	<defName>OvipositorTFSS</defName>
+	<hediffName>OvipositorTFSS</hediffName>
 	</rjw.RacePartDef>
 
 	<rjw.HediffDef_SexPart ParentName="NaturalPrivatePartPenis">

@@ -1,6 +1,29 @@
 <Defs>
 
   <!-- Groups -->
+  <BodyPartGroupDef>
+    <defName>UpperLeftClaw</defName>
+    <label>upper left claw</label>
+    <labelShort>claw</labelShort>
+  </BodyPartGroupDef>
+
+  <BodyPartGroupDef>
+    <defName>UpperRightClaw</defName>
+    <label>upper right claw</label>
+    <labelShort>claw</labelShort>
+  </BodyPartGroupDef>
+
+    <BodyPartGroupDef>
+    <defName>LowerLeftClaw</defName>
+    <label>lower left claw</label>
+    <labelShort>claw</labelShort>
+  </BodyPartGroupDef>
+
+    <BodyPartGroupDef>
+    <defName>LowerRightClaw</defName>
+    <label>lower right claw</label>
+    <labelShort>claw</labelShort>
+  </BodyPartGroupDef>
 
   <BodyPartGroupDef>
     <defName>LeftSpike</defName>
@@ -244,6 +267,135 @@
               <depth>Outside</depth>
               <groups>
                 <li>FifthTentacle</li>
+              </groups>
+            </li>
+          </parts>
+        </li>
+      </parts>
+    </corePart>
+  </BodyDef>
+
+  <BodyDef>
+    <defName>SnakeTentacle</defName>
+    <label>tentacle snake</label>
+    <corePart>
+      <def>SnakeBody</def>
+      <height>Middle</height>
+      <depth>Outside</depth>
+      <parts>
+        <li>
+          <def>TentacleSpike</def>
+          <coverage>0.04</coverage>
+          <depth>Outside</depth>
+        <customLabel>upper left claw</customLabel>
+            <groups>
+                <li>UpperLeftClaw</li>
+            </groups>
+        </li>
+        <li>
+          <def>TentacleSpike</def>
+          <coverage>0.04</coverage>
+          <depth>Outside</depth>
+        <customLabel>upper right claw</customLabel>
+            <groups>
+                <li>UpperRightClaw</li>
+            </groups>
+        </li>
+        <li>
+          <def>TentacleSpike</def>
+          <coverage>0.04</coverage>
+          <depth>Outside</depth>
+        <customLabel>lower left claw</customLabel>
+            <groups>
+                <li>LowerRightClaw</li>
+            </groups>
+        </li>
+        <li>
+          <def>TentacleSpike</def>
+          <coverage>0.04</coverage>
+          <depth>Outside</depth>
+        <customLabel>lower right claw</customLabel>
+            <groups>
+                <li>LowerLeftClaw</li>
+            </groups>
+        </li>
+        <li>
+          <def>Stomach</def>
+          <coverage>0.05</coverage>
+          <depth>Inside</depth>
+        </li>
+        <li>
+          <def>Heart</def>
+          <coverage>0.03</coverage>
+          <depth>Inside</depth>
+        </li>
+        <li>
+          <def>Lung</def>
+          <customLabel>left lung</customLabel>
+          <coverage>0.03</coverage>
+          <depth>Inside</depth>
+        </li>
+        <li>
+          <def>Lung</def>
+          <customLabel>right lung</customLabel>
+          <coverage>0.03</coverage>
+          <depth>Inside</depth>
+        </li>
+        <li>
+          <def>Kidney</def>
+          <customLabel>left kidney</customLabel>
+          <coverage>0.03</coverage>
+          <depth>Inside</depth>
+        </li>
+        <li>
+          <def>Kidney</def>
+          <customLabel>right kidney</customLabel>
+          <coverage>0.03</coverage>
+          <depth>Inside</depth>
+        </li>
+        <li>
+          <def>Liver</def>
+          <coverage>0.04</coverage>
+          <depth>Inside</depth>
+        </li>
+        <li>
+          <def>SnakeHead</def>
+          <coverage>0.20</coverage>
+          <groups>
+            <li>HeadAttackTool</li>
+          </groups>
+          <parts>
+            <li>
+              <def>Skull</def>
+              <coverage>0.30</coverage>
+              <depth>Inside</depth>
+              <parts>
+                <li>
+                  <def>Brain</def>
+                  <coverage>0.50</coverage>
+                  <depth>Inside</depth>
+                </li>
+              </parts>
+            </li>
+            <li>
+              <def>Eye</def>
+              <customLabel>left eye</customLabel>
+              <coverage>0.10</coverage>
+            </li>
+            <li>
+              <def>Eye</def>
+              <customLabel>right eye</customLabel>
+              <coverage>0.10</coverage>
+            </li>
+            <li>
+              <def>Nose</def>
+              <coverage>0.15</coverage>
+            </li>
+            <li>
+              <def>SnakeMouth</def>
+              <coverage>0.15</coverage>
+              <groups>
+                <li>Mouth</li>
               </groups>
             </li>
           </parts>
