@@ -45,6 +45,7 @@
 		<li>rim.job.world</li>
 		<li>OskarPotocki.VanillaFactionsExpanded.Core</li>
 		<li>EBSG.Framework</li>
+		<li>Vegapnk.rjw.genes</li>
 	</loadAfter>
 	<packageId>castle.tentaclecults</packageId>
 </ModMetaData>
