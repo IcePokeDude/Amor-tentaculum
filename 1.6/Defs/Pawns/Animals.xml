@@ -377,11 +377,11 @@
         </li>
         <li>
           <def>AnimalJuvenile</def>
-          <minAge>0.05</minAge>
+          <minAge>0.01</minAge>
         </li>
         <li>
           <def>AnimalAdult</def>
-          <minAge>0.12</minAge>
+          <minAge>0.02</minAge>
           <soundWounded>Pawn_Cobra_Wounded</soundWounded>
           <soundDeath>Pawn_Cobra_Death</soundDeath>
           <soundCall>Pawn_Cobra_Call</soundCall>
@@ -415,31 +415,31 @@
       <li>
         <bodyGraphicData>
           <texPath>Things/Pawns/Larva/Larve</texPath>
-          <drawSize>0.3</drawSize>
+          <drawSize>0.6</drawSize>
         </bodyGraphicData>
         <dessicatedBodyGraphicData>
           <texPath>Things/Pawn/Animal/Cobra/Dessicated_Cobra</texPath>
-          <drawSize>0.3</drawSize>
+          <drawSize>0.6</drawSize>
         </dessicatedBodyGraphicData>
       </li>
       <li>
         <bodyGraphicData>
           <texPath>Things/Pawns/Larva/Larve</texPath>
-          <drawSize>0.5</drawSize>
+          <drawSize>0.8</drawSize>
         </bodyGraphicData>
         <dessicatedBodyGraphicData>
           <texPath>Things/Pawn/Animal/Cobra/Dessicated_Cobra</texPath>
-          <drawSize>0.5</drawSize>
+          <drawSize>0.8</drawSize>
         </dessicatedBodyGraphicData>
       </li>
       <li>
         <bodyGraphicData>
           <texPath>Things/Pawns/Larva/Larve</texPath>
-          <drawSize>0.85</drawSize>
+          <drawSize>1</drawSize>
         </bodyGraphicData>
         <dessicatedBodyGraphicData>
           <texPath>Things/Pawn/Animal/Cobra/Dessicated_Cobra</texPath>
-          <drawSize>0.85</drawSize>
+          <drawSize>1</drawSize>
         </dessicatedBodyGraphicData>
       </li>
     </lifeStages>

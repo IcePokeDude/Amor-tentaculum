@@ -1,11 +1,11 @@
-<?xml version="1.0" encoding="utf-8"?>
 <Defs>
+
 <HediffDef>
-    <defName>queenimplant</defName>
+    <defName>queenimplantM</defName>
     <hediffClass>HediffWithComps</hediffClass>
-    <label>Amor Pregnancy</label>
+    <label>Malum Pregnancy</label>
     <labelNoun>Pregnancy</labelNoun>
-    <description>An Amor Tentaculum queen growing within the host. Unlike a normal pregnancy, the tentacle will not only grow but altar the host body to better suit tentacle breeding.</description>
+    <description>A Malum Tentaculum lord growing within the host. Unlike a normal pregnancy, the tentacle will not only grow but altar the host body to better suit tentacle breeding.</description>
     <defaultLabelColor>(203,120,227)</defaultLabelColor>
     <scenarioCanAdd>true</scenarioCanAdd>
     <maxSeverity>1</maxSeverity>
@@ -51,13 +51,11 @@
         <restFallFactor>1.05</restFallFactor>
         <hungerRateFactorOffset>0.15</hungerRateFactorOffset>
         <statOffsets>
-          <PsychicSensitivity>0.1</PsychicSensitivity>
-          <Vulnerability>0.2</Vulnerability>
           <MoveSpeed>-0.02</MoveSpeed>
         </statOffsets>
                 <hediffGivers>
           <li Class="HediffGiver_Random">
-            <hediff>tentaclegrowthS</hediff>
+            <hediff>tentaclegrowthSM</hediff>
             <mtbDays>4</mtbDays>
             <partsToAffect>
               <li>Stomach</li>
@@ -65,7 +63,7 @@
             <countToAffect>1</countToAffect>
           </li>
         </hediffGivers>
-        <painOffset>0.02</painOffset>
+        <painOffset>0.05</painOffset>
       </li>
       <li>
         <label>nymph</label>
@@ -73,14 +71,12 @@
         <restFallFactor>1.1</restFallFactor>
         <hungerRateFactorOffset>0.3</hungerRateFactorOffset>
         <statOffsets>
-          <PsychicSensitivity>0.2</PsychicSensitivity>
-          <Vulnerability>0.3</Vulnerability>
-          <SexFrequency>0.5</SexFrequency>
+          <SexFrequency>0.7</SexFrequency>
           <MoveSpeed>-0.05</MoveSpeed>
         </statOffsets>
         <hediffGivers>
           <li Class="HediffGiver_Random">
-            <hediff>tentaclegrowthS</hediff>
+            <hediff>tentaclegrowthSM</hediff>
             <mtbDays>3</mtbDays>
             <partsToAffect>
               <li>Stomach</li>
@@ -88,7 +84,7 @@
             <countToAffect>1</countToAffect>
           </li>
           <li Class="HediffGiver_Random">
-            <hediff>tentaclegrowthA</hediff>
+            <hediff>tentaclegrowthAM</hediff>
             <mtbDays>2</mtbDays>
             <partsToAffect>
               <li>Anus</li>
@@ -96,22 +92,20 @@
             <countToAffect>1</countToAffect>
           </li>
         </hediffGivers>
-        <painOffset>0.03</painOffset>
+        <painOffset>0.08</painOffset>
       </li>
       <li>
         <label>nearly grown</label>
         <minSeverity>0.8</minSeverity>
         <restFallFactor>1.2</restFallFactor>
-        <hungerRateFactorOffset>0.5</hungerRateFactorOffset>
+        <hungerRateFactorOffset>0.8</hungerRateFactorOffset>
         <statOffsets>
-          <PsychicSensitivity>0.3</PsychicSensitivity>
-          <Vulnerability>0.5</Vulnerability>
           <MoveSpeed>-0.1</MoveSpeed>
           <SexFrequency>1</SexFrequency>
         </statOffsets>
                 <hediffGivers>
           <li Class="HediffGiver_Random">
-            <hediff>tentaclegrowthS</hediff>
+            <hediff>tentaclegrowthSM</hediff>
             <mtbDays>0.1</mtbDays>
             <partsToAffect>
               <li>Stomach</li>
@@ -119,7 +113,7 @@
             <countToAffect>1</countToAffect>
           </li>
           <li Class="HediffGiver_Random">
-            <hediff>tentaclegrowthV</hediff>
+            <hediff>tentaclegrowthVM</hediff>
             <mtbDays>0.1</mtbDays>
             <partsToAffect>
               <li>Genitals</li>
@@ -127,7 +121,7 @@
             <countToAffect>1</countToAffect>
           </li>
           <li Class="HediffGiver_Random">
-            <hediff>tentaclegrowthA</hediff>
+            <hediff>tentaclegrowthAM</hediff>
             <mtbDays>0.1</mtbDays>
             <partsToAffect>
               <li>Anus</li>
@@ -141,11 +135,11 @@
   </HediffDef>
 
   <HediffDef>
-    <defName>tentaclegrowthA</defName>
+    <defName>tentaclegrowthAM</defName>
     <hediffClass>HediffWithComps</hediffClass>
-    <label>stretched rectum</label>
+    <label>infested rectum</label>
     <labelNoun>rectum</labelNoun>
-    <description>The Amor queen has grown and invaded this part of the body. The hosts rectum, and large intestine are being stretched to accommodate larger and more plentaful tentacle insertions. These processes are uncomfortable.</description>
+    <description>The Malum lord has grown and invaded this part of the body. The hosts rectum, and large intestine are being filled with malum larvae swarms to aid in reproduction.</description>
     <defaultLabelColor>(255,20,147)</defaultLabelColor>
     <minSeverity>0.001</minSeverity>
     <initialSeverity>0.001</initialSeverity>
@@ -153,40 +147,40 @@
     <stages>
       <li>
         <minSeverity>0.001</minSeverity>
-        <label>still narrow</label>
-        <painOffset>0.05</painOffset>
+        <label>just started</label>
+        <painOffset>0.5</painOffset>
         <statOffsets>
           <MoveSpeed>-0.01</MoveSpeed>
         </statOffsets>
       </li>
       <li>
         <minSeverity>0.25</minSeverity>
-        <label>expanding</label>
-        <painOffset>0.2</painOffset>
+        <label>producing larvae</label>
+        <painOffset>0.7</painOffset>
         <statOffsets>
           <MoveSpeed>-0.02</MoveSpeed>
         </statOffsets>
       </li>
       <li>
         <minSeverity>0.5</minSeverity>
-        <label>gaping:painfull</label>
-        <painOffset>0.3</painOffset>
+        <label>writhing:painfull</label>
+        <painOffset>0.9</painOffset>
         <statOffsets>
           <MoveSpeed>-0.03</MoveSpeed>
         </statOffsets>
       </li>
       <li>
         <minSeverity>0.75</minSeverity>
-        <label>gaping:acclimating</label>
-        <painOffset>0.2</painOffset>
+        <label>writhing:acclimating</label>
+        <painOffset>0.7</painOffset>
         <statOffsets>
           <MoveSpeed>-0.02</MoveSpeed>
         </statOffsets>
       </li>
       <li>
         <minSeverity>1</minSeverity>
-        <label>gaping:accustomed</label>
-        <painOffset>0.01</painOffset>
+        <label>writhing:accustomed</label>
+        <painOffset>0.1</painOffset>
         <statOffsets>
           <TStorage>0.02</TStorage>
           <MoveSpeed>-0.01</MoveSpeed>
@@ -197,24 +191,15 @@
       <li Class="HediffCompProperties_SeverityPerDay">
         <severityPerDay>0.25</severityPerDay>
       </li>
-            <li Class="EBSGFramework.HediffCompProperties_GiveOtherHediffPeriodically">
-                <hediff>AStorage</hediff>
-                <severity>2</severity>
-                <interval>5000</interval>
-                <bodyParts>
-                  <li>Anus</li>
-                </bodyParts>
-                <validSeverities>0.7~0.72</validSeverities>
-            </li>
     </comps>
   </HediffDef>
 
 <HediffDef>
-    <defName>tentaclegrowthS</defName>
+    <defName>tentaclegrowthSM</defName>
     <hediffClass>HediffWithComps</hediffClass>
-    <label>stretched stomach</label>
+    <label>infested stomach</label>
     <labelNoun>stomach</labelNoun>
-    <description>The Amor queen has grown and invaded this part of the body. The hosts stomach, and throat are being stretched and cleared of acid to cultivate a better enviroment for tentacle offspring. These processes are uncomfortable.</description>
+    <description>The Malum lord has grown and invaded this part of the body. The hosts stomach, and throat are being filled with larvae and cleared of acid to cultivate a better enviroment for tentacle offspring. These processes are uncomfortable.</description>
     <defaultLabelColor>(255,20,147)</defaultLabelColor>
     <minSeverity>0.001</minSeverity>
     <initialSeverity>0.001</initialSeverity>
@@ -222,21 +207,21 @@
     <stages>
       <li>
         <minSeverity>0.001</minSeverity>
-        <label>slightly streched</label>
+        <label>just started</label>
         <painOffset>0.05</painOffset>
         <partEfficiencyOffset>-0.2</partEfficiencyOffset>
         <statOffsets>
-        <VEF_FoodCapacityMultiplier>0.2</VEF_FoodCapacityMultiplier>
+        <VEF_FoodCapacityMultiplier>0.3</VEF_FoodCapacityMultiplier>
           <MoveSpeed>-0.01</MoveSpeed>
         </statOffsets>
       </li>
       <li>
         <minSeverity>0.25</minSeverity>
-        <label>expanding</label>
-        <painOffset>0.2</painOffset>
-        <partEfficiencyOffset>-0.3</partEfficiencyOffset>
+        <label>producing larvae</label>
+        <painOffset>0.3</painOffset>
+        <partEfficiencyOffset>0.3</partEfficiencyOffset>
         <statOffsets>
-        <VEF_FoodCapacityMultiplier>0.3</VEF_FoodCapacityMultiplier>
+        <VEF_FoodCapacityMultiplier>0.5</VEF_FoodCapacityMultiplier>
           <MoveSpeed>-0.02</MoveSpeed>
         </statOffsets>
       </li>
@@ -245,7 +230,7 @@
         <label>removing stomach acid</label>
         <painOffset>0.3</painOffset>
         <vomitMtbDays>0.08</vomitMtbDays>
-        <partEfficiencyOffset>-0.8</partEfficiencyOffset>
+        <partEfficiencyOffset>0.6</partEfficiencyOffset>
         <statOffsets>
         <VEF_FoodCapacityMultiplier>0.5</VEF_FoodCapacityMultiplier>
           <MoveSpeed>-0.03</MoveSpeed>
@@ -253,21 +238,21 @@
       </li>
       <li>
         <minSeverity>0.6</minSeverity>
-        <label>spacious:acclimating</label>
+        <label>writhing:acclimating</label>
         <painOffset>0.2</painOffset>
-        <partEfficiencyOffset>-0.8</partEfficiencyOffset>
+        <partEfficiencyOffset>0.8</partEfficiencyOffset>
         <statOffsets>
-        <VEF_FoodCapacityMultiplier>0.5</VEF_FoodCapacityMultiplier>
+        <VEF_FoodCapacityMultiplier>0.7</VEF_FoodCapacityMultiplier>
           <MoveSpeed>-0.03</MoveSpeed>
         </statOffsets>
       </li>
       <li>
         <minSeverity>1</minSeverity>
-        <label>spacious:accustomed</label>
+        <label>writhing:accustomed</label>
         <painOffset>0.01</painOffset>
-        <partEfficiencyOffset>-0.7</partEfficiencyOffset>
+        <partEfficiencyOffset>1</partEfficiencyOffset>
         <statOffsets>
-        <VEF_FoodCapacityMultiplier>0.5</VEF_FoodCapacityMultiplier>
+        <VEF_FoodCapacityMultiplier>1</VEF_FoodCapacityMultiplier>
           <MoveSpeed>-0.02</MoveSpeed>
           <TStorage>0.02</TStorage>
         </statOffsets>
@@ -277,25 +262,16 @@
       <li Class="HediffCompProperties_SeverityPerDay">
         <severityPerDay>0.25</severityPerDay>
       </li>
-            <li Class="EBSGFramework.HediffCompProperties_GiveOtherHediffPeriodically">
-                <hediff>SStorage</hediff>
-                <severity>2</severity>
-                <interval>5000</interval>
-                <bodyParts>
-                  <li>Stomach</li>
-                </bodyParts>
-                <validSeverities>0.7~0.72</validSeverities>
-            </li>
     </comps>
   </HediffDef>
 
 
   <HediffDef>
-    <defName>tentaclegrowthV</defName>
+    <defName>tentaclegrowthVM</defName>
     <hediffClass>HediffWithComps</hediffClass>
-    <label>stretched womb</label>
-    <labelNoun>womb</labelNoun>
-    <description>The Amor queen has grown and invaded this part of the body. The hosts womb, and cervix are being stretched open to support longterm tentacle pregnacny. These processes are uncomfortable.</description>
+    <label>infested genitals</label>
+    <labelNoun>genitals</labelNoun>
+    <description>The malum queen has grown and invaded this part of the body. The hosts genitals are being altered to produce malum eggs from the balls. These processes are uncomfortable.</description>
     <defaultLabelColor>(255,20,147)</defaultLabelColor>
     <minSeverity>0.001</minSeverity>
     <initialSeverity>0.001</initialSeverity>
@@ -303,7 +279,7 @@
     <stages>
       <li>
         <minSeverity>0.001</minSeverity>
-        <label>slightly streched</label>
+        <label>just started</label>
         <painOffset>0.05</painOffset>
         <statOffsets>
           <MoveSpeed>-0.01</MoveSpeed>
@@ -311,8 +287,8 @@
       </li>
       <li>
         <minSeverity>0.25</minSeverity>
-        <label>expanding</label>
-        <painOffset>0.2</painOffset>
+        <label>infesting testicles</label>
+        <painOffset>0.4</painOffset>
         <partEfficiencyOffset>0.2</partEfficiencyOffset>
         <statOffsets>
           <MoveSpeed>-0.02</MoveSpeed>
@@ -320,8 +296,8 @@
       </li>
       <li>
         <minSeverity>0.5</minSeverity>
-        <label>opening cervix</label>
-        <painOffset>0.5</painOffset>
+        <label>opening urethra</label>
+        <painOffset>1</painOffset>
         <partEfficiencyOffset>0.3</partEfficiencyOffset>
         <statOffsets>
           <MoveSpeed>-0.3</MoveSpeed>
@@ -329,8 +305,8 @@
       </li>
       <li>
         <minSeverity>0.75</minSeverity>
-        <label>spacious:acclimating</label>
-        <painOffset>0.2</painOffset>
+        <label>writhing:acclimating</label>
+        <painOffset>0.5</painOffset>
         <partEfficiencyOffset>0.5</partEfficiencyOffset>
         <statOffsets>
           <MoveSpeed>-0.03</MoveSpeed>
@@ -338,7 +314,7 @@
       </li>
       <li>
         <minSeverity>1</minSeverity>
-        <label>spacious:accustomed</label>
+        <label>writhing:accustomed</label>
         <painOffset>0.01</painOffset>
         <partEfficiencyOffset>0.5</partEfficiencyOffset>
         <statOffsets>
@@ -351,26 +327,15 @@
       <li Class="HediffCompProperties_SeverityPerDay">
         <severityPerDay>0.25</severityPerDay>
       </li>
-            <li Class="EBSGFramework.HediffCompProperties_GiveOtherHediffPeriodically">
-                <hediff>VStorage</hediff>
-                <severity>3</severity>
-                <interval>5000</interval>
-                <bodyParts>
-                  <li>Genitals</li>
-                </bodyParts>
-                <validSeverities>0.7~0.723</validSeverities>
-            </li>
     </comps>
   </HediffDef>
 
-
-
-<HediffDef>
-    <defName>queenadult</defName>
+    <HediffDef>
+    <defName>queenadultM</defName>
     <hediffClass>HediffWithComps</hediffClass>
-    <label>Amor Pregnancy</label>
+    <label>Malum Pregnancy</label>
     <labelNoun>Pregnancy</labelNoun>
-    <description>An Adult Amor Tentaculum queen growing within the host causing a permanent pregnancy. The host can now begin laying Amor eggs and emits soothing pheromones around them.</description>
+    <description>An Adult Malum Tentaculum lord growing within the host causing a permanent pregnancy. The host can now begin implanting eggs.</description>
     <defaultLabelColor>(203,120,227)</defaultLabelColor>
     <scenarioCanAdd>true</scenarioCanAdd>
     <maxSeverity>1.5</maxSeverity>
@@ -426,7 +391,7 @@
         </capMods>
       </li>
       <li>
-        <label>maiden</label>
+        <label>prince</label>
         <minSeverity>0.2</minSeverity>
         <restFallFactor>1.2</restFallFactor>
         <hungerRateFactorOffset>0.5</hungerRateFactorOffset>
@@ -448,7 +413,7 @@
         </capMods>
       </li>
       <li>
-        <label>empress</label>
+        <label>emperor</label>
         <minSeverity>0.6</minSeverity>
         <restFallFactor>1.2</restFallFactor>
         <hungerRateFactorOffset>1</hungerRateFactorOffset>
@@ -470,7 +435,7 @@
         </capMods>
       </li>
       <li>
-        <label>matriarch</label>
+        <label>patriarch</label>
         <minSeverity>0.9</minSeverity>
         <restFallFactor>1.4</restFallFactor>
         <hungerRateFactorOffset>2</hungerRateFactorOffset>

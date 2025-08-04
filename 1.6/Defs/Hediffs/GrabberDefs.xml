@@ -46,7 +46,7 @@
     </stages>
         <comps>
       <li Class="HediffCompProperties_SeverityPerDay">
-        <severityPerDay>112</severityPerDay>
+        <severityPerDay>125</severityPerDay>
       </li>
     </comps>
   </HediffDef>
@@ -103,6 +103,7 @@
     </verbProperties>
     <comps>
                 <li Class="EBSGFramework.CompProperties_AbilityAbilityValidator">
+                <noMessage>true</noMessage>
             <casterHasNoneOfHediffs>
                 <li>BodyCleaner</li>
             </casterHasNoneOfHediffs>
@@ -245,7 +246,7 @@
                   <validSeverity>0~0.1</validSeverity>
                   <severityPerDay>0</severityPerDay>
                   <bodyPart>Anus</bodyPart>
-                  <initialSeverity>1</initialSeverity>
+                  <initialSeverity>0.01</initialSeverity>
                 </li>
                 <li>
                   <hediffDef>FeelingBroken</hediffDef>
@@ -326,6 +327,7 @@
     </verbProperties>
     <comps>
                 <li Class="EBSGFramework.CompProperties_AbilityAbilityValidator">
+            <noMessage>true</noMessage>
             <casterHasNoneOfHediffs>
                 <li>BodyCleaner</li>
             </casterHasNoneOfHediffs>
@@ -386,6 +388,7 @@
         <label>fucking hard</label>
         <partEfficiencyOffset>-0.5</partEfficiencyOffset>
         <painOffset>0.5</painOffset>
+        <hungerRateFactorOffset>-1</hungerRateFactorOffset>
         <capMods>
           <li>
             <capacity>Moving</capacity>
@@ -401,6 +404,7 @@
         <label>resting</label>
         <partEfficiencyOffset>-0.1</partEfficiencyOffset>
         <painOffset>0.1</painOffset>
+        <hungerRateFactorOffset>-1</hungerRateFactorOffset>
         <capMods>
           <li>
             <capacity>Moving</capacity>
@@ -416,6 +420,7 @@
         <label>fucking hard</label>
         <partEfficiencyOffset>-0.5</partEfficiencyOffset>
         <painOffset>0.5</painOffset>
+        <hungerRateFactorOffset>-1</hungerRateFactorOffset>
         <capMods>
           <li>
             <capacity>Moving</capacity>
@@ -468,7 +473,7 @@
                   <validSeverity>0~0.1</validSeverity>
                   <severityPerDay>0</severityPerDay>
                   <bodyPart>Stomach</bodyPart>
-                  <initialSeverity>1</initialSeverity>
+                  <initialSeverity>0.01</initialSeverity>
                 </li>
                 <li>
                   <hediffDef>FeelingBroken</hediffDef>
@@ -543,6 +548,7 @@
     </verbProperties>
     <comps>
                 <li Class="EBSGFramework.CompProperties_AbilityAbilityValidator">
+                <noMessage>true</noMessage>
             <casterHasNoneOfHediffs>
                 <li>BodyCleaner</li>
             </casterHasNoneOfHediffs>
@@ -590,7 +596,7 @@
     <hediffClass>HediffWithComps</hediffClass>
     <label>gravida on vagina</label>
     <labelNoun>gravida</labelNoun>
-    <description>An amor gravida has latched onto the victims waist. It will keep it's host paralyzed for a few days while it deposits eggs in the hosts vagina. They still feel everything of course. Until it dies naturally or is surgiclly removed.</description>
+    <description>An amor gravida has latched onto the victims waist. It will keep it's host paralyzed for a few days while it deposits clumps of tiny eggs in the hosts vagina. They still feel everything of course. Until it dies naturally or is surgiclly removed.</description>
     <defaultLabelColor>(1,1,1)</defaultLabelColor>
     <minSeverity>0</minSeverity>
     <initialSeverity>1</initialSeverity>
@@ -693,10 +699,10 @@
           <hediffSets>
                 <li>
                   <hediffDef>malumeggA</hediffDef>
-                  <validSeverity>0~0.1</validSeverity>
-                  <severityPerDay>0</severityPerDay>
+                  <validSeverity>0~0.15</validSeverity>
+                  <severityPerDay>0.01</severityPerDay>
                   <bodyPart>Genitals</bodyPart>
-                  <initialSeverity>1</initialSeverity>
+                  <initialSeverity>0.01</initialSeverity>
                 </li>
                 <li>
                   <hediffDef>FeelingBroken</hediffDef>
@@ -777,6 +783,7 @@
     </verbProperties>
     <comps>
                 <li Class="EBSGFramework.CompProperties_AbilityAbilityValidator">
+                <noMessage>true</noMessage>
             <casterHasNoneOfHediffs>
                 <li>BodyCleaner</li>
             </casterHasNoneOfHediffs>
@@ -930,7 +937,7 @@
                   <validSeverity>0.8~0.83</validSeverity>
                   <severityPerDay>0</severityPerDay>
                   <bodyPart>Genitals</bodyPart>
-                  <initialSeverity>1</initialSeverity>
+                  <initialSeverity>0.01</initialSeverity>
                 </li>
                 <li>
                   <hediffDef>FeelingBroken</hediffDef>

@@ -172,9 +172,9 @@
 		</partTags>
 		<comps>
 			<li Class="rjw.HediffCompProperties_Ovipositor">
-				<eggCount>8~16</eggCount> <!-- How many eggs to produce at once. This is a FloatRange, so you can also have e.g. 2~5 -->
+				<eggCount>2~4</eggCount> <!-- How many eggs to produce at once. This is a FloatRange, so you can also have e.g. 2~5 -->
 				<!-- Time to produce new eggs -->
-				<eggIntervalTicks>220000~800000</eggIntervalTicks>
+				<eggIntervalTicks>120000~200000</eggIntervalTicks>
 			</li>
 		</comps>
 	</rjw.HediffDef_SexPart>
@@ -265,4 +265,34 @@
 	<defName>UdderTentacle</defName>
 	<hediffName>UdderTentacle</hediffName>
 	</rjw.RacePartDef>
+
+    <rjw.RaceGroupDef>
+		<defName>TentNoparts</defName>
+		<raceNames>
+            <li>TInternal</li>
+		</raceNames>
+		
+		<anuses>
+		</anuses>
+
+		<femaleBreasts>
+		</femaleBreasts>
+		
+		<femaleGenitals>
+		</femaleGenitals>
+
+		<maleBreasts>
+		</maleBreasts>
+
+		<maleGenitals>
+		</maleGenitals>
+		
+		<hasSingleGender>false</hasSingleGender>
+		<hasSexNeed>true</hasSexNeed>
+		<raceSexDrive>3</raceSexDrive>
+		<hasFertility>true</hasFertility>
+		<hasPregnancy>true</hasPregnancy>
+		<oviPregnancy>true</oviPregnancy>
+		<ImplantEggs>true</ImplantEggs>
+    </rjw.RaceGroupDef>
 </Defs>

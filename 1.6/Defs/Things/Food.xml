@@ -18,7 +18,7 @@
 		<statBases>
 			<MarketValue>20</MarketValue>
 			<Mass>1</Mass>
-			<Nutrition>1</Nutrition>
+			<Nutrition>0.5</Nutrition>
 			<FoodPoisonChanceFixedHuman>0.00</FoodPoisonChanceFixedHuman>
 			<DeteriorationRate>30</DeteriorationRate>
 			<Flammability>0.0</Flammability>

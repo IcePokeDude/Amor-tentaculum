@@ -3,7 +3,7 @@
     <ThingDef ParentName="MakeableDrugBase">
         <defName>QueenEgg</defName>
         <label>Amor Queen Egg</label>
-        <description>An Amor Tentaculum queen egg. When eatten will hatch in the hosts stomach. Dangerous for pawns with higher testosterone than estrogen(pawns that have a penis).</description>
+        <description>An Amor Tentaculum queen egg. When eatten will hatch in the hosts stomach. Leathal for pawns without a vagina.</description>
         <graphicData>
             <texPath>Things/Items/StartEgg</texPath>
             <graphicClass>Graphic_StackCount</graphicClass>
@@ -41,6 +41,10 @@
                     <hediffDef>queenimplant</hediffDef>
                     <severity>0.01</severity>
                 </li>
+                <li Class="IngestionOutcomeDoer_GiveHediff">
+                    <hediffDef>dickchech</hediffDef>
+                    <severity>0</severity>
+                </li>
             </outcomeDoers>
         </ingestible>
         <comps>
@@ -52,4 +56,224 @@
             </li>
         </comps>
     </ThingDef>
+
+        <ThingDef ParentName="MakeableDrugBase">
+        <defName>QueenEggM</defName>
+        <label>Malum Lord Egg(wip don't use)</label>
+        <description>A Malum Tentaculum queen egg. When eatten will hatch in the hosts stomach. Leathal for pawns with out a penis.</description>
+        <graphicData>
+            <texPath>Things/Items/StartEgg</texPath>
+            <graphicClass>Graphic_StackCount</graphicClass>
+        </graphicData>
+        <statBases>
+            <WorkToMake>500</WorkToMake>
+            <MarketValue>600</MarketValue>
+            <Mass>0.04</Mass>
+        </statBases>
+        <recipeMaker>
+            <researchPrerequisite>AmorTentaculumCultavation</researchPrerequisite>
+            <recipeUsers>
+              <li>DrugLab</li>
+            </recipeUsers>
+            <soundWorking>Recipe_Drug</soundWorking>
+        </recipeMaker>
+    <techHediffsTags>
+      <li>Advanced</li>
+    </techHediffsTags>
+    <costList>
+      <HumpShroom>5</HumpShroom>
+      <Neutroamine>30</Neutroamine>
+      <Luciferium>3</Luciferium>
+    </costList>
+        <ingestible>
+            <foodType>Processed</foodType>
+            <joyKind>Chemical</joyKind>
+            <joy>0.30</joy>
+            <drugCategory>Hard</drugCategory>
+            <baseIngestTicks>150</baseIngestTicks>
+            <chairSearchRadius>4</chairSearchRadius>
+            <nurseable>true</nurseable>
+            <outcomeDoers>
+                <li Class="IngestionOutcomeDoer_GiveHediff">
+                    <hediffDef>queenimplantM</hediffDef>
+                    <severity>0.01</severity>
+                </li>
+                <li Class="IngestionOutcomeDoer_GiveHediff">
+                    <hediffDef>vagchech</hediffDef>
+                    <severity>0</severity>
+                </li>
+            </outcomeDoers>
+        </ingestible>
+        <comps>
+            <li Class="CompProperties_Drug">
+                <chemical>Ambrosia</chemical>
+                <addictiveness>0.030</addictiveness>
+                <minToleranceToAddict>0.15</minToleranceToAddict>
+                <listOrder>80</listOrder>
+            </li>
+        </comps>
+    </ThingDef>
+
+<HediffDef>
+    <defName>dickchech</defName>
+    <hediffClass>HediffWithComps</hediffClass>
+    <label>host rejection</label>
+    <labelNoun>rejection</labelNoun>
+    <description>A queen tentacle egg is rejecting this host body. It's a slow and painful death.</description>
+    <defaultLabelColor>(2,2,2)</defaultLabelColor>
+    <minSeverity>0</minSeverity>
+    <initialSeverity>0</initialSeverity>
+    <maxSeverity>1</maxSeverity>
+    <stages>
+      <li>
+        <minSeverity>0.001</minSeverity>
+        <painOffset>2</painOffset>
+        <statOffsets>
+          <MoveSpeed>-0.5</MoveSpeed>
+        </statOffsets>
+        <hediffGivers>
+          <li Class="HediffGiver_Random">
+            <hediff>OrganDecay</hediff>
+            <mtbDays>0.6</mtbDays>
+            <partsToAffect>
+              <li>Stomach</li>
+              <li>Anus</li>
+              <li>Genitals</li>
+              <li>Neck</li>
+              <li>Jaw</li>
+              <li>Heart</li>
+              <li>Liver</li>
+              <li>Brain</li>
+            </partsToAffect>
+            <countToAffect>1</countToAffect>
+            </li>
+        </hediffGivers>
+      </li>
+    </stages>
+    <comps>
+      <li Class="HediffCompProperties_SeverityPerDay">
+        <severityPerDay>-0.6</severityPerDay>
+      </li>
+            <li Class="EBSGFramework.HediffCompProperties_SeverityByOtherHediffSeverities">
+                <baseSeverity>0</baseSeverity>
+                <hediffSets>
+                    <li>
+                        <hediff>Penis</hediff>
+                        <factor>1</factor>
+                    </li>
+                    <li>
+                        <hediff>DragonPenis</hediff>
+                        <factor>1</factor>
+                    </li>
+                    <li>
+                        <hediff>DemonPenis</hediff>
+                        <factor>1</factor>
+                    </li>
+                    <li>
+                        <hediff>DogPenis</hediff>
+                        <factor>1</factor>
+                    </li>
+                    <li>
+                        <hediff>HorsePenis</hediff>
+                        <factor>1</factor>
+                    </li>
+                    <li>
+                        <hediff>RodentPenis</hediff>
+                        <factor>1</factor>
+                    </li>
+                </hediffSets>
+            </li>
+                        <li Class="EBSGFramework.HediffCompProperties_GiveOtherHediffPeriodically">
+                <hediff>queenimplant</hediff>
+                <severity>-2</severity>
+                <interval>20</interval>
+                <bodyParts>
+                  <li>Anus</li>
+                </bodyParts>
+                <validSeverities>0.1~0.9</validSeverities>
+            </li>
+    </comps>
+  </HediffDef>
+
+<HediffDef>
+    <defName>vagchech</defName>
+    <hediffClass>HediffWithComps</hediffClass>
+    <label>host rejection</label>
+    <labelNoun>rejection</labelNoun>
+    <description>A queen tentacle egg is rejecting this host body. It's a slow and painful death.</description>
+    <defaultLabelColor>(2,2,2)</defaultLabelColor>
+    <minSeverity>0</minSeverity>
+    <initialSeverity>0</initialSeverity>
+    <maxSeverity>1</maxSeverity>
+    <stages>
+      <li>
+        <minSeverity>0.001</minSeverity>
+        <painOffset>2</painOffset>
+        <statOffsets>
+          <MoveSpeed>-0.5</MoveSpeed>
+        </statOffsets>
+        <hediffGivers>
+          <li Class="HediffGiver_Random">
+            <hediff>OrganDecay</hediff>
+            <mtbDays>0.6</mtbDays>
+            <partsToAffect>
+              <li>Stomach</li>
+              <li>Anus</li>
+              <li>Genitals</li>
+              <li>Neck</li>
+              <li>Jaw</li>
+              <li>Heart</li>
+              <li>Liver</li>
+              <li>Brain</li>
+            </partsToAffect>
+            <countToAffect>1</countToAffect>
+            </li>
+        </hediffGivers>
+      </li>
+    </stages>
+    <comps>
+      <li Class="HediffCompProperties_SeverityPerDay">
+        <severityPerDay>-0.6</severityPerDay>
+      </li>
+            <li Class="EBSGFramework.HediffCompProperties_SeverityByOtherHediffSeverities">
+                <baseSeverity>0</baseSeverity>
+                <hediffSets>
+                    <li>
+                        <hediff>Vagina</hediff>
+                        <factor>1</factor>
+                    </li>
+                    <li>
+                        <hediff>DragonVagina</hediff>
+                        <factor>1</factor>
+                    </li>
+                    <li>
+                        <hediff>DemonVagina</hediff>
+                        <factor>1</factor>
+                    </li>
+                    <li>
+                        <hediff>DogVagina</hediff>
+                        <factor>1</factor>
+                    </li>
+                    <li>
+                        <hediff>HorseVagina</hediff>
+                        <factor>1</factor>
+                    </li>
+                    <li>
+                        <hediff>RodentVagina</hediff>
+                        <factor>1</factor>
+                    </li>
+                </hediffSets>
+            </li>
+                        <li Class="EBSGFramework.HediffCompProperties_GiveOtherHediffPeriodically">
+                <hediff>queenimplant</hediff>
+                <severity>-2</severity>
+                <interval>2000</interval>
+                <bodyParts>
+                  <li>Anus</li>
+                </bodyParts>
+                <validSeverities>0.1~0.9</validSeverities>
+            </li>
+    </comps>
+  </HediffDef>
+
 </Defs>
