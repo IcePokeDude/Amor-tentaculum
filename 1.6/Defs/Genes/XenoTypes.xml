@@ -42,7 +42,7 @@
     <inheritable>false</inheritable>
     <chanceToUseNameMaker>0</chanceToUseNameMaker>
     <genes>
-      <li>THostBody</li>
+      <li>THostBodyB</li>
       <li>rjw_genes_tentinfest_genitalia</li>
       <li>rjw_genes_female_only</li>
       <li>ThostBrooder</li>

@@ -115,7 +115,7 @@
                 <severity>1</severity>
             </li>
             <li Class="EBSGFramework.HediffCompProperties_CreateItems">
-                <intervalTicks>148600</intervalTicks>
+                <intervalTicks>147800</intervalTicks>
                 <intervalThings>
                     <li>
                         <li>
@@ -126,17 +126,17 @@
                         <li>
                             <thing>swimmers</thing>
                             <count>18</count>
-                            <weight>2</weight>
+                            <weight>1</weight>
                         </li>
                         <li>
                             <thing>swimmers</thing>
                             <count>20</count>
-                            <weight>2</weight>
+                            <weight>1</weight>
                         </li>
                         <li>
                             <thing>swimmers</thing>
                             <count>25</count>
-                            <weight>0.8</weight>
+                            <weight>1</weight>
                         </li>
                     </li>
                 </intervalThings>

@@ -46,7 +46,7 @@
     </stages>
         <comps>
       <li Class="HediffCompProperties_SeverityPerDay">
-        <severityPerDay>125</severityPerDay>
+        <severityPerDay>100</severityPerDay>
       </li>
       <li Class="EBSGFramework.HediffCompProperties_DestroyOnDeath" />
     </comps>

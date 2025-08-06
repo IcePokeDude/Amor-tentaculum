@@ -25,7 +25,36 @@
             <li Class="EBSGFramework.EBSGBodyExtension">
                 <ageGraphics>
                     <li>
-                        <ageRange>0~9000</ageRange>
+                        <ageRange>13~9000</ageRange>
+                        <body>Things/Pawns/Parts/Bodies/Tentbody</body>
+                    </li>
+                </ageGraphics>
+            </li>
+            <li Class="EBSGFramework.EquipRestrictExtension">
+                <limitedToWeapons>
+                </limitedToWeapons>
+                <limitedToEquipments>
+                    <li>Apparel_CultistMask</li>
+                    <li>Apparel_Collar</li>
+                    <li>Apparel_VisageMask</li>
+                </limitedToEquipments>
+            </li>
+        </modExtensions>
+    </GeneDef>
+
+    <GeneDef>
+        <defName>THostBodyB</defName>
+        <label>baroness body</label>
+        <description>Carriers of this gene have a body that has been turned into a breeding nest for Amor tentacles and their eggs.</description>
+        <iconPath>Genes/Tentacle_Body</iconPath>
+        <displayCategory>tent_genes_hider</displayCategory>
+        <displayOrderInCategory>89</displayOrderInCategory>
+        <geneClass>EBSGFramework.HediffAdder</geneClass>
+        <modExtensions>
+            <li Class="EBSGFramework.EBSGBodyExtension">
+                <ageGraphics>
+                    <li>
+                        <ageRange>13~9000</ageRange>
                         <body>Things/Pawns/Parts/Bodies/Tentbody</body>
                     </li>
                 </ageGraphics>
@@ -58,7 +87,7 @@
             <li Class="EBSGFramework.EBSGBodyExtension">
                 <ageGraphics>
                     <li>
-                        <ageRange>0~9000</ageRange>
+                        <ageRange>13~9000</ageRange>
                         <body>Things/Pawns/Parts/Bodies/Tentbody</body>
                     </li>
                 </ageGraphics>

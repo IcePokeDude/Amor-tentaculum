@@ -83,9 +83,9 @@
       <body>Snake</body>
       <predator>true</predator>
       <maxPreyBodySize>0.01</maxPreyBodySize>
-      <baseBodySize>0.03</baseBodySize>
+      <baseBodySize>0.07</baseBodySize>
       <baseHungerRate>0.01</baseHungerRate>
-      <baseHealthScale>0.02</baseHealthScale>
+      <baseHealthScale>0.8</baseHealthScale>
       <foodType>CarnivoreAnimal, OvivoreAnimal</foodType>
       <leatherDef>LeatherTentacle</leatherDef>
       <meatLabel>tentacle meat</meatLabel>
@@ -184,9 +184,9 @@
       <body>Snake</body>
       <predator>true</predator>
       <maxPreyBodySize>0.35</maxPreyBodySize>
-      <baseBodySize>0.4</baseBodySize>
+      <baseBodySize>0.6</baseBodySize>
       <baseHungerRate>0.06</baseHungerRate>
-      <baseHealthScale>0.9</baseHealthScale>
+      <baseHealthScale>1.9</baseHealthScale>
       <foodType>CarnivoreAnimal, OvivoreAnimal</foodType>
       <leatherDef>LeatherTentacle</leatherDef>
       <meatLabel>Tentacle meat</meatLabel>
