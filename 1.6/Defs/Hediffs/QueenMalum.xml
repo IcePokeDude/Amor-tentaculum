@@ -8,7 +8,7 @@
     <description>A Malum Tentaculum lord growing within the host. Unlike a normal pregnancy, the tentacle will not only grow but altar the host body to better suit tentacle breeding.</description>
     <defaultLabelColor>(203,120,227)</defaultLabelColor>
     <scenarioCanAdd>true</scenarioCanAdd>
-    <maxSeverity>1</maxSeverity>
+    <maxSeverity>1.5</maxSeverity>
     <isBad>false</isBad>
     <tendable>false</tendable>
     <comps>
@@ -19,13 +19,13 @@
           <hediffSets>
                 <li>
                   <hediffDef>transform</hediffDef>
-                  <validSeverity>0.98~1.01</validSeverity>
+                  <validSeverity>1.48~1.51</validSeverity>
                   <severityPerDay>0</severityPerDay>
                   <initialSeverity>0.1</initialSeverity>
                 </li>
                 <li>
                   <hediffDef>queenadult</hediffDef>
-                  <validSeverity>0.98~1.01</validSeverity>
+                  <validSeverity>1.48~1.51</validSeverity>
                   <severityPerDay>0</severityPerDay>
                   <initialSeverity>0.1</initialSeverity>
                 </li>
@@ -38,7 +38,7 @@
       </li>
       <li>
         <label>hatched</label>
-        <minSeverity>0.1</minSeverity>
+        <minSeverity>0.51</minSeverity>
             <hungerRateFactorOffset>0.1</hungerRateFactorOffset>
         <statOffsets>
           <Vulnerability>0.1</Vulnerability>
@@ -47,7 +47,7 @@
       </li>
       <li>
         <label>larvae</label>
-        <minSeverity>0.15</minSeverity>
+        <minSeverity>0.65</minSeverity>
         <restFallFactor>1.05</restFallFactor>
         <hungerRateFactorOffset>0.15</hungerRateFactorOffset>
         <statOffsets>
@@ -67,7 +67,7 @@
       </li>
       <li>
         <label>nymph</label>
-        <minSeverity>0.4</minSeverity>
+        <minSeverity>0.9</minSeverity>
         <restFallFactor>1.1</restFallFactor>
         <hungerRateFactorOffset>0.3</hungerRateFactorOffset>
         <statOffsets>
@@ -96,7 +96,7 @@
       </li>
       <li>
         <label>nearly grown</label>
-        <minSeverity>0.8</minSeverity>
+        <minSeverity>1.35</minSeverity>
         <restFallFactor>1.2</restFallFactor>
         <hungerRateFactorOffset>0.8</hungerRateFactorOffset>
         <statOffsets>

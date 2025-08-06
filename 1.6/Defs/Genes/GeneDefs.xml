@@ -1,10 +1,18 @@
 <Defs>
+
+  <GeneCategoryDef>
+    <defName>tent_genes_hider</defName>
+    <label>don't pick these</label>
+    <displayPriorityInXenotype>-2102</displayPriorityInXenotype>
+  </GeneCategoryDef>
+
+
     <GeneDef>
         <defName>THostBody</defName>
         <label>host body</label>
         <description>Carriers of this gene have a body that has been turned into a breeding nest for Amor tentacles and their eggs.</description>
         <iconPath>Genes/Tentacle_Body</iconPath>
-        <displayCategory>Cosmetic</displayCategory>
+        <displayCategory>tent_genes_hider</displayCategory>
         <displayOrderInCategory>89</displayOrderInCategory>
         <geneClass>EBSGFramework.HediffAdder</geneClass>
         <abilities>
@@ -37,9 +45,9 @@
     <GeneDef>
         <defName>THostBodyM</defName>
         <label>host body</label>
+        <displayCategory>tent_genes_hider</displayCategory>
         <description>Carriers of this gene have a body that has been turned into a breeding nest for Malum tentacles and their eggs.</description>
         <iconPath>Genes/Tentacle_Body</iconPath>
-        <displayCategory>Cosmetic</displayCategory>
         <displayOrderInCategory>89</displayOrderInCategory>
         <geneClass>EBSGFramework.HediffAdder</geneClass>
         <abilities>
@@ -70,6 +78,7 @@
       <GeneDef ParentName="GeneGenitalTypeBase">
     <defName>rjw_genes_tentinfest_genitalia</defName>
     <label>tentacle inhabited genitalia</label>
+    <displayCategory>tent_genes_hider</displayCategory>
     <description>Carriers of this gene have genitalia permantly inhabited by tentacles.</description>
     <iconPath>Genes/Tentacle_Vagina</iconPath>
     <modExtensions>
@@ -82,5 +91,133 @@
     </modExtensions>
     <displayOrderInCategory>802</displayOrderInCategory>
   </GeneDef>
+
+    <GeneDef>
+        <defName>ThostAdult</defName>
+        <label>Brood Mother</label>
+        <displayCategory>tent_genes_hider</displayCategory>
+        <geneClass>EBSGFramework.HediffAdder</geneClass>
+        <description>This pawn has become a brood mother and will forever be filled with tentacles.</description>
+        <displayOrderInCategory>0.1</displayOrderInCategory>
+        <modExtensions>
+	    <li Class="EBSGFramework.EBSGExtension">
+                <hediffsToApply>
+                    <li>
+                        <hediff>queenadult</hediff>
+                        <onlyIfNew>true</onlyIfNew>
+                        <severity>0.01</severity>
+                    </li>
+                    <li>
+                        <hediff>tentaclegrowthV</hediff>
+                        <onlyIfNew>true</onlyIfNew>
+                        <severity>1</severity>
+                        <bodyParts>
+                            <li>Genitals</li>
+                        </bodyParts>
+                    </li>
+                    <li>
+                        <hediff>VStorage</hediff>
+                        <onlyIfNew>true</onlyIfNew>
+                        <severity>3</severity>
+                        <bodyParts>
+                            <li>Genitals</li>
+                        </bodyParts>
+                    </li>
+                    <li>
+                        <hediff>tentaclegrowthS</hediff>
+                        <onlyIfNew>true</onlyIfNew>
+                        <severity>1</severity>
+                        <bodyParts>
+                            <li>Stomach</li>
+                        </bodyParts>
+                    </li>
+                    <li>
+                        <hediff>SStorage</hediff>
+                        <onlyIfNew>true</onlyIfNew>
+                        <severity>2</severity>
+                        <bodyParts>
+                            <li>Stomach</li>
+                        </bodyParts>
+                    </li>
+                    <li>
+                        <hediff>tentaclegrowthA</hediff>
+                        <onlyIfNew>true</onlyIfNew>
+                        <severity>1</severity>
+                        <bodyParts>
+                            <li>Anus</li>
+                        </bodyParts>
+                    </li>
+                    <li>
+                        <hediff>AStorage</hediff>
+                        <onlyIfNew>true</onlyIfNew>
+                        <severity>2</severity>
+                        <bodyParts>
+                            <li>Anus</li>
+                        </bodyParts>
+                    </li>
+                    <li>
+                        <hediff>AMtentacle</hediff>
+                        <onlyIfNew>true</onlyIfNew>
+                        <severity>1</severity>
+                        <bodyParts>
+                            <li>Anus</li>
+                        </bodyParts>
+                    </li>
+                    <li>
+                        <hediff>VMtentacle</hediff>
+                        <onlyIfNew>true</onlyIfNew>
+                        <severity>1</severity>
+                        <bodyParts>
+                            <li>Genitals</li>
+                        </bodyParts>
+                    </li>
+                </hediffsToApply>
+            </li>
+	</modExtensions>
+    </GeneDef>
+
+    <GeneDef>
+        <defName>ThostBrooder</defName>
+        <label>Baroness</label>
+        <displayCategory>tent_genes_hider</displayCategory>
+        <geneClass>EBSGFramework.HediffAdder</geneClass>
+        <description>This pawn has become a baroness and will forever be a womb for incubating tentacles.</description>
+        <displayOrderInCategory>0.1</displayOrderInCategory>
+        <modExtensions>
+	    <li Class="EBSGFramework.EBSGExtension">
+                <hediffsToApply>
+                    <li>
+                        <hediff>tentaclegrowthAB</hediff>
+                        <onlyIfNew>true</onlyIfNew>
+                        <severity>0.01</severity>
+                    </li>
+                    <li>
+                        <hediff>tentaclegrowthSB</hediff>
+                        <onlyIfNew>true</onlyIfNew>
+                        <severity>1</severity>
+                        <bodyParts>
+                            <li>Genitals</li>
+                        </bodyParts>
+                    </li>
+                    <li>
+                        <hediff>tentaclegrowthVB</hediff>
+                        <onlyIfNew>true</onlyIfNew>
+                        <severity>3</severity>
+                        <bodyParts>
+                            <li>Genitals</li>
+                        </bodyParts>
+                    </li>
+                    <li>
+                        <hediff>amorbroodW</hediff>
+                        <onlyIfNew>true</onlyIfNew>
+                        <severity>1</severity>
+                        <bodyParts>
+                            <li>Stomach</li>
+                        </bodyParts>
+                    </li>
+                </hediffsToApply>
+            </li>
+	</modExtensions>
+    </GeneDef>
 
 </Defs>

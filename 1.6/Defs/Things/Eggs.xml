@@ -41,8 +41,8 @@
 
    <ThingDef ParentName="EggFertBase">
     <defName>DroneTEgg</defName>
-    <label>Medium Stomach Egg</label>
-    <description>A medium sized egg produced in a tentacle hosts stomach. Hataches into an Amor Drone.</description>
+    <label>Drone Egg</label>
+    <description>An egg produced by a baroness. Hataches into an Amor Drone.</description>
     <possessionCount>1</possessionCount>
     <graphicData>
       <texPath>Things/Item/Resource/AnimalProductRaw/EggBirdSmall</texPath>
@@ -238,11 +238,11 @@
 	</ThingDef>
 
 	<HediffDef>
-    <defName>TEggAss</defName>
+    <defName>TEggWomb</defName>
     <hediffClass>HediffWithComps</hediffClass>
-    <label>incubating egg</label>
+    <label>incubating warrior egg</label>
     <labelNoun>egg</labelNoun>
-    <description>Internal tentacles are working to produce and incubate a warrior egg in the hosts anus.</description>
+    <description>Internal tentacles are working to produce and incubate a warrior egg in the hosts womb.</description>
     <defaultLabelColor>(203,120,227)</defaultLabelColor>
     <minSeverity>0.001</minSeverity>
     <initialSeverity>0.001</initialSeverity>
@@ -292,7 +292,7 @@
     </stages>
     <comps>
       <li Class="HediffCompProperties_SeverityPerDay">
-        <severityPerDay>0.4</severityPerDay>
+        <severityPerDay>0.001</severityPerDay>
       </li>
             <li Class="EBSGFramework.HediffCompProperties_RemoveAtSeverities">
                 <severity>1</severity>
@@ -310,13 +310,13 @@
 	<HediffDef>
     <defName>TEggStomach</defName>
     <hediffClass>HediffWithComps</hediffClass>
-    <label>incubating eggs</label>
-    <labelNoun>eggs</labelNoun>
-    <description>Internal tentacles are working to produce and incubate a clutch of drone eggs in the hosts stomach.</description>
+    <label>incubating drone egg</label>
+    <labelNoun>egg</labelNoun>
+    <description>Internal tentacles are working to produce and incubate a drone egg in the hosts stomach.</description>
     <defaultLabelColor>(203,120,227)</defaultLabelColor>
     <minSeverity>0.001</minSeverity>
     <initialSeverity>0.001</initialSeverity>
-    <maxSeverity>1</maxSeverity>
+    <maxSeverity>5</maxSeverity>
     <stages>
       <li>
         <minSeverity>0.001</minSeverity>
@@ -328,32 +328,32 @@
         </statOffsets>
       </li>
       <li>
-        <minSeverity>0.25</minSeverity>
-        <label>incubating</label>
+        <minSeverity>0.5</minSeverity>
+        <label>first trimester</label>
         <painOffset>0.05</painOffset>
         <statOffsets>
           <MoveSpeed>-0.05</MoveSpeed>
         </statOffsets>
       </li>
       <li>
-        <minSeverity>0.5</minSeverity>
-        <label>incubating</label>
+        <minSeverity>2.5</minSeverity>
+        <label>second trimester</label>
         <painOffset>0.1</painOffset>
         <statOffsets>
           <MoveSpeed>-0.08</MoveSpeed>
         </statOffsets>
       </li>
       <li>
-        <minSeverity>0.75</minSeverity>
-        <label>incubating</label>
+        <minSeverity>4</minSeverity>
+        <label>third trimester</label>
         <painOffset>0.2</painOffset>
         <statOffsets>
           <MoveSpeed>-0.1</MoveSpeed>
         </statOffsets>
       </li>
       <li>
-        <minSeverity>0.95</minSeverity>
-        <label>vomiting eggs</label>
+        <minSeverity>4.95</minSeverity>
+        <label>vomiting egg</label>
         <painOffset>0.8</painOffset>
 		<vomitMtbDays>0.01</vomitMtbDays>
         <statOffsets>
@@ -363,47 +363,116 @@
     </stages>
     <comps>
       <li Class="HediffCompProperties_SeverityPerDay">
-        <severityPerDay>0.95</severityPerDay>
+        <severityPerDay>0.001</severityPerDay>
       </li>
             <li Class="EBSGFramework.HediffCompProperties_RemoveAtSeverities">
-                <severity>1</severity>
+                <severity>5</severity>
             </li>
             <li Class="EBSGFramework.HediffCompProperties_CreateItems">
-                <intervalTicks>60900</intervalTicks>
-                <intervalThings>
-                    <li>
-                        <li>
-                            <thing>DroneTEgg</thing>
-                            <count>4</count>
-                            <weight>1</weight>
-                        </li>
-                        <li>
-                            <thing>DroneTEgg</thing>
-                            <count>3</count>
-                            <weight>2</weight>
-                        </li>
-                        <li>
-                            <thing>DroneTEgg</thing>
-                            <count>2</count>
-                            <weight>2</weight>
-                        </li>
-                    </li>
-                </intervalThings>
                 <onDeathOrRemovalThings>
                     <li>
                         <li><thing>DroneTEgg</thing></li>
                     </li>
                 </onDeathOrRemovalThings>
             </li>
+            <li Class="EBSGFramework.HediffCompProperties_GiveOtherHediffPeriodically">
+                <hediff>Vomitegg</hediff>
+                <severity>0.01</severity>
+                <validSeverities>4.95</validSeverities>
+                <multiplySeverityByParentSeverity>false</multiplySeverityByParentSeverity>
+                <bodyParts>
+                  <li>Jaw</li>
+                </bodyParts>
+            </li>
     </comps>
   </HediffDef>
+
+	<HediffDef>
+    <defName>TEggAss</defName>
+    <hediffClass>HediffWithComps</hediffClass>
+    <label>incubating drone egg</label>
+    <labelNoun>egg</labelNoun>
+    <description>Internal tentacles are working to produce and incubate a drone egg in the hosts anus.</description>
+    <defaultLabelColor>(203,120,227)</defaultLabelColor>
+    <minSeverity>0.001</minSeverity>
+    <initialSeverity>0.001</initialSeverity>
+    <maxSeverity>5</maxSeverity>
+    <stages>
+      <li>
+        <minSeverity>0.001</minSeverity>
+        <label>forming</label>
+        <painOffset>0.05</painOffset>
+        <partEfficiencyOffset>-0.2</partEfficiencyOffset>
+        <statOffsets>
+          <MoveSpeed>-0.04</MoveSpeed>
+        </statOffsets>
+      </li>
+      <li>
+        <minSeverity>0.5</minSeverity>
+        <label>first trimester</label>
+        <painOffset>0.05</painOffset>
+        <statOffsets>
+          <MoveSpeed>-0.08</MoveSpeed>
+        </statOffsets>
+      </li>
+      <li>
+        <minSeverity>2.5</minSeverity>
+        <label>second trimester</label>
+        <painOffset>0.1</painOffset>
+        <statOffsets>
+          <MoveSpeed>-0.1</MoveSpeed>
+        </statOffsets>
+      </li>
+      <li>
+        <minSeverity>4</minSeverity>
+        <label>third trimester</label>
+        <painOffset>0.2</painOffset>
+        <statOffsets>
+          <MoveSpeed>-0.2</MoveSpeed>
+        </statOffsets>
+      </li>
+      <li>
+        <minSeverity>4.95</minSeverity>
+        <label>laying eggs</label>
+        <painOffset>0.9</painOffset>
+        <statOffsets>
+          <MoveSpeed>-3</MoveSpeed>
+        </statOffsets>
+      </li>
+    </stages>
+    <comps>
+      <li Class="HediffCompProperties_SeverityPerDay">
+        <severityPerDay>0.001</severityPerDay>
+      </li>
+            <li Class="EBSGFramework.HediffCompProperties_RemoveAtSeverities">
+                <severity>5</severity>
+            </li>
+            <li Class="EBSGFramework.HediffCompProperties_CreateItems">
+                <onDeathOrRemovalThings>
+                    <li>
+                        <li><thing>DroneTEgg</thing></li>
+                    </li>
+                </onDeathOrRemovalThings>
+            </li>
+            <li Class="EBSGFramework.HediffCompProperties_GiveOtherHediffPeriodically">
+                <hediff>poopegg</hediff>
+                <severity>0.01</severity>
+                <validSeverities>4.95</validSeverities>
+                <multiplySeverityByParentSeverity>false</multiplySeverityByParentSeverity>
+                <bodyParts>
+                  <li>Anus</li>
+                </bodyParts>
+            </li>
+    </comps>
+  </HediffDef>
+
 
     <HediffDef>
     <hediffClass>HediffWithComps</hediffClass>
     <defName>tentacleegg</defName>
-    <label>Amor Egg</label>
-    <labelNoun>an amor egg</labelNoun>
-    <description>A huge tentacle egg has been produced by amor queen and swollen inside the hosts body.</description>
+    <label>Matron Egg</label>
+    <labelNoun>an amor matron egg</labelNoun>
+    <description>A huge tentacle egg has been produced by the amor queen and swollen inside the hosts body.</description>
     <stages>
       <li>
         <minSeverity>0.001</minSeverity>
@@ -542,4 +611,144 @@
             </li>
         </comps>
     </HediffDef>
+
+  <HediffDef>
+    <defName>Vomitegg</defName>
+    <hediffClass>HediffWithComps</hediffClass>
+    <label>drone egg</label>
+    <labelNoun>egg</labelNoun>
+    <description>A drone egg is being perpeled from the throat.</description>
+    <defaultLabelColor>(203,120,227)</defaultLabelColor>
+    <minSeverity>0</minSeverity>
+    <initialSeverity>1</initialSeverity>
+    <maxSeverity>1</maxSeverity>
+    <stages>
+      <li>
+        <minSeverity>0</minSeverity>
+        <label>exiting</label>
+        <painOffset>0.8</painOffset>
+		<vomitMtbDays>0.01</vomitMtbDays>
+        <statOffsets>
+          <MoveSpeed>-3</MoveSpeed>
+        </statOffsets>
+      </li>
+    </stages>
+    <comps>
+      <li Class="HediffCompProperties_SeverityPerDay">
+        <severityPerDay>45</severityPerDay>
+      </li>
+            <li Class="EBSGFramework.HediffCompProperties_CreateItems">
+                <onDeathOrRemovalThings>
+                    <li>
+                        <li><thing>DroneTEgg</thing></li>
+                    </li>
+                </onDeathOrRemovalThings>
+            </li>
+                      <li Class="EBSGFramework.HediffCompProperties_RemoveAtSeverities">
+                <severity>1</severity>
+            </li>
+    </comps>
+  </HediffDef>
+
+  <HediffDef>
+    <defName>poopegg</defName>
+    <hediffClass>HediffWithComps</hediffClass>
+    <label>drone egg</label>
+    <labelNoun>egg</labelNoun>
+    <description>A drone egg is being perpeled from the anus.</description>
+    <defaultLabelColor>(203,120,227)</defaultLabelColor>
+    <minSeverity>0</minSeverity>
+    <initialSeverity>1</initialSeverity>
+    <maxSeverity>1</maxSeverity>
+    <stages>
+      <li>
+        <minSeverity>0</minSeverity>
+        <label>exiting</label>
+        <painOffset>0.8</painOffset>
+        <statOffsets>
+          <MoveSpeed>-3</MoveSpeed>
+        </statOffsets>
+      </li>
+    </stages>
+    <comps>
+      <li Class="HediffCompProperties_SeverityPerDay">
+        <severityPerDay>45</severityPerDay>
+      </li>
+            <li Class="EBSGFramework.HediffCompProperties_CreateItems">
+                <onDeathOrRemovalThings>
+                    <li>
+                        <li><thing>DroneTEgg</thing></li>
+                    </li>
+                </onDeathOrRemovalThings>
+            </li>
+                      <li Class="EBSGFramework.HediffCompProperties_RemoveAtSeverities">
+                <severity>1</severity>
+            </li>
+    </comps>
+  </HediffDef>
+
+    <HediffDef>
+    <hediffClass>HediffWithComps</hediffClass>
+    <defName>TNymphAss</defName>
+    <label>Incubating Nymph</label>
+    <labelNoun>an amor nymph</labelNoun>
+    <description>A nymph has begun incubating in the brood mothers ass. When it is ready it will slither from the anus as a nymph to be implanted in a new female host.</description>
+    <stages>
+      <li>
+        <minSeverity>0.001</minSeverity>
+        <label>froming embryo</label>
+        <statOffsets>
+          <MoveSpeed>-0.01</MoveSpeed>
+        </statOffsets>
+      </li>
+      <li>
+        <minSeverity>0.1</minSeverity>
+        <label>small</label>
+        <painOffset>0.1</painOffset>
+        <statOffsets>
+          <MoveSpeed>-0.05</MoveSpeed>
+        </statOffsets>
+      </li>
+      <li>
+        <minSeverity>0.3</minSeverity>
+        <label>large</label>
+        <painOffset>0.1</painOffset>
+        <statOffsets>
+          <MoveSpeed>-0.05</MoveSpeed>
+        </statOffsets>
+      </li>
+      <li>
+        <minSeverity>0.5</minSeverity>
+        <label>huge</label>
+        <painOffset>0.2</painOffset>
+        <statOffsets>
+          <MoveSpeed>-0.2</MoveSpeed>
+        </statOffsets>
+      </li>
+      <li>
+        <minSeverity>0.7</minSeverity>
+        <label>watermelon sized</label>
+        <partEfficiencyOffset>-0.20</partEfficiencyOffset>
+        <painOffset>0.40</painOffset>
+        <statOffsets>
+          <MoveSpeed>-0.4</MoveSpeed>
+        </statOffsets>
+      </li>
+    </stages>
+        <comps>
+      <li Class="HediffCompProperties_SeverityPerDay">
+        <severityPerDay>0.01</severityPerDay>
+      </li>
+            <li Class="EBSGFramework.HediffCompProperties_CreateItems">
+                <onDeathOrRemovalThings>
+                    <li>
+                        <li><thing>BroodEgg</thing></li>
+                    </li>
+                </onDeathOrRemovalThings>
+            </li>
+                      <li Class="EBSGFramework.HediffCompProperties_RemoveAtSeverities">
+                <severity>1</severity>
+            </li>
+      </comps>
+  </HediffDef>
 </Defs>

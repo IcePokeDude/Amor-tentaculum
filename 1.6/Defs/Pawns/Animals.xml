@@ -11,6 +11,7 @@
       <ComfyTemperatureMin>0</ComfyTemperatureMin>
       <ComfyTemperatureMax>60</ComfyTemperatureMax>
       <Wildness>0</Wildness>
+      <VacuumResistance MayRequire="Ludeon.RimWorld.Odyssey">2</VacuumResistance>
     </statBases>
     <uiIconScale>1.1</uiIconScale>
     <tools>
@@ -51,17 +52,15 @@
 	</li>
 	<li Class="VEF.AnimalBehaviours.CompProperties_AnimalProduct">
 		<resourceDef>softresin</resourceDef>
-		<gatheringIntervalDays>1</gatheringIntervalDays>
+		<gatheringIntervalDays>2</gatheringIntervalDays>
 		<resourceAmount>15</resourceAmount>
-		<customResourceString></customResourceString>
+		<customResourceString>Resin</customResourceString>
 		<isRandom>true</isRandom>
 		<randomItems>
 			<li>softresin</li>
 			<li>softresin</li>
     	<li>softresin</li>
-      <li>Hresin</li>
 		</randomItems>
-
 	</li>
 </comps>
     <race>
@@ -166,6 +165,7 @@
       <ComfyTemperatureMin>0</ComfyTemperatureMin>
       <ComfyTemperatureMax>60</ComfyTemperatureMax>
       <Wildness>0</Wildness>
+      <VacuumResistance MayRequire="Ludeon.RimWorld.Odyssey">2</VacuumResistance>
     </statBases>
     <uiIconScale>1.1</uiIconScale>
     <tools>
@@ -310,6 +310,7 @@
       <ComfyTemperatureMin>0</ComfyTemperatureMin>
       <ComfyTemperatureMax>60</ComfyTemperatureMax>
       <Wildness>0</Wildness>
+      <VacuumResistance MayRequire="Ludeon.RimWorld.Odyssey">2</VacuumResistance>
     </statBases>
     <uiIconScale>1.1</uiIconScale>
     <tools>
@@ -456,6 +457,7 @@
       <ComfyTemperatureMin>0</ComfyTemperatureMin>
       <ComfyTemperatureMax>90</ComfyTemperatureMax>
       <Wildness>0</Wildness>
+      <VacuumResistance MayRequire="Ludeon.RimWorld.Odyssey">2</VacuumResistance>
     </statBases>
     <uiIconScale>1.1</uiIconScale>
     <tools>
@@ -541,7 +543,7 @@
         <eggUnfertilizedDef>DroneTEgg</eggUnfertilizedDef>
         <eggFertilizedDef>DroneTEgg</eggFertilizedDef>
         <eggFertilizationCountMax>1</eggFertilizationCountMax>
-        <eggLayIntervalDays>7</eggLayIntervalDays>
+        <eggLayIntervalDays>10</eggLayIntervalDays>
         <eggCountRange>1</eggCountRange>
       </li>
     <li Class="VEF.AnimalBehaviours.CompProperties_InitialHediff">
@@ -599,6 +601,7 @@
       <li>AnimalFighter</li>
     </tradeTags>
     </ThingDef>
+
   <PawnKindDef ParentName="AnimalKindBase">
     <defName>TWar</defName>
     <label>Amor Warrior</label>
@@ -650,6 +653,7 @@
       <ComfyTemperatureMin>0</ComfyTemperatureMin>
       <ComfyTemperatureMax>90</ComfyTemperatureMax>
       <Wildness>0</Wildness>
+      <VacuumResistance MayRequire="Ludeon.RimWorld.Odyssey">2</VacuumResistance>
     </statBases>
     <uiIconScale>1.1</uiIconScale>
     <tools>
@@ -672,6 +676,19 @@
 		<gender>Female</gender>
     </li>
     	<li Class="VEF.AnimalBehaviours.CompProperties_NoTamingDecay">
+	</li>
+	<li Class="VEF.AnimalBehaviours.CompProperties_AnimalProduct">
+		<resourceDef>Hresin</resourceDef>
+		<gatheringIntervalDays>4</gatheringIntervalDays>
+		<resourceAmount>25</resourceAmount>
+		<customResourceString>Resin</customResourceString>
+		<isRandom>true</isRandom>
+		<randomItems>
+			<li>Hresin</li>
+			<li>Hresin</li>
+			<li>Hresin</li>
+    	<li>softresin</li>
+		</randomItems>
 	</li>
 </comps>
     <race>
@@ -724,6 +741,7 @@
       <li>AnimalFighter</li>
     </tradeTags>
     </ThingDef>
+
       <PawnKindDef ParentName="AnimalKindBase">
     <defName>TMatron</defName>
     <label>Amor Matron</label>
@@ -762,6 +780,10 @@
         </dessicatedBodyGraphicData>
       </li>
     </lifeStages>
+    <abilities>
+      <li>Genitalsretract</li>
+      <li>GenitalsEggActivate</li>
+    </abilities>
   </PawnKindDef>
 
 
@@ -804,6 +826,11 @@
         </dessicatedBodyGraphicData>
       </li>
     </lifeStages>
+      <abilities>
+      <li>UnbirthAi</li>
+      <li>UnbirthVi</li>
+      <li>UnbirthSi</li>
+    </abilities>
   </PawnKindDef>
 
    <ThingDef ParentName="AnimalThingBase">
@@ -812,7 +839,7 @@
     <devNote>misc</devNote>
     <description>A long snake like amor tentacle ment to live inside host bodies. Freeze's to death easily when not inside it's native habitat.</description>
     <statBases>
-      <MoveSpeed>0.5</MoveSpeed>
+      <MoveSpeed>2.5</MoveSpeed>
       <MarketValue>50</MarketValue>
       <ComfyTemperatureMin>34</ComfyTemperatureMin>
       <ComfyTemperatureMax>100</ComfyTemperatureMax>
@@ -840,12 +867,14 @@
 		<hediffname>vagrancy</hediffname>
 		<hediffseverity>1</hediffseverity>
 	</li>
-  
+	<li Class="VEF.AnimalBehaviours.CompProperties_Draftable">
+    </li>
 </comps>
+
     <race>
       <body>Snake</body>
       <predator>true</predator>
-      <maxPreyBodySize>7</maxPreyBodySize>
+      <maxPreyBodySize>700</maxPreyBodySize>
       <baseBodySize>0.04</baseBodySize>
       <baseHungerRate>0.01</baseHungerRate>
       <baseHealthScale>0.5</baseHealthScale>

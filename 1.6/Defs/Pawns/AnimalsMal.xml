@@ -55,9 +55,10 @@
     <statBases>
       <MoveSpeed>6.5</MoveSpeed>
       <MarketValue>50</MarketValue>
-      <ComfyTemperatureMin>34</ComfyTemperatureMin>
+      <ComfyTemperatureMin>-34</ComfyTemperatureMin>
       <ComfyTemperatureMax>100</ComfyTemperatureMax>
       <Wildness>0</Wildness>
+      <VacuumResistance MayRequire="Ludeon.RimWorld.Odyssey">1</VacuumResistance>
     </statBases>
     <uiIconScale>1.1</uiIconScale>
     <tools>
@@ -138,9 +139,10 @@
     <statBases>
       <MoveSpeed>3.5</MoveSpeed>
       <MarketValue>150</MarketValue>
-      <ComfyTemperatureMin>0</ComfyTemperatureMin>
+      <ComfyTemperatureMin>-34</ComfyTemperatureMin>
       <ComfyTemperatureMax>60</ComfyTemperatureMax>
       <Wildness>0</Wildness>
+      <VacuumResistance MayRequire="Ludeon.RimWorld.Odyssey">1</VacuumResistance>
     </statBases>
     <uiIconScale>1.1</uiIconScale>
     <tools>

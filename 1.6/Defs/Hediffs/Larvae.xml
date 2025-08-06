@@ -3,17 +3,61 @@
   
   <HediffDef ParentName="DiseaseBase">
     <defName>vagrancy</defName>
+    <hediffClass>HediffWithComps</hediffClass>
     <label>body vagrancy</label>
     <labelNoun>vagrancy</labelNoun>
     <description>This creature is suffering from not being within a host body.</description>
+    <minSeverity>0</minSeverity>
+    <initialSeverity>0.01</initialSeverity>
+    <lethalSeverity>1</lethalSeverity>
+    <maxSeverity>1</maxSeverity>
     <stages>
       <li>
+        <minSeverity>0</minSeverity>
+        <label>initial</label>
         <painOffset>0.20</painOffset>
         <statOffsets>
           <MoveSpeed>-0.3</MoveSpeed>
         </statOffsets>
       </li>
+      <li>
+        <minSeverity>0.3</minSeverity>
+        <label>minor</label>
+        <painOffset>0.40</painOffset>
+        <statOffsets>
+          <MoveSpeed>-0.6</MoveSpeed>
+        </statOffsets>
+      </li>
+      <li>
+        <minSeverity>0.6</minSeverity>
+        <label>major</label>
+        <painOffset>0.60</painOffset>
+        <statOffsets>
+          <MoveSpeed>-0.9</MoveSpeed>
+        </statOffsets>
+      </li>
+      <li>
+        <minSeverity>0.9</minSeverity>
+        <label>extreme</label>
+        <painOffset>0.90</painOffset>
+        <statOffsets>
+          <MoveSpeed>-1.2</MoveSpeed>
+        </statOffsets>
+      </li>
+      <li>
+        <minSeverity>1</minSeverity>
+        <label>extreme</label>
+        <painOffset>0.90</painOffset>
+        <statOffsets>
+          <MoveSpeed>-1.2</MoveSpeed>
+        </statOffsets>
+      </li>
     </stages>
+    <comps>
+      <li Class="HediffCompProperties_SeverityPerDay">
+        <severityPerDay>0.3</severityPerDay>
+      </li>
+    </comps>
   </HediffDef>
 
   <HediffDef>
@@ -36,7 +80,7 @@
     <hediffClass>HediffWithComps</hediffClass>
     <label>Tentacles in Anus</label>
     <labelNoun>Amor Internum</labelNoun>
-    <description>Amor Internum are living within the hosts ass. Tentacles in the anal cavity can be birthed into drones. In high numbers they will expand the anal opening further.</description>
+    <description>Amor Internum are living within the hosts ass. Tentacles in the anal cavity increase movement speed and can be birthed into bood nymphs.</description>
     <defaultLabelColor>(216,191,216)</defaultLabelColor>
     <minSeverity>1</minSeverity>
     <initialSeverity>1</initialSeverity>
@@ -45,41 +89,41 @@
       <li>
         <minSeverity>1</minSeverity>
         <label>Few</label>
-        <painOffset>0.01</painOffset>
+        <painOffset>-0.01</painOffset>
         <statOffsets>
-          <MoveSpeed>-0.01</MoveSpeed>
+          <MoveSpeed>0.01</MoveSpeed>
         </statOffsets>
       </li>
       <li>
         <minSeverity>10</minSeverity>
         <label>Many</label>
-        <painOffset>0.05</painOffset>
+        <painOffset>-0.05</painOffset>
         <statOffsets>
-          <MoveSpeed>-0.05</MoveSpeed>
+          <MoveSpeed>0.05</MoveSpeed>
         </statOffsets>
       </li>
       <li>
         <minSeverity>40</minSeverity>
         <label>A lot</label>
-        <painOffset>0.1</painOffset>
+        <painOffset>-0.1</painOffset>
         <statOffsets>
-          <MoveSpeed>-0.1</MoveSpeed>
+          <MoveSpeed>0.1</MoveSpeed>
         </statOffsets>
       </li>
       <li>
         <minSeverity>80</minSeverity>
         <label>A ton</label>
-        <painOffset>0.2</painOffset>
+        <painOffset>-0.2</painOffset>
         <statOffsets>
-          <MoveSpeed>-0.2</MoveSpeed>
+          <MoveSpeed>0.2</MoveSpeed>
         </statOffsets>
       </li>
       <li>
         <minSeverity>100</minSeverity>
         <label>A silly amount</label>
-        <painOffset>0.3</painOffset>
+        <painOffset>-0.3</painOffset>
         <statOffsets>
-          <MoveSpeed>-0.3</MoveSpeed>
+          <MoveSpeed>0.3</MoveSpeed>
         </statOffsets>
       </li>
       
@@ -106,7 +150,7 @@
     <hediffClass>HediffWithComps</hediffClass>
     <label>Tentacles in Womb</label>
     <labelNoun>Amor Internum</labelNoun>
-    <description>Amor Internum are living within the hosts womb. Tentacles in the womb work to incubate huge Amor Matron Eggs. In high numbers they will expand the vaginal opening further.</description>
+    <description>Amor Internum are living within the hosts womb. Tentacles in the womb work to incubate huge Amor Matron Eggs, and increase psychic sensitivity.</description>
     <defaultLabelColor>(216,191,216)</defaultLabelColor>
     <minSeverity>0</minSeverity>
     <initialSeverity>1</initialSeverity>
@@ -117,7 +161,7 @@
         <label>Few</label>
         <painOffset>0.01</painOffset>
         <statOffsets>
-          <MoveSpeed>-0.01</MoveSpeed>
+          <PsychicSensitivity>0.05</PsychicSensitivity>
         </statOffsets>
       </li>
       <li>
@@ -125,7 +169,7 @@
         <label>Many</label>
         <painOffset>0.05</painOffset>
         <statOffsets>
-          <MoveSpeed>-0.05</MoveSpeed>
+          <PsychicSensitivity>0.1</PsychicSensitivity>
         </statOffsets>
       </li>
       <li>
@@ -133,7 +177,7 @@
         <label>A lot</label>
         <painOffset>0.1</painOffset>
         <statOffsets>
-          <MoveSpeed>-0.1</MoveSpeed>
+          <PsychicSensitivity>0.25</PsychicSensitivity>
         </statOffsets>
       </li>
       <li>
@@ -141,7 +185,7 @@
         <label>A ton</label>
         <painOffset>0.2</painOffset>
         <statOffsets>
-          <MoveSpeed>-0.2</MoveSpeed>
+          <PsychicSensitivity>0.5</PsychicSensitivity>
         </statOffsets>
       </li>
       <li>
@@ -149,7 +193,7 @@
         <label>A silly amount</label>
         <painOffset>0.3</painOffset>
         <statOffsets>
-          <MoveSpeed>-0.3</MoveSpeed>
+          <PsychicSensitivity>1</PsychicSensitivity>
         </statOffsets>
       </li>
       
@@ -162,7 +206,7 @@
       </li>
       <li Class="EBSGFramework.HediffCompProperties_GiveOtherHediffPeriodically">
                 <hediff>tentacleegg</hediff>
-                <severity>0.01</severity>
+                <severity>0.005</severity>
                 <interval>96000</interval>
                 <bodyParts>
                  <li>Genitals</li>
@@ -178,7 +222,7 @@
     <hediffClass>HediffWithComps</hediffClass>
     <label>Tentacles in Stomach</label>
     <labelNoun>Amor Internum</labelNoun>
-    <description>Amor Internum are living within the hosts stomach. Tentacles in the stomach can be vomitted up as Warrior eggs.</description>
+    <description>Amor Internum are living within the hosts stomach. Tentacles in the stomach can be vomitted up as an attack, and increase host regeneration.</description>
     <defaultLabelColor>(216,191,216)</defaultLabelColor>
     <minSeverity>0</minSeverity>
     <initialSeverity>1</initialSeverity>
@@ -188,41 +232,31 @@
         <minSeverity>1</minSeverity>
         <label>Few</label>
         <painOffset>0.01</painOffset>
-        <statOffsets>
-          <MoveSpeed>-0.01</MoveSpeed>
-        </statOffsets>
+        <regeneration>5</regeneration>
       </li>
       <li>
         <minSeverity>10</minSeverity>
         <label>Many</label>
         <painOffset>0.05</painOffset>
-        <statOffsets>
-          <MoveSpeed>-0.05</MoveSpeed>
-        </statOffsets>
+        <regeneration>10</regeneration>
       </li>
       <li>
         <minSeverity>40</minSeverity>
         <label>A lot</label>
         <painOffset>0.1</painOffset>
-        <statOffsets>
-          <MoveSpeed>-0.1</MoveSpeed>
-        </statOffsets>
+        <regeneration>20</regeneration>
       </li>
       <li>
         <minSeverity>80</minSeverity>
         <label>A ton</label>
         <painOffset>0.2</painOffset>
-        <statOffsets>
-          <MoveSpeed>-0.2</MoveSpeed>
-        </statOffsets>
+        <regeneration>40</regeneration>
       </li>
       <li>
         <minSeverity>100</minSeverity>
         <label>A silly amount</label>
         <painOffset>0.3</painOffset>
-        <statOffsets>
-          <MoveSpeed>-0.3</MoveSpeed>
-        </statOffsets>
+        <regeneration>80</regeneration>
       </li>
       
     </stages>
@@ -234,12 +268,12 @@
       </li>
       <li Class="EBSGFramework.HediffCompProperties_GiveAbilityAtSeverity">
                 <abilitiesAtSeverities>
-                          <li>
-                        <abilityDef>BirthS</abilityDef>
+                    <li>
+                        <abilityDef>AttackTent</abilityDef>
                         <validSeverity>2.0~999</validSeverity>
                     </li>
-                          <li>
-                        <abilityDef>AttackTent</abilityDef>
+                    <li>
+                        <abilityDef>TCumSpray</abilityDef>
                         <validSeverity>2.0~999</validSeverity>
                     </li>
                 </abilitiesAtSeverities>

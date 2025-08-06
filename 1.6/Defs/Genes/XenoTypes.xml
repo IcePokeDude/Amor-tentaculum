@@ -2,7 +2,7 @@
 
     <XenotypeDef>
     <defName>Thost</defName>
-    <label>tentaclehost amor</label>
+    <label>Brood Mother</label>
     <description>A human host that has been modified genetically to birth amor tentacles.</description>
     <descriptionShort>A human host that has been modified genetically to birth amor tentacles.</descriptionShort>
     <iconPath>Genes/Xenotype-host</iconPath>
@@ -12,12 +12,14 @@
       <li>THostBody</li>
       <li>rjw_genes_tentinfest_genitalia</li>
       <li>tentaclebabyneed</li>
+      <li>ThostAdult</li>
+      <li>rjw_genes_female_only</li>
     </genes>
   </XenotypeDef>
 
     <XenotypeDef>
     <defName>ThostM</defName>
-    <label>tentaclehost malus</label>
+    <label>Brood Host</label>
     <description>A human host that has been modified genetically to birth malar tentacles.</description>
     <descriptionShort>A human host that has been modified genetically to birth malar tentacles.</descriptionShort>
     <iconPath>Genes/Xenotype-host</iconPath>
@@ -27,8 +29,24 @@
       <li>THostBodyM</li>
       <li>rjw_genes_tentinfest_genitalia</li>
       <li>tentaclebabyneedM</li>
+      <li>rjw_genes_male_only</li>
     </genes>
   </XenotypeDef>
 
+    <XenotypeDef>
+    <defName>ThostB</defName>
+    <label>Amor Baroness</label>
+    <description>A human host that has been modified genetically to birth amor tentacles.</description>
+    <descriptionShort>A human host that has been modified genetically to birth amor tentacles.</descriptionShort>
+    <iconPath>Genes/Xenotype-host</iconPath>
+    <inheritable>false</inheritable>
+    <chanceToUseNameMaker>0</chanceToUseNameMaker>
+    <genes>
+      <li>THostBody</li>
+      <li>rjw_genes_tentinfest_genitalia</li>
+      <li>rjw_genes_female_only</li>
+      <li>ThostBrooder</li>
+    </genes>
+  </XenotypeDef>
 
 </Defs>

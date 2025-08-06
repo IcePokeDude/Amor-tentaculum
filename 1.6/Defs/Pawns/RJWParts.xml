@@ -100,7 +100,6 @@
 		<raceNames>
 			<li>TLarvaMat</li>
             <li>TLarvaD</li>
-            <li>TInternal</li>
 		</raceNames>
 		
 		<anuses>
@@ -118,6 +117,36 @@
 
 		<maleGenitals>
 		<li>OvipositorTFSS</li>
+		</maleGenitals>
+		
+		<hasSingleGender>false</hasSingleGender>
+		<hasSexNeed>true</hasSexNeed>
+		<raceSexDrive>3</raceSexDrive>
+		<hasFertility>true</hasFertility>
+		<hasPregnancy>true</hasPregnancy>
+		<oviPregnancy>true</oviPregnancy>
+		<ImplantEggs>true</ImplantEggs>
+    </rjw.RaceGroupDef>
+
+    <rjw.RaceGroupDef>
+		<defName>Internal</defName>
+		<raceNames>
+            <li>TInternal</li>
+		</raceNames>
+		
+		<anuses>
+		</anuses>
+
+		<femaleBreasts>
+		</femaleBreasts>
+		
+		<femaleGenitals>
+		</femaleGenitals>
+
+		<maleBreasts>
+		</maleBreasts>
+
+		<maleGenitals>
 		</maleGenitals>
 		
 		<hasSingleGender>false</hasSingleGender>
@@ -153,7 +182,7 @@
 		<defName>OvipositorTFS</defName>
 		<label>seven ovipositor tenetacles</label>
 		<labelNoun>ovipositors</labelNoun>
-		<description>A set of seven tentacles, some of which lay eggs. Two flared, two tongue, two tendlly, and one cock. Produces eggs in high numbers, but only after several days.</description>
+		<description>A set of seven tentacles, some of which lay eggs. Two flared, two tongue, two tendlly, and one cock.</description>
 		<descriptionHyperlinks>
 			<ThingDef>OvipositorF</ThingDef>
 		</descriptionHyperlinks>
@@ -177,6 +206,29 @@
 				<eggIntervalTicks>120000~200000</eggIntervalTicks>
 			</li>
 		</comps>
+	</rjw.HediffDef_SexPart>
+
+	<rjw.HediffDef_SexPart ParentName="NaturalPrivatePartVagina">
+		<defName>OvipositorTFoff</defName>
+		<label>seven ovipositor tenetacles</label>
+		<labelNoun>ovipositors</labelNoun>
+		<description>A set of seven tentacles, some of which produce amornuum. Two flared, two tongue, two tendlly, and one cock.</description>
+		<descriptionHyperlinks>
+			<ThingDef>OvipositorF</ThingDef>
+		</descriptionHyperlinks>
+		<spawnThingOnRemoved>OvipositorF</spawnThingOnRemoved>
+		<sizeProfile>DefaultPenisSizes</sizeProfile>
+		<genitalFamily>FemaleOvipositor</genitalFamily>
+		<genitalTags>
+			<li>CanPenetrate</li>
+			<li>CanBePenetrated</li>
+			<li>CanEgg</li>
+		</genitalTags>
+		<partTags>
+        	<li>Tapered</li>
+			<li>Internal</li>
+		    <li>Prehensile</li>
+		</partTags>
 	</rjw.HediffDef_SexPart>
 
 	<rjw.RacePartDef>
