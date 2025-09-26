@@ -22,9 +22,13 @@
             </targetParams>
         </verbProperties>
         <comps>
+			<li Class="EBSGFramework.CompProperties_AbilityGiveResource">
+                <amount>0.01</amount>
+                <mainResourceGene>tentaclebabyneed</mainResourceGene>
+            </li>
             <li Class="EBSGFramework.CompProperties_AbilityAbilityValidator">
             <targetHasAnyOfHediffs>
-                <li>tentaclegrowthAB</li>
+                <li>tentaclegrowthA</li>
             </targetHasAnyOfHediffs>
             <casterHasNoneOfHediffs>
                 <li>FullofTentacles</li>
@@ -32,6 +36,14 @@
             </li>
             <li Class="EBSGFramework.CompProperties_AbilityGiveMultipleHediffs">
                 <hediffsToGive>
+				<li>
+                    <hediffDef>AStorage</hediffDef>
+                    <onlyApplyToSelf>false</onlyApplyToSelf>
+                    <severity>1</severity>
+                    <bodyParts>
+                        <li>Anus</li>
+                    </bodyParts>
+                    </li>
                     <li>
                     <hediffDef>BodyCleaner</hediffDef>
                         <onlyApplyToSelf>true</onlyApplyToSelf>
@@ -41,7 +53,7 @@
                     </bodyParts>
                     </li>
                     <li>
-                    <hediffDef>tentaclegrowthAB</hediffDef>
+                    <hediffDef>tentaclegrowthA</hediffDef>
                         <replaceExisting>false</replaceExisting>
                     <bodyParts>
                         <li>Anus</li>
@@ -77,9 +89,13 @@
             </targetParams>
         </verbProperties>
         <comps>
+			<li Class="EBSGFramework.CompProperties_AbilityGiveResource">
+                <amount>0.01</amount>
+                <mainResourceGene>tentaclebabyneed</mainResourceGene>
+            </li>
             <li Class="EBSGFramework.CompProperties_AbilityAbilityValidator">
             <targetHasAnyOfHediffs>
-                <li>tentaclegrowthVB</li>
+                <li>tentaclegrowthV</li>
             </targetHasAnyOfHediffs>
             <casterHasNoneOfHediffs>
                 <li>FullofTentacles</li>
@@ -87,6 +103,14 @@
             </li>
             <li Class="EBSGFramework.CompProperties_AbilityGiveMultipleHediffs">
                 <hediffsToGive>
+				<li>
+                    <hediffDef>VStorage</hediffDef>
+                    <onlyApplyToSelf>false</onlyApplyToSelf>
+                    <severity>1</severity>
+                    <bodyParts>
+                        <li>Genitals</li>
+                    </bodyParts>
+                    </li>
                     <li>
                     <hediffDef>BodyCleaner</hediffDef>
                         <onlyApplyToSelf>true</onlyApplyToSelf>
@@ -96,7 +120,7 @@
                     </bodyParts>
                     </li>
                     <li>
-                    <hediffDef>tentaclegrowthVB</hediffDef>
+                    <hediffDef>tentaclegrowthV</hediffDef>
                         <replaceExisting>false</replaceExisting>
                     <bodyParts>
                         <li>Genitals</li>
@@ -132,9 +156,13 @@
             </targetParams>
         </verbProperties>
         <comps>
+			<li Class="EBSGFramework.CompProperties_AbilityGiveResource">
+                <amount>0.01</amount>
+                <mainResourceGene>tentaclebabyneed</mainResourceGene>
+            </li>
             <li Class="EBSGFramework.CompProperties_AbilityAbilityValidator">
             <targetHasAnyOfHediffs>
-                <li>tentaclegrowthSB</li>
+                <li>tentaclegrowthS</li>
             </targetHasAnyOfHediffs>
             <casterHasNoneOfHediffs>
                 <li>FullofTentacles</li>
@@ -142,6 +170,14 @@
             </li>
             <li Class="EBSGFramework.CompProperties_AbilityGiveMultipleHediffs">
                 <hediffsToGive>
+				<li>
+                    <hediffDef>SStorage</hediffDef>
+                    <onlyApplyToSelf>false</onlyApplyToSelf>
+                    <severity>1</severity>
+                    <bodyParts>
+                        <li>Stomach</li>
+                    </bodyParts>
+                    </li>
                     <li>
                     <hediffDef>BodyCleaner</hediffDef>
                         <onlyApplyToSelf>true</onlyApplyToSelf>
@@ -151,7 +187,7 @@
                     </bodyParts>
                     </li>
                     <li>
-                    <hediffDef>tentaclegrowthSB</hediffDef>
+                    <hediffDef>tentaclegrowthS</hediffDef>
                         <replaceExisting>false</replaceExisting>
                     <bodyParts>
                         <li>Stomach</li>

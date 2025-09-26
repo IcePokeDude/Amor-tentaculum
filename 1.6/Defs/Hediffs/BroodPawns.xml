@@ -539,13 +539,13 @@
         <restFallFactor>2</restFallFactor>
         <hungerRateFactorOffset>0.25</hungerRateFactorOffset>
         <statOffsets>
-          <Vulnerability>5</Vulnerability>
-          <MoveSpeed>-50</MoveSpeed>
+          <Vulnerability>1</Vulnerability>
+          <MoveSpeed>+5</MoveSpeed>
         </statOffsets>
         <capMods>
           <li>
             <capacity>Consciousness</capacity>
-            <setMax>0.5</setMax>
+            <setMax>1.5</setMax>
           </li>
         </capMods>
       </li>

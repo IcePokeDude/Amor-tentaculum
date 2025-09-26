@@ -30,15 +30,7 @@
                     </li>
                 </ageGraphics>
             </li>
-            <li Class="EBSGFramework.EquipRestrictExtension">
-                <limitedToWeapons>
-                </limitedToWeapons>
-                <limitedToEquipments>
-                    <li>Apparel_CultistMask</li>
-                    <li>Apparel_Collar</li>
-                    <li>Apparel_VisageMask</li>
-                </limitedToEquipments>
-            </li>
+            
         </modExtensions>
     </GeneDef>
 
@@ -59,15 +51,7 @@
                     </li>
                 </ageGraphics>
             </li>
-            <li Class="EBSGFramework.EquipRestrictExtension">
-                <limitedToWeapons>
-                </limitedToWeapons>
-                <limitedToEquipments>
-                    <li>Apparel_CultistMask</li>
-                    <li>Apparel_Collar</li>
-                    <li>Apparel_VisageMask</li>
-                </limitedToEquipments>
-            </li>
+            
         </modExtensions>
     </GeneDef>
 
@@ -92,15 +76,7 @@
                     </li>
                 </ageGraphics>
             </li>
-            <li Class="EBSGFramework.EquipRestrictExtension">
-                <limitedToWeapons>
-                </limitedToWeapons>
-                <limitedToEquipments>
-                    <li>Apparel_CultistMask</li>
-                    <li>Apparel_Collar</li>
-                    <li>Apparel_VisageMask</li>
-                </limitedToEquipments>
-            </li>
+            
         </modExtensions>
     </GeneDef>
 

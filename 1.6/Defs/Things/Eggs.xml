@@ -603,7 +603,9 @@
         <label>internal bruising</label>
         <description>Something inside has been thrashing around. It's gonna ache for awhile.</description>
         <hediffClass>HediffWithComps</hediffClass>
-        <initialSeverity>1</initialSeverity>
+        <minSeverity>0</minSeverity>
+		<initialSeverity>1</initialSeverity>
+		<maxSeverity>1</maxSeverity>
         <stages/>
         <comps>
             <li Class="HediffCompProperties_SeverityPerDay">
