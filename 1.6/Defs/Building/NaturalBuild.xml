@@ -237,7 +237,7 @@
       </li>
       <li Class="CompProperties_Glower">
         <glowRadius>2</glowRadius>
-        <glowColor>(173, 216, 230, 0.2)</glowColor>
+        <glowColor>(173, 216, 230, 51)</glowColor>
       </li>
     </comps>
     <designationCategory>Temperature</designationCategory>
@@ -285,7 +285,7 @@
     <texturePath>Things/Buildings/Floor/TentFloor</texturePath>
     <edgeType>Hard</edgeType>
     <renderPrecedence>240</renderPrecedence>
-    <pathCost>0.98</pathCost>
+    <pathCost>2</pathCost>
     <statBases>
       <Beauty>1</Beauty>
       <Cleanliness>0.2</Cleanliness>
