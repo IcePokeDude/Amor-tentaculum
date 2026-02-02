@@ -109,13 +109,13 @@
     </stages>
     <comps>
       <li Class="HediffCompProperties_SeverityPerDay">
-        <severityPerDay>0.4</severityPerDay>
+        <severityPerDay>1</severityPerDay>
       </li>
             <li Class="EBSGFramework.HediffCompProperties_RemoveAtSeverities">
                 <severity>1</severity>
             </li>
             <li Class="EBSGFramework.HediffCompProperties_CreateItems">
-                <intervalTicks>147800</intervalTicks>
+                <intervalTicks>55500</intervalTicks>
                 <intervalThings>
                     <li>
                         <li>

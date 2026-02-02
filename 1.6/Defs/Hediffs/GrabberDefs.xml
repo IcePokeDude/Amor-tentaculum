@@ -85,7 +85,7 @@
     <defName>GrabberLeapA</defName>
     <label>grasping leap</label>
     <description>Leap onto a target and incapacitate it.</description>
-    <cooldownTicksRange>1732</cooldownTicksRange> 
+    <cooldownTicksRange>1732~1732</cooldownTicksRange> 
     <jobDef>CastJump</jobDef>
     <ai_IsOffensive>true</ai_IsOffensive>
     <aiCanUse>true</aiCanUse>
@@ -309,7 +309,7 @@
     <defName>GrabberLeapM</defName>
     <label>grasping leap</label>
     <description>Leap onto a target and incapacitate it.</description>
-    <cooldownTicksRange>1732</cooldownTicksRange> 
+    <cooldownTicksRange>1732~1732</cooldownTicksRange> 
     <jobDef>CastJump</jobDef>
     <ai_IsOffensive>true</ai_IsOffensive>
     <aiCanUse>true</aiCanUse>
@@ -530,7 +530,7 @@
     <defName>GrabberLeapV</defName>
     <label>grasping leap</label>
     <description>Leap onto a target and incapacitate it.</description>
-    <cooldownTicksRange>1732</cooldownTicksRange> 
+    <cooldownTicksRange>1732~1732</cooldownTicksRange> 
     <jobDef>CastJump</jobDef>
     <ai_IsOffensive>true</ai_IsOffensive>
     <aiCanUse>true</aiCanUse>
@@ -700,8 +700,8 @@
           <hediffSets>
                 <li>
                   <hediffDef>malumeggA</hediffDef>
-                  <validSeverity>0~0.15</validSeverity>
-                  <severityPerDay>0.01</severityPerDay>
+                  <validSeverity>0~0.1</validSeverity>
+                  <severityPerDay>0</severityPerDay>
                   <bodyPart>Genitals</bodyPart>
                   <initialSeverity>0.01</initialSeverity>
                 </li>
@@ -765,7 +765,7 @@
     <defName>GrabberLeapP</defName>
     <label>grasping leap</label>
     <description>Leap onto a target and incapacitate it.</description>
-    <cooldownTicksRange>1732</cooldownTicksRange> 
+    <cooldownTicksRange>1732~1732</cooldownTicksRange> 
     <jobDef>CastJump</jobDef>
     <ai_IsOffensive>true</ai_IsOffensive>
     <aiCanUse>true</aiCanUse>
@@ -935,7 +935,7 @@
           <hediffSets>
                 <li>
                   <hediffDef>malumeggA</hediffDef>
-                  <validSeverity>0.8~0.83</validSeverity>
+                  <validSeverity>0~0.1</validSeverity>
                   <severityPerDay>0</severityPerDay>
                   <bodyPart>Genitals</bodyPart>
                   <initialSeverity>0.01</initialSeverity>

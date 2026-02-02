@@ -386,16 +386,7 @@
       <li Class="HediffCompProperties_SeverityPerDay">
         <severityPerDay>0.01</severityPerDay>
       </li>
-      <li Class="EBSGFramework.HediffCompProperties_CreateOtherHediffs">
-          <hediffSets>
-                <li>
-                  <hediffDef>transform</hediffDef>
-                  <validSeverity>1.5</validSeverity>
-                  <severityPerDay>0</severityPerDay>
-                  <initialSeverity>0.1</initialSeverity>
-                </li>
-          </hediffSets>
-      </li>
+      
         <li Class="HediffCompProperties_GiveHediffsInRange">
         <range>25</range>
         <hideMoteWhenNotDrafted>true</hideMoteWhenNotDrafted>
