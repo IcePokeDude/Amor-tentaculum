@@ -103,6 +103,7 @@
         <displayCategory>tent_genes_hider</displayCategory>
         <geneClass>EBSGFramework.HediffAdder</geneClass>
         <description>This pawn has become a brood mother and will forever be filled with tentacles.</description>
+        <iconPath>Genes/Brood_Mother</iconPath>
         <displayOrderInCategory>0.1</displayOrderInCategory>
         <modExtensions>
 	    <li Class="EBSGFramework.EBSGExtension">
@@ -187,6 +188,7 @@
         <displayCategory>tent_genes_hider</displayCategory>
         <geneClass>EBSGFramework.HediffAdder</geneClass>
         <description>This pawn has become a baroness and will forever be a womb for incubating tentacles.</description>
+        <iconPath>Genes/Baroness</iconPath>
         <displayOrderInCategory>0.1</displayOrderInCategory>
         <modExtensions>
 	    <li Class="EBSGFramework.EBSGExtension">
