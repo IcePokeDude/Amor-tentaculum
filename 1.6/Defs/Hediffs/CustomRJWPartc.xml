@@ -360,10 +360,10 @@
 
 	<!-- Regular privates -->
 	<rjw.HediffDef_SexPart ParentName="NaturalPrivatePartTentPenis">
-		<defName>Penis</defName>
-		<label>penis</label>
-		<labelNoun>a penis</labelNoun>
-		<description>A penis.</description>
+		<defName>TPenis</defName>
+		<label>tentacle inhabited penis</label>
+		<labelNoun>tentacle inhabited penis</labelNoun>
+		<description>A penis infested with Amor tentacles.</description>
 		<descriptionHyperlinks><ThingDef>Penis</ThingDef></descriptionHyperlinks>
 		<spawnThingOnRemoved>Penis</spawnThingOnRemoved>
 	</rjw.HediffDef_SexPart>
@@ -391,7 +391,7 @@
 	<!-- Natural Breasts -->
 	<rjw.HediffDef_SexPart ParentName="NaturalPrivatePartTentBreast">
 		<defName>TBreasts</defName>
-		<label>breasts</label>
+		<label>tentacle inhabited breasts</label>
 		<labelNoun>a pair of breasts</labelNoun>
 		<description>A pair of breasts.</description>
 		<descriptionHyperlinks><ThingDef>Breasts</ThingDef></descriptionHyperlinks>

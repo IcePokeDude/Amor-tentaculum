@@ -62,7 +62,7 @@
     <hediffClass>HediffWithComps</hediffClass>
     <label>genetic body shaping</label>
     <labelNoun>genetic shaping</labelNoun>
-    <description>The Amor queen has grown to adulthood and is now rewriting the hosts genetic code completely to suit the needs of her hive.</description>
+    <description>The Malum queen has grown to adulthood and is now rewriting the hosts genetic code completely to suit the needs of her hive.</description>
     <defaultLabelColor>(255,20,147)</defaultLabelColor>
     <minSeverity>0.001</minSeverity>
     <initialSeverity>0.001</initialSeverity>
@@ -90,7 +90,7 @@
                   <bodyPart>Anus</bodyPart>
                 </li>
                 <li>
-                  <hediffDef>queenimplant</hediffDef>
+                  <hediffDef>queenimplantM</hediffDef>
                   <validSeverity>0~0.2</validSeverity>
                   <severityPerDay>-60</severityPerDay>
                   <initialSeverity>0</initialSeverity>

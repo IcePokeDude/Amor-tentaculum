@@ -40,7 +40,7 @@
 
     <HediffDef>
         <defName>NoTentacles</defName>
-        <label>body colapse</label>
+        <label>body collapse</label>
         <description>Due to the lack of tentacles in this host's body, they are colapsing in on themselves and well soon perish.</description>
         <hediffClass>EBSGFramework.Hediff_ResourceCraving</hediffClass>
         <defaultLabelColor>(0.6, 0.6, 0.6)</defaultLabelColor>

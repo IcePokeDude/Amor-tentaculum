@@ -18,13 +18,13 @@
       <li Class="EBSGFramework.HediffCompProperties_CreateOtherHediffs">
           <hediffSets>
                 <li>
-                  <hediffDef>transform</hediffDef>
+                  <hediffDef>transformMale</hediffDef>
                   <validSeverity>1.48~1.51</validSeverity>
                   <severityPerDay>0</severityPerDay>
                   <initialSeverity>0.1</initialSeverity>
                 </li>
                 <li>
-                  <hediffDef>queenadult</hediffDef>
+                  <hediffDef>queenadultM</hediffDef>
                   <validSeverity>1.48~1.51</validSeverity>
                   <severityPerDay>0</severityPerDay>
                   <initialSeverity>0.1</initialSeverity>
@@ -191,6 +191,15 @@
       <li Class="HediffCompProperties_SeverityPerDay">
         <severityPerDay>0.25</severityPerDay>
       </li>
+	  <li Class="EBSGFramework.HediffCompProperties_GiveOtherHediffPeriodically">
+                <hediff>AMStorage</hediff>
+                <severity>2</severity>
+                <interval>5000</interval>
+                <bodyParts>
+                  <li>Anus</li>
+                </bodyParts>
+                <validSeverities>0.7~0.72</validSeverities>
+            </li>
     </comps>
   </HediffDef>
 
@@ -262,6 +271,15 @@
       <li Class="HediffCompProperties_SeverityPerDay">
         <severityPerDay>0.25</severityPerDay>
       </li>
+	  <li Class="EBSGFramework.HediffCompProperties_GiveOtherHediffPeriodically">
+                <hediff>SMStorage</hediff>
+                <severity>2</severity>
+                <interval>5000</interval>
+                <bodyParts>
+                  <li>Stomach</li>
+                </bodyParts>
+                <validSeverities>0.7~0.72</validSeverities>
+            </li>
     </comps>
   </HediffDef>
 
@@ -271,7 +289,7 @@
     <hediffClass>HediffWithComps</hediffClass>
     <label>infested genitals</label>
     <labelNoun>genitals</labelNoun>
-    <description>The malum queen has grown and invaded this part of the body. The hosts genitals are being altered to produce malum eggs from the balls. These processes are uncomfortable.</description>
+    <description>The Malum lord has grown and invaded this part of the body. The hosts genitals are being altered to produce malum eggs from the balls. These processes are uncomfortable.</description>
     <defaultLabelColor>(255,20,147)</defaultLabelColor>
     <minSeverity>0.001</minSeverity>
     <initialSeverity>0.001</initialSeverity>

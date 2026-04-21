@@ -2,7 +2,7 @@
 
     <XenotypeDef>
     <defName>Thost</defName>
-    <label>Brood Mother</label>
+    <label>Amor Brood Mother</label>
     <description>A human host that has been modified genetically to birth amor tentacles.</description>
     <descriptionShort>A human host that has been modified genetically to birth amor tentacles.</descriptionShort>
     <iconPath>Genes/Xenotype-host</iconPath>
@@ -19,7 +19,7 @@
 
     <XenotypeDef>
     <defName>ThostM</defName>
-    <label>Brood Host</label>
+    <label>Malum Brood Mother</label>
     <description>A human host that has been modified genetically to birth malar tentacles.</description>
     <descriptionShort>A human host that has been modified genetically to birth malar tentacles.</descriptionShort>
     <iconPath>Genes/Xenotype-host</iconPath>
@@ -27,8 +27,9 @@
     <chanceToUseNameMaker>0</chanceToUseNameMaker>
     <genes>
       <li>THostBodyM</li>
-      <li>rjw_genes_tentinfest_genitalia</li>
+      <li>rjw_genes_tentinfest_Malegenitalia</li>
       <li>tentaclebabyneedM</li>
+	  <li>MalumHost</li>
       <li>rjw_genes_male_only</li>
     </genes>
   </XenotypeDef>

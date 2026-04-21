@@ -30,12 +30,145 @@
                 <maximum>0.01</maximum>
                 <maxStat>TStorage</maxStat> <!--The maximum shown in game is 100 times this, so a value of 10 is a maximum of 1,000-->
                 <maxFactorStat>TStorageIncrease</maxFactorStat>
-                <cravingHediff>NoTentacles</cravingHediff> <!--Optional. When the resource is out, this hediff starts climbing-->
-                <overchargeHediff>FullofTentacles</overchargeHediff><!--Optional. When the resource is at the max, this hediff starts climbing-->
+                <cravingHediff>NoMalumTentacles</cravingHediff> <!--Optional. When the resource is out, this hediff starts climbing-->
+                <overchargeHediff>FullofMalumTentacles</overchargeHediff><!--Optional. When the resource is at the max, this hediff starts climbing-->
                 <resourcePacksAllowed>False</resourcePacksAllowed> <!--True is the default value for this, and you should only set it to false if you don't have resource packs-->
             </li>
 	</modExtensions>
         </GeneDef>
+		
+		<HediffDef>
+        <defName>NoMalumTentacles</defName>
+        <label>body collapse</label>
+        <description>Due to the lack of Malum tentacles in this host's body, they are colapsing in on themselves and well soon perish.</description>
+        <hediffClass>EBSGFramework.Hediff_ResourceCraving</hediffClass>
+        <defaultLabelColor>(0.6, 0.6, 0.6)</defaultLabelColor>
+        <initialSeverity>0.01</initialSeverity>
+        <maxSeverity>1</maxSeverity>
+        <everCurableByItem>false</everCurableByItem>
+        <stages>
+            <li>
+                <label>minor</label>
+                <capMods>
+                    <li>
+                        <capacity>Consciousness</capacity>
+                        <setMax>0.9</setMax>
+                    </li>
+                    <li>
+                        <capacity>Moving</capacity>
+                        <offset>-0.3</offset>
+                    </li>
+                </capMods>
+            </li>
+            <li>
+                <label>moderate</label>
+                <minSeverity>0.35</minSeverity>
+                <capMods>
+                    <li>
+                        <capacity>Consciousness</capacity>
+                        <setMax>0.8</setMax>
+                    </li>
+                    <li>
+                        <capacity>Moving</capacity>
+                        <offset>-0.5</offset>
+                    </li>
+                </capMods>
+            </li>
+            <li>
+                <label>major</label>
+                <minSeverity>0.7</minSeverity>
+                <capMods>
+                    <li>
+                        <capacity>Consciousness</capacity>
+                        <setMax>0.5</setMax>
+                    </li>
+                    <li>
+                        <capacity>Moving</capacity>
+                        <offset>-0.7</offset>
+                    </li>
+                </capMods>
+            </li>
+            <li>
+                <label>extreme</label>
+                <minSeverity>0.95</minSeverity>
+                <capMods>
+                    <li>
+                        <capacity>Consciousness</capacity>
+                        <setMax>0</setMax>
+                    </li>
+                </capMods>
+            </li>
+        </stages>
+        <comps>
+            <li Class="EBSGFramework.HediffCompProperties_SeverityFromResource">
+                <severityPerHourEmpty>0.05</severityPerHourEmpty>
+                <severityPerHourResource>-0.1</severityPerHourResource>
+                <mainResourceGene>tentaclebabyneedM</mainResourceGene>
+            </li>
+        </comps>
+    </HediffDef>
+	
+	<HediffDef>
+        <defName>FullofMalumTentacles</defName>
+        <label>tentacle stuffed</label>
+        <description>This host has been pushed to their limit and is full to the brim with squirming Malum tentacles. If they stay full long enough they may permanently stretched.</description>
+        <hediffClass>EBSGFramework.Hediff_ResourceCraving</hediffClass>
+        <defaultLabelColor>(0.6, 0.6, 0.6)</defaultLabelColor>
+        <initialSeverity>0.01</initialSeverity>
+        <maxSeverity>1</maxSeverity>
+        <everCurableByItem>false</everCurableByItem>
+        <stages>
+            <li>
+                <label>impossibly tight</label>
+                <capMods>
+                    <li>
+                        <capacity>Moving</capacity>
+                        <offset>-0.5</offset>
+                    </li>
+                </capMods>
+                <painOffset>0.5</painOffset>
+            </li>
+            <li>
+                <label>tight</label>
+                <minSeverity>0.35</minSeverity>
+                <capMods>
+                    <li>
+                        <capacity>Moving</capacity>
+                        <offset>-0.4</offset>
+                    </li>
+                </capMods>
+                <painOffset>0.4</painOffset>
+            </li>
+            <li>
+                <label>acclimating</label>
+                <minSeverity>0.7</minSeverity>
+                <capMods>
+                    <li>
+                        <capacity>Moving</capacity>
+                        <offset>-0.3</offset>
+                    </li>
+                </capMods>
+                <painOffset>0.3</painOffset>
+            </li>
+        </stages>
+        <comps>
+            <li Class="EBSGFramework.HediffCompProperties_SeverityFromResource">
+                <severityPerHourFull>0.05</severityPerHourFull>
+                <severityPerHourResource>-1</severityPerHourResource>
+                <mainResourceGene>tentaclebabyneedM</mainResourceGene>
+            </li>
+            <li Class="EBSGFramework.HediffCompProperties_CreateOtherHediffs">
+                <hediffSets>
+                    <li>
+                        <hediffDef>Organelasticity</hediffDef>
+                        <validSeverity>1</validSeverity>
+                        <severityPerDay>0.5</severityPerDay>
+                        <initialSeverity>1</initialSeverity>
+                    </li>
+                </hediffSets>
+            </li>
+        </comps>
+    </HediffDef>
 
 
     <AbilityDef ParentName="AbilityTouchBase">
@@ -62,10 +195,10 @@
         <comps>
             <li Class="EBSGFramework.CompProperties_AbilityAbilityValidator">
             <targetHasAnyOfHediffs>
-                <li>vagrancy</li>
+                <li>Mvagrancy</li>
             </targetHasAnyOfHediffs>
             <casterHasNoneOfHediffs>
-                <li>FullofTentacles</li>
+                <li>FullofMalumTentacles</li>
             </casterHasNoneOfHediffs>
             </li>
             <li Class="EBSGFramework.CompProperties_AbilityResourceCost">
@@ -117,10 +250,10 @@
         <comps>
             <li Class="EBSGFramework.CompProperties_AbilityAbilityValidator">
             <targetHasAnyOfHediffs>
-                <li>vagrancy</li>
+                <li>Mvagrancy</li>
             </targetHasAnyOfHediffs>
             <casterHasNoneOfHediffs>
-                <li>FullofTentacles</li>
+                <li>FullofMalumTentacles</li>
             </casterHasNoneOfHediffs>
             </li>
             <li Class="EBSGFramework.CompProperties_AbilityResourceCost">
@@ -171,7 +304,7 @@
         <comps>
             <li Class="EBSGFramework.CompProperties_AbilityAbilityValidator">
             <casterHasAnyOfHediffs>
-                <li>AStorage</li>
+                <li>AMStorage</li>
             </casterHasAnyOfHediffs>
             </li>
             <li Class="EBSGFramework.CompProperties_AbilityResourceCost">
@@ -181,7 +314,7 @@
             <li Class="EBSGFramework.CompProperties_AbilityGiveMultipleHediffs">
                 <hediffsToGive>
                     <li>
-                        <hediffDef>AStorage</hediffDef>
+                        <hediffDef>AMStorage</hediffDef>
                         <onlyApplyToSelf>true</onlyApplyToSelf>
                         <replaceExisting>false</replaceExisting>
                         <bodyParts>
@@ -222,17 +355,17 @@
         <comps>
                     <li Class="EBSGFramework.CompProperties_AbilityAbilityValidator">
             <casterHasAnyOfHediffs>
-                <li>SStorage</li>
+                <li>SMStorage</li>
             </casterHasAnyOfHediffs>
             </li>
             <li Class="EBSGFramework.CompProperties_AbilityResourceCost">
                 <resourceCost>0.01</resourceCost>
-                <mainResourceGene>tentaclebabyneed</mainResourceGene>
+                <mainResourceGene>tentaclebabyneedM</mainResourceGene>
             </li>
             <li Class="EBSGFramework.CompProperties_AbilityGiveMultipleHediffs">
                 <hediffsToGive>
                     <li>
-                        <hediffDef>SStorage</hediffDef>
+                        <hediffDef>SMStorage</hediffDef>
                         <onlyApplyToSelf>true</onlyApplyToSelf>
                         <replaceExisting>false</replaceExisting>
                         <severity>-1</severity>

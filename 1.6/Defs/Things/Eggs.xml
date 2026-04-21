@@ -697,14 +697,14 @@
     <description>A nymph has begun incubating in the brood mothers ass. When it is ready it will slither from the anus as a nymph to be implanted in a new female host.</description>
     <stages>
       <li>
-        <minSeverity>0.001</minSeverity>
-        <label>froming embryo</label>
+        <minSeverity>0.1</minSeverity>
+        <label>forming embryo</label>
         <statOffsets>
           <MoveSpeed>-0.01</MoveSpeed>
         </statOffsets>
       </li>
       <li>
-        <minSeverity>0.1</minSeverity>
+        <minSeverity>0.2</minSeverity>
         <label>small</label>
         <painOffset>0.1</painOffset>
         <statOffsets>
@@ -739,7 +739,7 @@
     </stages>
         <comps>
       <li Class="HediffCompProperties_SeverityPerDay">
-        <severityPerDay>0.01</severityPerDay>
+        <severityPerDay>0.1</severityPerDay>
       </li>
             <li Class="EBSGFramework.HediffCompProperties_CreateItems">
                 <onDeathOrRemovalThings>
