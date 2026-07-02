@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <InstallBreedWorm.label>植入繁殖蠕虫</InstallBreedWorm.label>
+  <InstallBreedWorm.description>植入一条繁殖蠕虫。</InstallBreedWorm.description>
+  <InstallBreedWorm.jobString>正在植入繁殖蠕虫。</InstallBreedWorm.jobString>
+  <InstallfeedWorm.label>插入饲喂触手</InstallfeedWorm.label>
+  <InstallfeedWorm.description>插入一条饲喂触手。</InstallfeedWorm.description>
+  <InstallfeedWorm.jobString>正在插入饲喂触手。</InstallfeedWorm.jobString>
+  <InstallIndoWorm.label>植入洗脑蠕虫</InstallIndoWorm.label>
+  <InstallIndoWorm.description>植入一条洗脑蠕虫。</InstallIndoWorm.description>
+  <InstallIndoWorm.jobString>正在植入洗脑蠕虫。</InstallIndoWorm.jobString>
+  <RemoveBworm.label>移除繁殖蠕虫</RemoveBworm.label>
+  <RemoveBworm.description>移除繁殖蠕虫。</RemoveBworm.description>
+  <RemoveBworm.jobString>正在移除繁殖蠕虫。</RemoveBworm.jobString>
+  <RemoveFeedworm.label>移除饲喂触手</RemoveFeedworm.label>
+  <RemoveFeedworm.description>移除饲喂触手。</RemoveFeedworm.description>
+  <RemoveFeedworm.jobString>正在移除饲喂触手。</RemoveFeedworm.jobString>
+  <RemoveIBworm.label>移除洗脑蠕虫</RemoveIBworm.label>
+  <RemoveIBworm.description>移除洗脑蠕虫。</RemoveIBworm.description>
+  <RemoveIBworm.jobString>正在移除洗脑蠕虫。</RemoveIBworm.jobString>
+</LanguageData>

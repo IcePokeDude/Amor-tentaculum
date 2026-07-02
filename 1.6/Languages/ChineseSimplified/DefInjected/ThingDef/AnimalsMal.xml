@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <Barbs.label>角质倒刺</Barbs.label>
+  <MEel.label>邪淫鳗</MEel.label>
+  <MEel.description>一条粗壮的蛇形触手。邪淫鳗体型虽小但速度极快，能发射淬毒倒刺缓慢麻痹敌人。与其柔软的同类一样拥有毒咬，但毒性更为猛烈。</MEel.description>
+  <MEel.race.meatLabel>触手肉</MEel.race.meatLabel>
+  <MEel.tools.bite.label>噬咬</MEel.tools.bite.label>
+  <MEel.tools.head.label>头部</MEel.tools.head.label>
+  <TGrabber.label>邪淫抱脸体</TGrabber.label>
+  <TGrabber.description>一种凶狠且极具攻击性的邪淫触手。利用麻痹毒液使受害者丧失行动能力，并缠绕在其头部或裆部。会在受害者的胃或肛门中植入邪淫浮游幼虫。</TGrabber.description>
+  <TGrabber.race.meatLabel>触手肉</TGrabber.race.meatLabel>
+  <TGrabber.tools.head.label>头部</TGrabber.tools.head.label>
+</LanguageData>

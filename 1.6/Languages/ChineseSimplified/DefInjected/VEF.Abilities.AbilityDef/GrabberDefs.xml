@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <GrabberLeapA.label>擒抱飞跃</GrabberLeapA.label>
+  <GrabberLeapA.description>飞扑向目标并使其丧失行动能力。</GrabberLeapA.description>
+  <GrabberLeapA.verbProperties.label>跳跃</GrabberLeapA.verbProperties.label>
+  <GrabberLeapM.label>擒抱飞跃</GrabberLeapM.label>
+  <GrabberLeapM.description>飞扑向目标并使其丧失行动能力。</GrabberLeapM.description>
+  <GrabberLeapM.verbProperties.label>跳跃</GrabberLeapM.verbProperties.label>
+  <GrabberLeapP.label>擒抱飞跃</GrabberLeapP.label>
+  <GrabberLeapP.description>飞扑向目标并使其丧失行动能力。</GrabberLeapP.description>
+  <GrabberLeapP.verbProperties.label>跳跃</GrabberLeapP.verbProperties.label>
+  <GrabberLeapV.label>擒抱飞跃</GrabberLeapV.label>
+  <GrabberLeapV.description>飞扑向目标并使其丧失行动能力。</GrabberLeapV.description>
+  <GrabberLeapV.verbProperties.label>跳跃</GrabberLeapV.verbProperties.label>
+</LanguageData>

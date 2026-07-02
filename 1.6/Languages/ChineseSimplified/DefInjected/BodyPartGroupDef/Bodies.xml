@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <FifthTentacle.label>触手</FifthTentacle.label>
+  <FirstTentacle.label>触手</FirstTentacle.label>
+  <FourthTentacle.label>触手</FourthTentacle.label>
+  <LeftSpike.label>左骨刺</LeftSpike.label>
+  <LeftSpike.labelShort>骨刺</LeftSpike.labelShort>
+  <LowerLeftClaw.label>左下爪</LowerLeftClaw.label>
+  <LowerLeftClaw.labelShort>爪</LowerLeftClaw.labelShort>
+  <LowerRightClaw.label>右下爪</LowerRightClaw.label>
+  <LowerRightClaw.labelShort>爪</LowerRightClaw.labelShort>
+  <MiddleSpike.label>中骨刺</MiddleSpike.label>
+  <MiddleSpike.labelShort>骨刺</MiddleSpike.labelShort>
+  <RightSpike.label>右骨刺</RightSpike.label>
+  <RightSpike.labelShort>骨刺</RightSpike.labelShort>
+  <SecondTentacle.label>触手</SecondTentacle.label>
+  <ThirdTentacle.label>触手</ThirdTentacle.label>
+  <UpperLeftClaw.label>左上爪</UpperLeftClaw.label>
+  <UpperLeftClaw.labelShort>爪</UpperLeftClaw.labelShort>
+  <UpperRightClaw.label>右上爪</UpperRightClaw.label>
+  <UpperRightClaw.labelShort>爪</UpperRightClaw.labelShort>
+</LanguageData>

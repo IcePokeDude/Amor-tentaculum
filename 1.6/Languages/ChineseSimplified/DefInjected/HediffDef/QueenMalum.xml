@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <queenadultM.label>邪淫妊娠</queenadultM.label>
+  <queenadultM.description>一只成体邪淫触手领主已在宿主体内长成，造成永久妊娠。宿主现在可以开始植入卵。</queenadultM.description>
+  <queenadultM.labelNoun>妊娠</queenadultM.labelNoun>
+  <queenadultM.stages.adult.label>成体</queenadultM.stages.adult.label>
+  <queenadultM.stages.prince.label>亲王期</queenadultM.stages.prince.label>
+  <queenadultM.stages.emperor.label>帝皇期</queenadultM.stages.emperor.label>
+  <queenadultM.stages.patriarch.label>宗主期</queenadultM.stages.patriarch.label>
+  <queenimplantM.label>邪淫妊娠</queenimplantM.label>
+  <queenimplantM.description>一只邪淫触手领主正在宿主体内生长。与正常妊娠不同，该触手不仅会成长，还会改造宿主的身体，以更好地适应触手繁殖。</queenimplantM.description>
+  <queenimplantM.labelNoun>妊娠</queenimplantM.labelNoun>
+  <queenimplantM.stages.incubating_egg.label>孵化卵中</queenimplantM.stages.incubating_egg.label>
+  <queenimplantM.stages.hatched.label>已孵化</queenimplantM.stages.hatched.label>
+  <queenimplantM.stages.larvae.label>幼虫期</queenimplantM.stages.larvae.label>
+  <queenimplantM.stages.nymph.label>若虫期</queenimplantM.stages.nymph.label>
+  <queenimplantM.stages.nearly_grown.label>接近长成</queenimplantM.stages.nearly_grown.label>
+  <tentaclegrowthAM.label>直肠寄生</tentaclegrowthAM.label>
+  <tentaclegrowthAM.description>邪淫领主已在此部位生长并侵入。宿主的直肠和大肠正被邪淫幼虫群填满，以辅助繁殖。</tentaclegrowthAM.description>
+  <tentaclegrowthAM.labelNoun>直肠</tentaclegrowthAM.labelNoun>
+  <tentaclegrowthAM.stages.just_started.label>刚刚开始</tentaclegrowthAM.stages.just_started.label>
+  <tentaclegrowthAM.stages.producing_larvae.label>生产幼虫中</tentaclegrowthAM.stages.producing_larvae.label>
+  <tentaclegrowthAM.stages.writhingpainfull.label>幼虫蠕动：痛苦期</tentaclegrowthAM.stages.writhingpainfull.label>
+  <tentaclegrowthAM.stages.writhingacclimating.label>幼虫蠕动：适应中</tentaclegrowthAM.stages.writhingacclimating.label>
+  <tentaclegrowthAM.stages.writhingaccustomed.label>幼虫蠕动：已习惯</tentaclegrowthAM.stages.writhingaccustomed.label>
+  <tentaclegrowthSM.label>胃部寄生</tentaclegrowthSM.label>
+  <tentaclegrowthSM.description>邪淫领主已在此部位生长并侵入。宿主的胃部和喉咙正被幼虫填满，胃酸也被清除，以便为触手后代培育更适宜的环境。这些过程令人不适。</tentaclegrowthSM.description>
+  <tentaclegrowthSM.labelNoun>胃部</tentaclegrowthSM.labelNoun>
+  <tentaclegrowthSM.stages.just_started.label>刚刚开始</tentaclegrowthSM.stages.just_started.label>
+  <tentaclegrowthSM.stages.producing_larvae.label>生产幼虫中</tentaclegrowthSM.stages.producing_larvae.label>
+  <tentaclegrowthSM.stages.removing_stomach_acid.label>清除胃酸中</tentaclegrowthSM.stages.removing_stomach_acid.label>
+  <tentaclegrowthSM.stages.writhingacclimating.label>幼虫蠕动：适应中</tentaclegrowthSM.stages.writhingacclimating.label>
+  <tentaclegrowthSM.stages.writhingaccustomed.label>幼虫蠕动：已习惯</tentaclegrowthSM.stages.writhingaccustomed.label>
+  <tentaclegrowthVM.label>生殖器寄生</tentaclegrowthVM.label>
+  <tentaclegrowthVM.description>邪淫领主已在此部位生长并侵入。宿主的生殖器正被改造，以从睾丸中生产邪淫卵。这些过程令人不适。</tentaclegrowthVM.description>
+  <tentaclegrowthVM.labelNoun>生殖器</tentaclegrowthVM.labelNoun>
+  <tentaclegrowthVM.stages.just_started.label>刚刚开始</tentaclegrowthVM.stages.just_started.label>
+  <tentaclegrowthVM.stages.infesting_testicles.label>侵染睾丸中</tentaclegrowthVM.stages.infesting_testicles.label>
+  <tentaclegrowthVM.stages.opening_urethra.label>扩张尿道中</tentaclegrowthVM.stages.opening_urethra.label>
+  <tentaclegrowthVM.stages.writhingacclimating.label>幼虫蠕动：适应中</tentaclegrowthVM.stages.writhingacclimating.label>
+  <tentaclegrowthVM.stages.writhingaccustomed.label>幼虫蠕动：已习惯</tentaclegrowthVM.stages.writhingaccustomed.label>
+</LanguageData>

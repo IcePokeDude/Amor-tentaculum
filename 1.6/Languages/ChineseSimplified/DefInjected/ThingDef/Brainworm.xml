@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <BreedWorm.label>繁殖蠕虫</BreedWorm.label>
+  <BreedWorm.description>一种植入脑干的寄生蠕虫。会导致过度性奋、精力过旺和攻击性增强。</BreedWorm.description>
+  <FeedWorm.label>饲喂触手</FeedWorm.label>
+  <FeedWorm.description>一种用于植入喉咙的触手。能快速为宿主消化食物，并将其转化为浆状物注入喉咙。使目标免疫肠道蠕虫和食物中毒。</FeedWorm.description>
+  <IndoWorm.label>洗脑蠕虫</IndoWorm.label>
+  <IndoWorm.description>一种植入脑干的寄生蠕虫。能使受害者在极其恶劣的环境中依然感到满足并甘愿赴死。</IndoWorm.description>
+</LanguageData>

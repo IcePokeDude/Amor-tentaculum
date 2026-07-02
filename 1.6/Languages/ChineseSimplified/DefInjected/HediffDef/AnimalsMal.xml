@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <Paralyticvenom.label>麻痹性毒液</Paralyticvenom.label>
+  <Paralyticvenom.description>该角色被注入了麻痹性毒液，很快将无法动弹。</Paralyticvenom.description>
+  <Paralyticvenom.labelNoun>毒液</Paralyticvenom.labelNoun>
+  <Paralyticvenom.stages.nearly_gone.label>即将消退</Paralyticvenom.stages.nearly_gone.label>
+  <Paralyticvenom.stages.fading.label>正在消退</Paralyticvenom.stages.fading.label>
+  <Paralyticvenom.stages.paralyzed.label>已瘫痪</Paralyticvenom.stages.paralyzed.label>
+  <Paralyticvenom.stages.taking_effect.label>生效中</Paralyticvenom.stages.taking_effect.label>
+  <Paralyticvenom.stages.injected.label>已注入</Paralyticvenom.stages.injected.label>
+</LanguageData>

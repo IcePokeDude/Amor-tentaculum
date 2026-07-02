@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <Atelarva.stages.Ate_larvae.label>吞食幼虫</Atelarva.stages.Ate_larvae.label>
+  <Atelarva.stages.Ate_larvae.description>我的食物在盘子里到处蠕动……</Atelarva.stages.Ate_larvae.description>
+  <FwormThought.stages.Eckk.label>恶心！</FwormThought.stages.Eckk.label>
+  <FwormThought.stages.Eckk.description>这东西太恶心了。我感觉自己随时要噎住，几乎没法说话。</FwormThought.stages.Eckk.description>
+  <FwormThoughtLiked.stages.Mhmm.label>嗯嗯！</FwormThoughtLiked.stages.Mhmm.label>
+  <FwormThoughtLiked.stages.Mhmm.description>这东西太甜美了！每次吃东西都感觉像有东西顺着喉咙射进来。</FwormThoughtLiked.stages.Mhmm.description>
+  <IndoWormThought.stages.one_of_us.label>我们中的一员</IndoWormThought.stages.one_of_us.label>
+  <IndoWormThought.stages.one_of_us.description>我很快乐。我很自由。我喜欢这里。</IndoWormThought.stages.one_of_us.description>
+</LanguageData>

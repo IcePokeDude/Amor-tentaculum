@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <InstallTAnusEnhance.label>安装肛门扩张器</InstallTAnusEnhance.label>
+  <InstallTAnusEnhance.description>安装一个肛门扩张器。</InstallTAnusEnhance.description>
+  <InstallTAnusEnhance.jobString>正在安装肛门扩张器。</InstallTAnusEnhance.jobString>
+  <InstallTStomachEnhance.label>安装储存胃</InstallTStomachEnhance.label>
+  <InstallTStomachEnhance.description>安装一个储存胃。</InstallTStomachEnhance.description>
+  <InstallTStomachEnhance.jobString>正在安装储存胃。</InstallTStomachEnhance.jobString>
+  <InstallTWombEnhance.label>安装子宫内孵化器</InstallTWombEnhance.label>
+  <InstallTWombEnhance.description>安装一个子宫内孵化器。</InstallTWombEnhance.description>
+  <InstallTWombEnhance.jobString>正在安装子宫内孵化器。</InstallTWombEnhance.jobString>
+</LanguageData>

@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <Tentbeerhigh.label>淫欲蜜汁迷醉</Tentbeerhigh.label>
+  <Tentbeerhigh.description>血液中含有淫欲蜜汁，使人感到快乐和性奋，但会降低各项能力。</Tentbeerhigh.description>
+  <Tentbeerhigh.labelNoun>醉意</Tentbeerhigh.labelNoun>
+  <Tentbeerhigh.stages.warm.label>微醺</Tentbeerhigh.stages.warm.label>
+  <Tentbeerhigh.stages.tipsy.label>微醉</Tentbeerhigh.stages.tipsy.label>
+  <Tentbeerhigh.stages.hallucinating.label>幻觉</Tentbeerhigh.stages.hallucinating.label>
+  <Tentbeerhigh.stages.hallucinating_serious.label>重度幻觉</Tentbeerhigh.stages.hallucinating_serious.label>
+  <Tentbeerhigh.stages.blackout.label>昏厥</Tentbeerhigh.stages.blackout.label>
+</LanguageData>

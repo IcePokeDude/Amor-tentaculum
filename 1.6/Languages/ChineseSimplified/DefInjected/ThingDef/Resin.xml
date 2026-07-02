@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <Hresin.label>硬质树脂</Hresin.label>
+  <Hresin.description>坚硬的触手树脂，具有防火性能，干燥后其锯齿状边缘可制成优良的切割工具。</Hresin.description>
+  <softresin.label>软质树脂</softresin.label>
+  <softresin.description>柔软的触手树脂，外表美观且防火，但结构强度较弱。</softresin.description>
+  <softresin.stuffProps.stuffAdjective>树脂</softresin.stuffProps.stuffAdjective>
+</LanguageData>

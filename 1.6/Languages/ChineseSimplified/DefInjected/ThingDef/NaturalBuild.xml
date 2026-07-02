@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <Bullet_TentTurret.label>触手尖刺</Bullet_TentTurret.label>
+  <Gun_TentacleTurret.label>炮塔触手</Gun_TentacleTurret.label>
+  <Gun_TentacleTurret.description>发射尖刺保卫族群的触手。</Gun_TentacleTurret.description>
+  <Gun_TentacleTurret.verbs.Verb_Shoot.label>炮塔触手</Gun_TentacleTurret.verbs.Verb_Shoot.label>
+  <sphincterdoor.label>括约肌门</sphincterdoor.label>
+  <sphincterdoor.description>分隔房间。有机触手括约肌允许人们穿过而不减速。</sphincterdoor.description>
+  <TCooler.label>淫欲寒触手</TCooler.label>
+  <TCooler.description>一种静止的淫欲触手，吸收热量。无需燃料或电力，但会将空气冷却至远低于安全限度。</TCooler.description>
+  <THeater.label>淫欲暖触手</THeater.label>
+  <THeater.description>一种静止的淫欲触手，产生热量。无需燃料或电力，但产生的热量比工业同类少。气味有些可疑。</THeater.description>
+  <Turret_Tentacle.label>淫欲守卫者</Turret_Tentacle.label>
+  <Turret_Tentacle.description>一种便携式触手，像植物一样生长。远距离发射低伤害尖刺。</Turret_Tentacle.description>
+</LanguageData>

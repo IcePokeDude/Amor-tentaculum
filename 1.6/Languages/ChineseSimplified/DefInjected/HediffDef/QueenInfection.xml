@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <queenadult.label>淫欲巢母</queenadult.label>
+  <queenadult.description>一只成体淫欲触手女王已在宿主体内长成，造成永久妊娠。宿主现在可以开始产下主母卵，并向周围散发安抚信息素。</queenadult.description>
+  <queenadult.labelNoun>母亲</queenadult.labelNoun>
+  <queenadult.stages.adult.label>成体</queenadult.stages.adult.label>
+  <queenadult.stages.maiden.label>少女期</queenadult.stages.maiden.label>
+  <queenadult.stages.empress.label>女皇期</queenadult.stages.empress.label>
+  <queenadult.stages.matriarch.label>主母期</queenadult.stages.matriarch.label>
+  <queenimplant.label>淫欲妊娠</queenimplant.label>
+  <queenimplant.description>一只淫欲触手女王正在宿主体内生长。与正常妊娠不同，该触手不仅会成长，还会改造宿主的身体，以更好地适应触手繁殖。</queenimplant.description>
+  <queenimplant.labelNoun>妊娠</queenimplant.labelNoun>
+  <queenimplant.stages.incubating_egg.label>孵化卵中</queenimplant.stages.incubating_egg.label>
+  <queenimplant.stages.hatched.label>已孵化</queenimplant.stages.hatched.label>
+  <queenimplant.stages.larvae.label>幼虫期</queenimplant.stages.larvae.label>
+  <queenimplant.stages.young.label>幼年期</queenimplant.stages.young.label>
+  <queenimplant.stages.nearly_grown.label>接近长成</queenimplant.stages.nearly_grown.label>
+  <tentaclegrowthA.label>直肠撑大</tentaclegrowthA.label>
+  <tentaclegrowthA.description>淫欲女王已在此部位生长并侵入。宿主的直肠和大肠正被撑开，以容纳更大更密集的触手插入。这些过程令人不适。</tentaclegrowthA.description>
+  <tentaclegrowthA.labelNoun>直肠</tentaclegrowthA.labelNoun>
+  <tentaclegrowthA.stages.still_narrow.label>依旧紧窄</tentaclegrowthA.stages.still_narrow.label>
+  <tentaclegrowthA.stages.expanding.label>扩张中</tentaclegrowthA.stages.expanding.label>
+  <tentaclegrowthA.stages.gapingpainfull.label>完全撑开：痛苦期</tentaclegrowthA.stages.gapingpainfull.label>
+  <tentaclegrowthA.stages.gapingacclimating.label>完全撑开：适应中</tentaclegrowthA.stages.gapingacclimating.label>
+  <tentaclegrowthA.stages.gapingaccustomed.label>完全撑开：已习惯</tentaclegrowthA.stages.gapingaccustomed.label>
+  <tentaclegrowthS.label>胃部撑大</tentaclegrowthS.label>
+  <tentaclegrowthS.description>淫欲女王已在此部位生长并侵入。宿主的胃部和喉咙正被撑大，并清除了胃酸，以便为触手后代培育更适宜的环境。这些过程令人不适。</tentaclegrowthS.description>
+  <tentaclegrowthS.labelNoun>胃部</tentaclegrowthS.labelNoun>
+  <tentaclegrowthS.stages.slightly_streched.label>轻微拉伸</tentaclegrowthS.stages.slightly_streched.label>
+  <tentaclegrowthS.stages.expanding.label>扩张中</tentaclegrowthS.stages.expanding.label>
+  <tentaclegrowthS.stages.removing_stomach_acid.label>清除胃酸中</tentaclegrowthS.stages.removing_stomach_acid.label>
+  <tentaclegrowthS.stages.spaciousacclimating.label>宽敞：适应中</tentaclegrowthS.stages.spaciousacclimating.label>
+  <tentaclegrowthS.stages.spaciousaccustomed.label>宽敞：已习惯</tentaclegrowthS.stages.spaciousaccustomed.label>
+  <tentaclegrowthV.label>子宫撑大</tentaclegrowthV.label>
+  <tentaclegrowthV.description>淫欲女王已在此部位生长并侵入。宿主的子宫和宫颈正被撑开，以支撑长期的触手妊娠。这些过程令人不适。</tentaclegrowthV.description>
+  <tentaclegrowthV.labelNoun>子宫</tentaclegrowthV.labelNoun>
+  <tentaclegrowthV.stages.slightly_streched.label>轻微拉伸</tentaclegrowthV.stages.slightly_streched.label>
+  <tentaclegrowthV.stages.expanding.label>扩张中</tentaclegrowthV.stages.expanding.label>
+  <tentaclegrowthV.stages.opening_cervix.label>宫颈张开中</tentaclegrowthV.stages.opening_cervix.label>
+  <tentaclegrowthV.stages.spaciousacclimating.label>宽敞：适应中</tentaclegrowthV.stages.spaciousacclimating.label>
+  <tentaclegrowthV.stages.spaciousaccustomed.label>宽敞：已习惯</tentaclegrowthV.stages.spaciousaccustomed.label>
+</LanguageData>

@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <milktentacle.label>取卵</milktentacle.label>
+  <milktentacle.description>借助扩张器，将巨大的卵从堵塞的孔口中取出。</milktentacle.description>
+  <milktentacle.jobString>正在取卵。</milktentacle.jobString>
+  <milktentacle.successfullyRemovedHediffMessage>{0}成功地从{1}体内取出了卵。</milktentacle.successfullyRemovedHediffMessage>
+</LanguageData>

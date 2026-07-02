@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <TStorage.label>最大寄宿量</TStorage.label>
+  <TStorage.description>宿主体内能够储存的触手数量。</TStorage.description>
+  <TStorage.offsetLabel>寄宿容量</TStorage.offsetLabel>
+  <TStorageIncrease.label>最大寄宿量倍率</TStorageIncrease.label>
+  <TStorageIncrease.description>增加宿主的触手最大寄宿量。</TStorageIncrease.description>
+  <TStorageIncrease.offsetLabel>寄宿倍率</TStorageIncrease.offsetLabel>
+</LanguageData>

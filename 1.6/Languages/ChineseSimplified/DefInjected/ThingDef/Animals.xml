@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <TDrone.label>淫欲工蜂</TDrone.label>
+  <TDrone.description>一条修长的蛇形触手。工蜂始终为雄性，能同时分泌硬质与软质树脂。</TDrone.description>
+  <TDrone.race.meatLabel>触手肉</TDrone.race.meatLabel>
+  <TDrone.tools.venomfangs.label>毒牙</TDrone.tools.venomfangs.label>
+  <TDrone.tools.head.label>头部</TDrone.tools.head.label>
+  <TInternal.label>淫欲触手（寄生体）</TInternal.label>
+  <TInternal.description>一种长蛇状的淫欲触手，旨在寄居于宿主体内。离开其原生栖息地后极易冻死。</TInternal.description>
+  <TInternal.race.meatLabel>触手肉</TInternal.race.meatLabel>
+  <TInternal.tools.head.label>头部</TInternal.tools.head.label>
+  <TLarvaD.label>触手幼虫</TLarvaD.label>
+  <TLarvaD.description>一条蠕动的小触手。总有一天它会长得又大又壮。</TLarvaD.description>
+  <TLarvaD.race.meatLabel>触手肉</TLarvaD.race.meatLabel>
+  <TLarvaD.tools.venomfangs.label>毒牙</TLarvaD.tools.venomfangs.label>
+  <TLarvaD.tools.head.label>头部</TLarvaD.tools.head.label>
+  <TLarvaMat.label>触手幼虫</TLarvaMat.label>
+  <TLarvaMat.description>一条蠕动的小触手。总有一天它会长得又大又壮。</TLarvaMat.description>
+  <TLarvaMat.race.meatLabel>触手肉</TLarvaMat.race.meatLabel>
+  <TLarvaMat.tools.venomfangs.label>毒牙</TLarvaMat.tools.venomfangs.label>
+  <TLarvaMat.tools.head.label>头部</TLarvaMat.tools.head.label>
+  <TMatron.label>淫欲主母</TMatron.label>
+  <TMatron.description>一大团随时准备繁殖的触手。主母是体型最大的可移动淫欲触手，能产出大量的工蜂卵。</TMatron.description>
+  <TMatron.race.meatLabel>触手肉</TMatron.race.meatLabel>
+  <TMatron.tools.tentacle.label>触手</TMatron.tools.tentacle.label>
+  <TWar.label>淫欲战士</TWar.label>
+  <TWar.description>一条巨大的蛇形触手。战士始终为雌性。除了能从乳房分泌触手黏液外，它们还是优秀的战士，每周都会产下工蜂卵。</TWar.description>
+  <TWar.race.meatLabel>触手肉</TWar.race.meatLabel>
+  <TWar.tools.venomfangs.label>毒牙</TWar.tools.venomfangs.label>
+  <TWar.tools.tentacle.label>触手</TWar.tools.tentacle.label>
+  <TWar.tools.claw-0.label>爪</TWar.tools.claw-0.label>
+  <TWar.tools.claw-1.label>爪</TWar.tools.claw-1.label>
+  <TWar.tools.claw-2.label>爪</TWar.tools.claw-2.label>
+  <TWar.tools.claw-3.label>爪</TWar.tools.claw-3.label>
+</LanguageData>
