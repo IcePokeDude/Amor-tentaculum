@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <InstallAmorBrood.label>植入淫欲若虫</InstallAmorBrood.label>
+  <InstallAmorBrood.description>植入一只淫欲若虫。警告：会使宿主失去行动能力！对没有阴道的角色致命。</InstallAmorBrood.description>
+  <InstallAmorBrood.jobString>正在植入淫欲若虫。</InstallAmorBrood.jobString>
+  <InstallAmorQueen.label>植入淫欲女王卵</InstallAmorQueen.label>
+  <InstallAmorQueen.description>植入一只淫欲女王。对没有阴道的角色致命。</InstallAmorQueen.description>
+  <InstallAmorQueen.jobString>正在植入女王卵。</InstallAmorQueen.jobString>
+  <InstallMalumLord.label>植入邪淫领主卵</InstallMalumLord.label>
+  <InstallMalumLord.description>植入一只邪淫领主。对没有阴茎的角色致命。</InstallMalumLord.description>
+  <InstallMalumLord.jobString>正在植入邪淫卵。</InstallMalumLord.jobString>
+</LanguageData>

@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <Bworm.label>繁殖蠕虫</Bworm.label>
+  <Bworm.description>一种寄生在脑干的蠕虫。能使受害者保持性奋、精力充沛且具有攻击性。</Bworm.description>
+  <Bworm.labelNoun>一只繁殖蠕虫</Bworm.labelNoun>
+  <Fworm.label>饲喂触手</Fworm.label>
+  <Fworm.description>一种寄居在喉咙与口腔内的触手。能快速为宿主消化食物，并将其转化为浆状物注入喉咙。使目标免疫肠道蠕虫和食物中毒。</Fworm.description>
+  <Fworm.labelNoun>一条饲喂触手</Fworm.labelNoun>
+  <IBworm.label>洗脑蠕虫</IBworm.label>
+  <IBworm.description>一种寄生在脑干的蠕虫。即使处于极其恶劣的环境中，也能让受害者感到满足并甘愿赴死。</IBworm.description>
+  <IBworm.labelNoun>一只洗脑蠕虫</IBworm.labelNoun>
+</LanguageData>

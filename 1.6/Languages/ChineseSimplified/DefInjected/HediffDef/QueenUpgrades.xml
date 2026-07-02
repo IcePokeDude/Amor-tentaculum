@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <AMtentacle.label>肛门机动触手</AMtentacle.label>
+  <AMtentacle.description>从宿主肛门伸出的触手，用于辅助移动和防御。</AMtentacle.description>
+  <AMtentacle.comps.HediffComp_VerbGiver.tools.tentacle_spike.label>触手尖刺</AMtentacle.comps.HediffComp_VerbGiver.tools.tentacle_spike.label>
+  <AMtentacle.labelNoun>触手</AMtentacle.labelNoun>
+  <AMtentacle.stages.thin.label>细长</AMtentacle.stages.thin.label>
+  <AMtentacle.stages.average.label>普通</AMtentacle.stages.average.label>
+  <AMtentacle.stages.muscular.label>肌肉发达</AMtentacle.stages.muscular.label>
+  <AMtentacle.stages.robust.label>粗壮</AMtentacle.stages.robust.label>
+  <AMtentacle.stages.powerful.label>强力</AMtentacle.stages.powerful.label>
+  <analspeculum.label>肛门扩张器</analspeculum.label>
+  <analspeculum.description>一种塑钢扩张器植入物，用于将肛门撑得更开，以便容纳更多触手插入。</analspeculum.description>
+  <analspeculum.labelNoun>一个扩张器</analspeculum.labelNoun>
+  <Organelasticity.label>器官弹性</Organelasticity.label>
+  <Organelasticity.description>宿主身体的弹性是决定其能容纳多少触手的主要因素。可通过将身体塞满触手来拉伸以提升弹性。</Organelasticity.description>
+  <Organelasticity.stages.slightly_stretchy.label>略有弹性</Organelasticity.stages.slightly_stretchy.label>
+  <Organelasticity.stages.a_little_stretchy.label>有些弹性</Organelasticity.stages.a_little_stretchy.label>
+  <Organelasticity.stages.stretchy.label>有弹性</Organelasticity.stages.stretchy.label>
+  <Organelasticity.stages.very_stretchy.label>很有弹性</Organelasticity.stages.very_stretchy.label>
+  <Organelasticity.stages.elastic.label>高弹性</Organelasticity.stages.elastic.label>
+  <Organelasticity.stages.human_cock_sleeve.label>凡胎肉穴</Organelasticity.stages.human_cock_sleeve.label>
+  <Organelasticity.stages.superhuman_cock_sleeve.label>超凡肉穴</Organelasticity.stages.superhuman_cock_sleeve.label>
+  <storagestomach.label>储存胃</storagestomach.label>
+  <storagestomach.description>一种高级胃部植入物，完全舍弃了器官原有的消化功能，转而由触手处理消化过程，并允许更多触手占据宿主体内。</storagestomach.description>
+  <storagestomach.labelNoun>一个储存胃</storagestomach.labelNoun>
+  <TWombEnhanced.label>子宫内孵化器</TWombEnhanced.label>
+  <TWombEnhanced.description>子宫内的人工植入物，辅助孵化淫欲主母卵。</TWombEnhanced.description>
+  <TWombEnhanced.labelNoun>一个子宫内孵化器</TWombEnhanced.labelNoun>
+  <VMtentacle.label>阴道机动触手</VMtentacle.label>
+  <VMtentacle.description>从宿主阴道伸出的触手，用于辅助移动和防御。</VMtentacle.description>
+  <VMtentacle.comps.HediffComp_VerbGiver.tools.tentacle_spike.label>触手尖刺</VMtentacle.comps.HediffComp_VerbGiver.tools.tentacle_spike.label>
+  <VMtentacle.labelNoun>触手</VMtentacle.labelNoun>
+  <VMtentacle.stages.thin.label>细长</VMtentacle.stages.thin.label>
+  <VMtentacle.stages.average.label>普通</VMtentacle.stages.average.label>
+  <VMtentacle.stages.muscular.label>肌肉发达</VMtentacle.stages.muscular.label>
+  <VMtentacle.stages.robust.label>粗壮</VMtentacle.stages.robust.label>
+  <VMtentacle.stages.powerful.label>强力</VMtentacle.stages.powerful.label>
+</LanguageData>

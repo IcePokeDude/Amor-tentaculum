@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <MatronB.label>主母核心</MatronB.label>
+  <MatronB.corePart.parts.left_lung.customLabel>左肺</MatronB.corePart.parts.left_lung.customLabel>
+  <MatronB.corePart.parts.right_lung.customLabel>右肺</MatronB.corePart.parts.right_lung.customLabel>
+  <MatronB.corePart.parts.left_kidney.customLabel>左肾</MatronB.corePart.parts.left_kidney.customLabel>
+  <MatronB.corePart.parts.right_kidney.customLabel>右肾</MatronB.corePart.parts.right_kidney.customLabel>
+  <MatronB.corePart.parts.TentaclebeastHead.parts.left_eye.customLabel>左眼</MatronB.corePart.parts.TentaclebeastHead.parts.left_eye.customLabel>
+  <MatronB.corePart.parts.TentaclebeastHead.parts.right_eye.customLabel>右眼</MatronB.corePart.parts.TentaclebeastHead.parts.right_eye.customLabel>
+  <SnakeTentacle.label>触手蛇</SnakeTentacle.label>
+  <SnakeTentacle.corePart.parts.upper_left_claw.customLabel>左上爪</SnakeTentacle.corePart.parts.upper_left_claw.customLabel>
+  <SnakeTentacle.corePart.parts.upper_right_claw.customLabel>右上爪</SnakeTentacle.corePart.parts.upper_right_claw.customLabel>
+  <SnakeTentacle.corePart.parts.lower_left_claw.customLabel>左下爪</SnakeTentacle.corePart.parts.lower_left_claw.customLabel>
+  <SnakeTentacle.corePart.parts.lower_right_claw.customLabel>右下爪</SnakeTentacle.corePart.parts.lower_right_claw.customLabel>
+  <SnakeTentacle.corePart.parts.left_lung.customLabel>左肺</SnakeTentacle.corePart.parts.left_lung.customLabel>
+  <SnakeTentacle.corePart.parts.right_lung.customLabel>右肺</SnakeTentacle.corePart.parts.right_lung.customLabel>
+  <SnakeTentacle.corePart.parts.left_kidney.customLabel>左肾</SnakeTentacle.corePart.parts.left_kidney.customLabel>
+  <SnakeTentacle.corePart.parts.right_kidney.customLabel>右肾</SnakeTentacle.corePart.parts.right_kidney.customLabel>
+  <SnakeTentacle.corePart.parts.SnakeHead.parts.left_eye.customLabel>左眼</SnakeTentacle.corePart.parts.SnakeHead.parts.left_eye.customLabel>
+  <SnakeTentacle.corePart.parts.SnakeHead.parts.right_eye.customLabel>右眼</SnakeTentacle.corePart.parts.SnakeHead.parts.right_eye.customLabel>
+</LanguageData>

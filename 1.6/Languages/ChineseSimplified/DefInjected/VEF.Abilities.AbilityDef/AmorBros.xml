@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <AttackTent.label>释放攻击触手</AttackTent.label>
+  <AttackTent.description>释放一条敌意触手，它会寻找受害者并吸附其上，使其丧失行动能力。</AttackTent.description>
+  <BirthAM.label>孵化战士卵</BirthAM.label>
+  <BirthAM.description>将肛门内的一条触手改造为邪淫鳗，然后将其分娩出来。若已有邪淫鳗正在孵化，使用此能力会加快孵化速度。</BirthAM.description>
+  <UnbirthAM.label>插入肛门</UnbirthAM.label>
+  <UnbirthAM.description>将选定的淫欲触手（寄生体）插入宿主的肛腔。</UnbirthAM.description>
+  <UnbirthSM.label>吞入</UnbirthSM.label>
+  <UnbirthSM.description>将选定的淫欲触手（寄生体）吞入胃中寄居。</UnbirthSM.description>
+</LanguageData>

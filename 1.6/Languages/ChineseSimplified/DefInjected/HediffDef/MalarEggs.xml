@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <malumeggA.label>邪淫浮游幼虫</malumeggA.label>
+  <malumeggA.description>一组寄生的邪淫幼虫。它们会持续生长，直到大到无法容身于所在腔口，或被手术移除为止。</malumeggA.description>
+  <malumeggA.labelNoun>浮游幼虫</malumeggA.labelNoun>
+  <malumeggA.stages._23.label>2-3只</malumeggA.stages._23.label>
+  <malumeggA.stages._46.label>4-6只</malumeggA.stages._46.label>
+  <malumeggA.stages._710.label>7-10只</malumeggA.stages._710.label>
+  <malumeggA.stages._1114.label>11-14只</malumeggA.stages._1114.label>
+  <malumeggA.stages._15.label>15只以上</malumeggA.stages._15.label>
+  <malumeggA.stages.birthing_brood.label>分娩孵育</malumeggA.stages.birthing_brood.label>
+</LanguageData>

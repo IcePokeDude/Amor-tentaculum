@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <BigTEgg.label>巨大的阴道卵</BigTEgg.label>
+  <BigTEgg.description>在触手宿主的子宫内产生的巨大触手卵。可孵化出淫欲主母。</BigTEgg.description>
+  <DroneTEgg.label>工蜂卵</DroneTEgg.label>
+  <DroneTEgg.description>由女男爵产下的卵。可孵化出淫欲工蜂。</DroneTEgg.description>
+  <MedTEgg.label>大型肛门卵</MedTEgg.label>
+  <MedTEgg.description>由触手宿主产下的大型触手卵。可孵化出淫欲战士。</MedTEgg.description>
+  <SmallTEggFert.label>小型淫欲卵（已受精）</SmallTEggFert.label>
+  <SmallTEggFert.description>一枚已受精的小型淫欲触手卵。</SmallTEggFert.description>
+  <SmallTEggUnfert.label>小型淫欲卵（未受精）</SmallTEggUnfert.label>
+  <SmallTEggUnfert.description>一枚未受精的淫欲触手卵。</SmallTEggUnfert.description>
+</LanguageData>

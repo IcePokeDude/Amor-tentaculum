@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <TentBeer.label>淫欲蜜汁</TentBeer.label>
+  <TentBeer.description>一种类似酒精的奇异物质。饮用后会产生放松感、轻微幻觉，并提升性活跃度。</TentBeer.description>
+  <TentBeer.ingestible.ingestCommandString>喝下 {0}</TentBeer.ingestible.ingestCommandString>
+  <TentBeer.ingestible.ingestReportString>正在喝 {0}。</TentBeer.ingestible.ingestReportString>
+  <TentBeer.tools.bottle.label>瓶子</TentBeer.tools.bottle.label>
+  <TentBeer.tools.neck.label>瓶颈</TentBeer.tools.neck.label>
+</LanguageData>

@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <AMStorage.label>肛门寄居触手</AMStorage.label>
+  <AMStorage.description>淫欲触手（寄生体）寄居在宿主的肛门内。肛腔中的触手能提升移动速度，并能被分娩为巢母若虫。</AMStorage.description>
+  <AMStorage.comps.HediffComp_DisplaySeverity.prependString>居住者数量：</AMStorage.comps.HediffComp_DisplaySeverity.prependString>
+  <AMStorage.labelNoun>淫欲触手（寄生体）</AMStorage.labelNoun>
+  <AMStorage.stages.Few.label>少量</AMStorage.stages.Few.label>
+  <AMStorage.stages.Many.label>许多</AMStorage.stages.Many.label>
+  <AMStorage.stages.A_lot.label>很多</AMStorage.stages.A_lot.label>
+  <AMStorage.stages.A_ton.label>一大堆</AMStorage.stages.A_ton.label>
+  <AMStorage.stages.A_silly_amount.label>多得离谱</AMStorage.stages.A_silly_amount.label>
+  <Malumaggressive_nature.label>攻击天性</Malumaggressive_nature.label>
+  <Malumaggressive_nature.description>该生物被虫巢通过基因编程，在追击入侵者时会更加凶猛。</Malumaggressive_nature.description>
+  <Malumaggressive_nature.labelNoun>攻击性</Malumaggressive_nature.labelNoun>
+  <Mvagrancy.label>无主漂泊</Mvagrancy.label>
+  <Mvagrancy.description>该生物因脱离宿主身体而饱受折磨。</Mvagrancy.description>
+  <Mvagrancy.labelNoun>漂泊</Mvagrancy.labelNoun>
+  <Mvagrancy.stages.initial.label>初始</Mvagrancy.stages.initial.label>
+  <Mvagrancy.stages.minor.label>轻微</Mvagrancy.stages.minor.label>
+  <Mvagrancy.stages.major.label>严重</Mvagrancy.stages.major.label>
+  <Mvagrancy.stages.extreme-0.label>极重</Mvagrancy.stages.extreme-0.label>
+  <Mvagrancy.stages.extreme-1.label>极重</Mvagrancy.stages.extreme-1.label>
+  <SMStorage.label>胃部寄居触手</SMStorage.label>
+  <SMStorage.description>淫欲触手（寄生体）寄居在宿主的胃中。胃内的触手可被呕吐出来作为攻击手段，并能提升宿主的再生能力。</SMStorage.description>
+  <SMStorage.comps.HediffComp_DisplaySeverity.prependString>居住者数量：</SMStorage.comps.HediffComp_DisplaySeverity.prependString>
+  <SMStorage.labelNoun>淫欲触手（寄生体）</SMStorage.labelNoun>
+  <SMStorage.stages.Few.label>少量</SMStorage.stages.Few.label>
+  <SMStorage.stages.Many.label>许多</SMStorage.stages.Many.label>
+  <SMStorage.stages.A_lot.label>很多</SMStorage.stages.A_lot.label>
+  <SMStorage.stages.A_ton.label>一大堆</SMStorage.stages.A_ton.label>
+  <SMStorage.stages.A_silly_amount.label>多得离谱</SMStorage.stages.A_silly_amount.label>
+  <VMStorage.label>子宫寄居触手</VMStorage.label>
+  <VMStorage.description>淫欲触手（寄生体）寄居在宿主的子宫内。子宫内的触手负责孵化巨大的淫欲主母卵，并能提升心灵敏感度。</VMStorage.description>
+  <VMStorage.comps.HediffComp_DisplaySeverity.prependString>居住者数量：</VMStorage.comps.HediffComp_DisplaySeverity.prependString>
+  <VMStorage.labelNoun>淫欲触手（寄生体）</VMStorage.labelNoun>
+  <VMStorage.stages.Few.label>少量</VMStorage.stages.Few.label>
+  <VMStorage.stages.Many.label>许多</VMStorage.stages.Many.label>
+  <VMStorage.stages.A_lot.label>很多</VMStorage.stages.A_lot.label>
+  <VMStorage.stages.A_ton.label>一大堆</VMStorage.stages.A_ton.label>
+  <VMStorage.stages.A_silly_amount.label>多得离谱</VMStorage.stages.A_silly_amount.label>
+</LanguageData>
