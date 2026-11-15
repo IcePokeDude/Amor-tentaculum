@@ -40,7 +40,7 @@
 | Equipment | Weapons | Resin Sword | ![](../Textures/Things/Items/MeleeWeapons/ResinSword.png) ![](../Textures/Things/Items/MeleeWeapons/ResinScimitar.png) | `Textures/Things/Items/MeleeWeapons` | Scimitar is a more high-tech version with higher armor penetration. |
 | Equipment | Armor | Tentacle Slave Collar | ![](../Textures/Things/Items/Equipment/TentacleCollar_east.png) | `Textures/Things/Items/Equipment` | |
 | Equipment | Armor | Bodysuit | NYI | NYI | |
-| Equipment | Armor | Cuirass | NYI | NYI | |
+| Equipment | Armor | Cuirass | ![](../Textures/Things/Items/Equipment/ResinCuirassUI.png) | `Textures/Things/Items/Equipment` | |
 | Equipment | Armor | Helmet | NYI | NYI | |
 | Equipment | Armor | Powered Armor | NYI | NYI | |
 | Equipment | Armor | Powered Helmet | NYI | NYI | |
