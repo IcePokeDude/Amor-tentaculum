@@ -27,8 +27,11 @@
 	<ATBossBrewer.label>Brewer Research</ATBossBrewer.label>
 	<ATBossBrewer.description>Analyze the genetic makeup of the Brewer to learn how to utilize its abilities, as well as create your own.</ATBossBrewer.description>
 
-	<ATBossValkyrieDefender.label>Valkyrie/Defender Research</ATBossValkyrieDefender.label>
-	<ATBossValkyrieDefender.description>Analyze the genetic makeup of the Valkyrie and Defender to learn how to utilize their abilities, as well as create your own.</ATBossValkyrieDefender.description>
+	<ATBossValkyrie.label>Valkyrie Research</ATBossValkyrie.label>
+	<ATBossValkyrie.description>Analyze the genetic makeup of the Valkyrie learn how to utilize its abilities, as well as create your own.</ATBossValkyrie.description>
+
+	<ATBossDefender.label>Defender Research</ATBossDefender.label>
+	<ATBossDefender.description>Analyze the genetic makeup of the Defender to learn how to utilize its abilities, as well as create your own.</ATBossDefender.description>
 
 	<ATBossWarWomb.label>War Womb Research</ATBossWarWomb.label>
 	<ATBossWarWomb.description>Analyze the genetic makeup of the War Womb to learn how to utilize its abilities, as well as create your own.</ATBossWarWomb.description>

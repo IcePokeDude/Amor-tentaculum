@@ -147,15 +147,25 @@
 	<BossGlandBrewer.comps.CompAnalyzableUnlockResearch.inspectString>Can be analyzed by a colonist.</BossGlandBrewer.comps.CompAnalyzableUnlockResearch.inspectString>
 	<BossGlandBrewer.comps.CompAnalyzableUnlockResearch.jobString>analyze Brewer gland</BossGlandBrewer.comps.CompAnalyzableUnlockResearch.jobString>
 
-	<BossGlandValkyrieDefender.label>twinned gland</BossGlandValkyrieDefender.label>
-	<BossGlandValkyrieDefender.description>A twinned gland, extracted from Amor Defender and Amor Valkyrie hybrids. It's squishy and slimy, and feels still alive.\n\nThis can be analyzed to unlock additional research, which will allow you to use the gland to craft advanced things, as well as your own Valkyries and Defenders.</BossGlandValkyrieDefender.description>
-	<BossGlandValkyrieDefender.comps.CompAnalyzableUnlockResearch.activateDescString>Analyze the twinned gland.</BossGlandValkyrieDefender.comps.CompAnalyzableUnlockResearch.activateDescString>
-	<BossGlandValkyrieDefender.comps.CompAnalyzableUnlockResearch.activateLabelString>Analyze...</BossGlandValkyrieDefender.comps.CompAnalyzableUnlockResearch.activateLabelString>
-	<BossGlandValkyrieDefender.comps.CompAnalyzableUnlockResearch.completedLetter>By studying the twinned gland, {PAWN_labelShort} has acquired the insight needed for the research project(s) : {RESEARCH}.\n\nYour researchers can now use research benches to begin researching how to actually use the technology.</BossGlandValkyrieDefender.comps.CompAnalyzableUnlockResearch.completedLetter>
-	<BossGlandValkyrieDefender.comps.CompAnalyzableUnlockResearch.completedLetterLabel>Twinned gland studied : {RESEARCH} unlocked</BossGlandValkyrieDefender.comps.CompAnalyzableUnlockResearch.completedLetterLabel>
-	<BossGlandValkyrieDefender.comps.CompAnalyzableUnlockResearch.guiLabelString>Choose who should analyze this...</BossGlandValkyrieDefender.comps.CompAnalyzableUnlockResearch.guiLabelString>
-	<BossGlandValkyrieDefender.comps.CompAnalyzableUnlockResearch.inspectString>Can be analyzed by a colonist.</BossGlandValkyrieDefender.comps.CompAnalyzableUnlockResearch.inspectString>
-	<BossGlandValkyrieDefender.comps.CompAnalyzableUnlockResearch.jobString>analyze twinned gland</BossGlandValkyrieDefender.comps.CompAnalyzableUnlockResearch.jobString>
+	<BossGlandValkyrie.label>Valkyrie gland</BossGlandValkyrie.label>
+	<BossGlandValkyrie.description>A gland, extracted from Amor Valkyrie hybrids. It's squishy and slimy, and feels still alive.\n\nThis can be analyzed to unlock additional research, which will allow you to use the gland to craft advanced things, as well as your own Valkyries.</BossGlandValkyrie.description>
+	<BossGlandValkyrie.comps.CompAnalyzableUnlockResearch.activateDescString>Analyze the Valkyrie gland.</BossGlandValkyrie.comps.CompAnalyzableUnlockResearch.activateDescString>
+	<BossGlandValkyrie.comps.CompAnalyzableUnlockResearch.activateLabelString>Analyze...</BossGlandValkyrie.comps.CompAnalyzableUnlockResearch.activateLabelString>
+	<BossGlandValkyrie.comps.CompAnalyzableUnlockResearch.completedLetter>By studying the valkyrie gland, {PAWN_labelShort} has acquired the insight needed for the research project(s) : {RESEARCH}.\n\nYour researchers can now use research benches to begin researching how to actually use the technology.</BossGlandValkyrie.comps.CompAnalyzableUnlockResearch.completedLetter>
+	<BossGlandValkyrie.comps.CompAnalyzableUnlockResearch.completedLetterLabel>Valkyrie gland studied : {RESEARCH} unlocked</BossGlandValkyrie.comps.CompAnalyzableUnlockResearch.completedLetterLabel>
+	<BossGlandValkyrie.comps.CompAnalyzableUnlockResearch.guiLabelString>Choose who should analyze this...</BossGlandValkyrie.comps.CompAnalyzableUnlockResearch.guiLabelString>
+	<BossGlandValkyrie.comps.CompAnalyzableUnlockResearch.inspectString>Can be analyzed by a colonist.</BossGlandValkyrie.comps.CompAnalyzableUnlockResearch.inspectString>
+	<BossGlandValkyrie.comps.CompAnalyzableUnlockResearch.jobString>analyze Valkyrie gland</BossGlandValkyrie.comps.CompAnalyzableUnlockResearch.jobString>
+
+	<BossGlandDefender.label>Defender gland</BossGlandDefender.label>
+	<BossGlandDefender.description>A gland, extracted from Amor Defender hybrids. It's squishy and slimy, and feels still alive.\n\nThis can be analyzed to unlock additional research, which will allow you to use the gland to craft advanced things, as well as your own Defenders.</BossGlandDefender.description>
+	<BossGlandDefender.comps.CompAnalyzableUnlockResearch.activateDescString>Analyze the Defender gland.</BossGlandDefender.comps.CompAnalyzableUnlockResearch.activateDescString>
+	<BossGlandDefender.comps.CompAnalyzableUnlockResearch.activateLabelString>Analyze...</BossGlandDefender.comps.CompAnalyzableUnlockResearch.activateLabelString>
+	<BossGlandDefender.comps.CompAnalyzableUnlockResearch.completedLetter>By studying the Defender gland, {PAWN_labelShort} has acquired the insight needed for the research project(s) : {RESEARCH}.\n\nYour researchers can now use research benches to begin researching how to actually use the technology.</BossGlandDefender.comps.CompAnalyzableUnlockResearch.completedLetter>
+	<BossGlandDefender.comps.CompAnalyzableUnlockResearch.completedLetterLabel>Defender gland studied : {RESEARCH} unlocked</BossGlandDefender.comps.CompAnalyzableUnlockResearch.completedLetterLabel>
+	<BossGlandDefender.comps.CompAnalyzableUnlockResearch.guiLabelString>Choose who should analyze this...</BossGlandDefender.comps.CompAnalyzableUnlockResearch.guiLabelString>
+	<BossGlandDefender.comps.CompAnalyzableUnlockResearch.inspectString>Can be analyzed by a colonist.</BossGlandDefender.comps.CompAnalyzableUnlockResearch.inspectString>
+	<BossGlandDefender.comps.CompAnalyzableUnlockResearch.jobString>analyze Defender gland</BossGlandDefender.comps.CompAnalyzableUnlockResearch.jobString>
 
 	<BossGlandWarWomb.label>War Womb gland</BossGlandWarWomb.label>
 	<BossGlandWarWomb.description>A gland, extracted from Amor War Womb hybrids. It's squishy and slimy, and feels still alive.\n\nThis can be analyzed to unlock additional research, which will allow you to use the gland to craft advanced things, as well as your own War Wombs.</BossGlandWarWomb.description>

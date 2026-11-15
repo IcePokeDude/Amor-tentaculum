@@ -22,7 +22,7 @@
 	<ThingDef ParentName="TentacleBossGlandBase">
 		<defName>BossGlandBrewer</defName>
 		<graphicData>
-			<texPath>Things/Item/Resource/PowerfocusChip</texPath>
+			<texPath>Things/Items/BossGlands/BossGlandBrewer</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 		</graphicData>
 		<statBases>
@@ -47,9 +47,9 @@
 	</ThingDef>
 
 	<ThingDef ParentName="TentacleBossGlandBase">
-		<defName>BossGlandValkyrieDefender</defName>
+		<defName>BossGlandValkyrie</defName>
 		<graphicData>
-			<texPath>Things/Item/Resource/PowerfocusChip</texPath>
+			<texPath>Things/Items/BossGlands/BossGlandValkyrie</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 		</graphicData>
 		<statBases>
@@ -74,9 +74,9 @@
 	</ThingDef>
 
 	<ThingDef ParentName="TentacleBossGlandBase">
-		<defName>BossGlandWarWomb</defName>
+		<defName>BossGlandDefender</defName>
 		<graphicData>
-			<texPath>Things/Item/Resource/PowerfocusChip</texPath>
+			<texPath>Things/Items/BossGlands/BossGlandDefender</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 		</graphicData>
 		<statBases>
@@ -85,6 +85,33 @@
 		<comps>
 			<li Class="CompProperties_CompAnalyzableUnlockResearch">
 				<analysisID>0035318008</analysisID>
+				<requiresMechanitor>false</requiresMechanitor>
+				<analysisDurationHours>1.0</analysisDurationHours>
+				<destroyedOnAnalyzed>false</destroyedOnAnalyzed>
+				<completedLetterDef>PositiveEvent</completedLetterDef>
+				<activateTexPath>UI/Icons/Study</activateTexPath>
+				<targetingParameters>
+					<canTargetBuildings>false</canTargetBuildings>
+					<canTargetAnimals>false</canTargetAnimals>
+					<canTargetMechs>false</canTargetMechs>
+					<onlyTargetControlledPawns>true</onlyTargetControlledPawns>
+				</targetingParameters>
+			</li>
+		</comps>
+	</ThingDef>
+
+	<ThingDef ParentName="TentacleBossGlandBase">
+		<defName>BossGlandWarWomb</defName>
+		<graphicData>
+			<texPath>Things/Items/BossGlands/BossGlandWarWomb</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<statBases>
+			<MarketValue>1000</MarketValue>
+		</statBases>
+		<comps>
+			<li Class="CompProperties_CompAnalyzableUnlockResearch">
+				<analysisID>0045318008</analysisID>
 				<requiresMechanitor>false</requiresMechanitor>
 				<analysisDurationHours>1.0</analysisDurationHours>
 				<destroyedOnAnalyzed>false</destroyedOnAnalyzed>

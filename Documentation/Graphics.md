@@ -56,9 +56,10 @@
 | Abilities | Host | Hyper Regeneration | ![](../Textures/Abilities/HyperRegeneration.png) | `Textures/Abilities` | |
 | Abilities | ? | ? | ![](../Textures/Abilities/TentacleHandler.png) | `Textures/Abilities` | No associated ability, but looks good. |
 | Abilities | ? | ? | ![](../Textures/Abilities/ExpelTentacles.png) | `Textures/Abilities` | No associated ability, but looks good. |
-| Items | Boss Drops | Brewer Gland | NYI | NYI | Some sort of organ with something to identify it as being associated with the Brewer. |
-| Items | Boss Drops | Twinned Gland | NYI | NYI | Some sort of organ with something to identify it as being associated with both the Valkyrie and the Defender. |
-| Items | Boss Drops | War Womb Gland | NYI | NYI | Some sort of organ with something to identify it as being associated with the War Womb. |
+| Items | Boss Drops | Brewer Gland | ![](../Textures/Things/Items/BossGlands/BossGlandBrewer.png) | `Textures/Things/Items/BossGlands` | |
+| Items | Boss Drops | Valkyrie Gland | ![](../Textures/Things/Items/BossGlands/BossGlandValkyrie.png) | `Textures/Things/Items/BossGlands` | |
+| Items | Boss Drops | Defender Gland | ![](../Textures/Things/Items/BossGlands/BossGlandDefender.png) | `Textures/Things/Items/BossGlands` | |
+| Items | Boss Drops | War Womb Gland | ![](../Textures/Things/Items/BossGlands/BossGlandWarWomb.png) | `Textures/Things/Items/BossGlands` | |
 | Buildings | Encounter Summon | TBD (Feral Tentacle summon) | NYI | NYI | Some sort of organic structure that is "activated" to summon a swarm of feral Tentacles. |
 | Buildings | Encounter Summon | TBD (Brewer summon) | NYI | NYI | Some sort of organic structure that is "activated" to summon a Brewer Boss encounter. |
 | Buildings | Encounter Summon | TBD (Valkyrie/Defender summon) | NYI | NYI | Some sort of organic structure that is "activated" to summon a Valkyrie/Defender Boss encounter. |
