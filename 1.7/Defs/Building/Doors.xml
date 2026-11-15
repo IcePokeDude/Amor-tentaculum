@@ -1,6 +1,5 @@
 <Defs>
 
-
 	<ThingDef ParentName="BuildingBase">
 		<defName>TendrilDoor</defName>
 		<thingClass>Building_Door</thingClass>

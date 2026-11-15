@@ -1,0 +1,6 @@
+<languageData>
+
+	<LetterLabelTentacleBossgroupCallerUnlocked>Summon {LEADER_label} possible</LetterLabelTentacleBossgroupCallerUnlocked>
+	<LetterTentacleBossgroupCallerUnlocked>You can now build a {PARENT_label} which your pawns can use to summon a {LEADER_label}. If you defeat the {LEADER_label}, it will drop the following items:\n\n{REWARDSLIST}</LetterTentacleBossgroupCallerUnlocked>
+
+</languageData>

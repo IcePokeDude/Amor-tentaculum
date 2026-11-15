@@ -17,5 +17,9 @@
 	<DesignatorDropdownGroupDef>
 		<defName>Floor_TendrilTile</defName>
 	</DesignatorDropdownGroupDef>
+
+	<DesignatorDropdownGroupDef>
+		<defName>BossSummonBuildings</defName>
+	</DesignatorDropdownGroupDef>
 	
 </Defs>
