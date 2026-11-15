@@ -4,6 +4,7 @@
   <PawnKindDef ParentName="AnimalKindBase">
     <defName>TentacleWarWomb</defName>
     <race>TentacleWarWomb</race>
+		<defaultFactionDef>Tentacles</defaultFactionDef>
     <combatPower>180</combatPower>
     <ecoSystemWeight>0.15</ecoSystemWeight>
     <lifeStages>
