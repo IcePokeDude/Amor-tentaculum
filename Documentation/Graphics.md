@@ -56,6 +56,14 @@
 | Abilities | Host | Hyper Regeneration | ![](../Textures/Abilities/HyperRegeneration.png) | `Textures/Abilities` | |
 | Abilities | ? | ? | ![](../Textures/Abilities/TentacleHandler.png) | `Textures/Abilities` | No associated ability, but looks good. |
 | Abilities | ? | ? | ![](../Textures/Abilities/ExpelTentacles.png) | `Textures/Abilities` | No associated ability, but looks good. |
+| Items | Boss Drops | Brewer Gland | NYI | NYI | Some sort of organ with something to identify it as being associated with the Brewer. |
+| Items | Boss Drops | Twinned Gland | NYI | NYI | Some sort of organ with something to identify it as being associated with both the Valkyrie and the Defender. |
+| Items | Boss Drops | War Womb Gland | NYI | NYI | Some sort of organ with something to identify it as being associated with the War Womb. |
+| Buildings | Encounter Summon | TBD (Feral Tentacle summon) | NYI | NYI | Some sort of organic structure that is "activated" to summon a swarm of feral Tentacles. |
+| Buildings | Encounter Summon | TBD (Brewer summon) | NYI | NYI | Some sort of organic structure that is "activated" to summon a Brewer Boss encounter. |
+| Buildings | Encounter Summon | TBD (Valkyrie/Defender summon) | NYI | NYI | Some sort of organic structure that is "activated" to summon a Valkyrie/Defender Boss encounter. |
+| Buildings | Encounter Summon | TBD (War Womb summon) | NYI | NYI | Some sort of organic structure that is "activated" to summon a War Womb Boss encounter. |
+| UI | Faction | Feral Tentacles | NYI | NYI | Simple silhouette for a faction icon. |
 
 NOTES:
 * For Host type pawns, some sort of partial graphic specific to the type might be appropriate.  For example, some sort of tentacle body growth overlay, and (for the Queen) a head crest?

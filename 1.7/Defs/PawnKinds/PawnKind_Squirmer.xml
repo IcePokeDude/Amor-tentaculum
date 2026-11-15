@@ -4,6 +4,7 @@
   <PawnKindDef ParentName="AnimalKindBase">
     <defName>TentacleSquirmer</defName>
     <race>TentacleSquirmer</race>
+		<defaultFactionDef>Tentacles</defaultFactionDef>
     <forceNoDeathNotification>true</forceNoDeathNotification>
     <combatPower>5</combatPower>
     <ecoSystemWeight>0.75</ecoSystemWeight>
