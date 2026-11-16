@@ -26,23 +26,23 @@
 	
 	<BossSummonFeralSwarm.label>Feral Swarm Beacon</BossSummonFeralSwarm.label>
 	<BossSummonFeralSwarm.description>An organic beacon device. When activated, it sends out a powerful psychic signal, which will attract a swarm of feral Tentacles to attack with its escorts. They will be hostile to everything on your map, so this ability can be used for tactical purposes. If you can defeat them, you can use their corpses for meat or other resources. The signal pulse burns out the building, so it can be only used once.</BossSummonFeralSwarm.description>
-	<BossSummonFeralSwarm.comps.CompUsable.useLabel>summon feral Tentacle threat</BossSummonFeralSwarm.comps.CompUsable.useLabel>
+	<BossSummonFeralSwarm.comps.CompUsable.useLabel>Summon feral Tentacle threat</BossSummonFeralSwarm.comps.CompUsable.useLabel>
 	
 	<BossSummonBrewer.label>Brewer Beacon</BossSummonBrewer.label>
 	<BossSummonBrewer.description>An organic beacon device. When activated, it sends out a powerful psychic signal, which will attract an Amor Brewer to attack with its escorts. They will be hostile to everything on your map, so this ability can be used for tactical purposes. If you can defeat it, you can collect special genetic material from its corpse. The signal pulse burns out the building, so it can be only used once.</BossSummonBrewer.description>
-	<BossSummonBrewer.comps.CompUsable.useLabel>summon Brewer threat</BossSummonBrewer.comps.CompUsable.useLabel>
+	<BossSummonBrewer.comps.CompUsable.useLabel>Summon Brewer threat</BossSummonBrewer.comps.CompUsable.useLabel>
 
 	<BossSummonValkyrie.label>Valkyrie Beacon</BossSummonValkyrie.label>
 	<BossSummonValkyrie.description>An organic beacon device. When activated, it sends out a powerful psychic signal, which will attract an Amor Valkyrie to attack with its escorts. They will be hostile to everything on your map, so this ability can be used for tactical purposes. If you can defeat it, you can collect special genetic material from its corpse. The signal pulse burns out the building, so it can be only used once.</BossSummonValkyrie.description>
-	<BossSummonValkyrie.comps.CompUsable.useLabel>summon Valkyrie threat</BossSummonValkyrie.comps.CompUsable.useLabel>
+	<BossSummonValkyrie.comps.CompUsable.useLabel>Summon Valkyrie threat</BossSummonValkyrie.comps.CompUsable.useLabel>
 	
 	<BossSummonDefender.label>Defender Beacon</BossSummonDefender.label>
 	<BossSummonDefender.description>An organic beacon device. When activated, it sends out a powerful psychic signal, which will attract an Amor Defender to attack with its escorts. They will be hostile to everything on your map, so this ability can be used for tactical purposes. If you can defeat it, you can collect special genetic material from its corpse. The signal pulse burns out the building, so it can be only used once.</BossSummonDefender.description>
-	<BossSummonDefender.comps.CompUsable.useLabel>summon Defender threat</BossSummonDefender.comps.CompUsable.useLabel>
+	<BossSummonDefender.comps.CompUsable.useLabel>Summon Defender threat</BossSummonDefender.comps.CompUsable.useLabel>
 
 	<BossSummonWarWomb.label>War Womb Beacon</BossSummonWarWomb.label>
 	<BossSummonBrewer.description>An organic beacon device. When activated, it sends out a powerful psychic signal, which will attract an Amor War Womb to attack with its escorts. They will be hostile to everything on your map, so this ability can be used for tactical purposes. If you can defeat it, you can collect special genetic material from its corpse. The signal pulse burns out the building, so it can be only used once.</BossSummonBrewer.description>
-	<BossSummonWarWomb.comps.CompUsable.useLabel>summon War Womb threat</BossSummonWarWomb.comps.CompUsable.useLabel>
+	<BossSummonWarWomb.comps.CompUsable.useLabel>Summon War Womb threat</BossSummonWarWomb.comps.CompUsable.useLabel>
 	
 	<!-- Drugs, food, and other consumables -->
 	
