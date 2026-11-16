@@ -231,6 +231,161 @@
 		<tendable>false</tendable>
 	</HediffDef>
 
+	<HediffDef Name="QueenEggIncubationSuccess" ParentName="EggIncubationSuccessBase">
+		<defName>QueenEggIncubationSuccess</defName>
+		<comps>
+			<li Class="HediffCompProperties_SeverityPerDay">
+				<severityPerDay>9</severityPerDay>
+				<showHoursToRecover>true</showHoursToRecover>
+			</li>
+			<li Class="EBSGFramework.HediffCompProperties_SeverityByGenes">
+				<baseSeverity>0.001</baseSeverity>
+				<geneEffects>
+					<li>
+						<gene>AmorQueenHostBody</gene>
+						<effect>-1</effect>
+					</li>
+				</geneEffects>
+			</li>
+			<li Class="EBSGFramework.HediffCompProperties_SeverityByGender">
+				<genders>
+					<Male>0</Male>
+					<Female>1.48</Female>
+				</genders>
+			</li>
+			<li Class="EBSGFramework.HediffCompProperties_CreateOtherHediffs">
+				<hediffSets>
+					<li>
+						<hediffDef>QueenEggIncubation</hediffDef>
+						<validSeverity>1.48~1.51</validSeverity>
+						<severityPerDay>0</severityPerDay>
+						<initialSeverity>0.001</initialSeverity>
+					</li>
+				</hediffSets>
+			</li>
+			<li Class="EBSGFramework.HediffCompProperties_RemoveAtSeverities">
+				<severity>1.5</severity>
+			</li>
+		</comps>
+		<stages />
+	</HediffDef>
+
+	<HediffDef Name="BaronessEggIncubationSuccess" ParentName="EggIncubationSuccessBase">
+		<defName>BaronessEggIncubationSuccess</defName>
+		<comps>
+			<li Class="HediffCompProperties_SeverityPerDay">
+				<severityPerDay>9</severityPerDay>
+				<showHoursToRecover>true</showHoursToRecover>
+			</li>
+			<li Class="EBSGFramework.HediffCompProperties_SeverityByGenes">
+				<baseSeverity>0.001</baseSeverity>
+				<geneEffects>
+					<li>
+						<gene>AmorBaronessHostBody</gene>
+						<effect>-1</effect>
+					</li>
+				</geneEffects>
+			</li>
+			<li Class="EBSGFramework.HediffCompProperties_SeverityByGender">
+				<genders>
+					<Male>0</Male>
+					<Female>1.48</Female>
+				</genders>
+			</li>
+			<li Class="EBSGFramework.HediffCompProperties_CreateOtherHediffs">
+				<hediffSets>
+					<li>
+						<hediffDef>BaronessEggIncubation</hediffDef>
+						<validSeverity>1.48~1.51</validSeverity>
+						<severityPerDay>0</severityPerDay>
+						<initialSeverity>0.001</initialSeverity>
+					</li>
+				</hediffSets>
+			</li>
+			<li Class="EBSGFramework.HediffCompProperties_RemoveAtSeverities">
+				<severity>1.5</severity>
+			</li>
+		</comps>
+		<stages />
+	</HediffDef>
+
+	<HediffDef Name="NymphEggIncubationSuccess" ParentName="EggIncubationSuccessBase">
+		<defName>NymphEggIncubationSuccess</defName>
+		<comps>
+			<li Class="HediffCompProperties_SeverityPerDay">
+				<severityPerDay>9</severityPerDay>
+				<showHoursToRecover>true</showHoursToRecover>
+			</li>
+			<li Class="EBSGFramework.HediffCompProperties_SeverityByGenes">
+				<baseSeverity>0.001</baseSeverity>
+				<geneEffects>
+					<li>
+						<gene>AmorNymphHostBody</gene>
+						<effect>-1</effect>
+					</li>
+				</geneEffects>
+			</li>
+			<li Class="EBSGFramework.HediffCompProperties_SeverityByGender">
+				<genders>
+					<Male>0</Male>
+					<Female>1.48</Female>
+				</genders>
+			</li>
+			<li Class="EBSGFramework.HediffCompProperties_CreateOtherHediffs">
+				<hediffSets>
+					<li>
+						<hediffDef>NymphEggIncubation</hediffDef>
+						<validSeverity>1.48~1.51</validSeverity>
+						<severityPerDay>0</severityPerDay>
+						<initialSeverity>0.001</initialSeverity>
+					</li>
+				</hediffSets>
+			</li>
+			<li Class="EBSGFramework.HediffCompProperties_RemoveAtSeverities">
+				<severity>1.5</severity>
+			</li>
+		</comps>
+		<stages />
+	</HediffDef>
+
+	<HediffDef Name="BaronEggIncubationSuccess" ParentName="EggIncubationSuccessBase">
+		<defName>BaronEggIncubationSuccess</defName>
+		<comps>
+			<li Class="HediffCompProperties_SeverityPerDay">
+				<severityPerDay>9</severityPerDay>
+				<showHoursToRecover>true</showHoursToRecover>
+			</li>
+			<li Class="EBSGFramework.HediffCompProperties_SeverityByGenes">
+				<baseSeverity>0.001</baseSeverity>
+				<geneEffects>
+					<li>
+						<gene>AmorBaronHostBody</gene>
+						<effect>-1</effect>
+					</li>
+				</geneEffects>
+			</li>
+			<li Class="EBSGFramework.HediffCompProperties_SeverityByGender">
+				<genders>
+					<Male>1.48</Male>
+					<Female>0</Female>
+				</genders>
+			</li>
+			<li Class="EBSGFramework.HediffCompProperties_CreateOtherHediffs">
+				<hediffSets>
+					<li>
+						<hediffDef>BaronEggIncubation</hediffDef>
+						<validSeverity>1.48~1.51</validSeverity>
+						<severityPerDay>0</severityPerDay>
+						<initialSeverity>0.001</initialSeverity>
+					</li>
+				</hediffSets>
+			</li>
+			<li Class="EBSGFramework.HediffCompProperties_RemoveAtSeverities">
+				<severity>1.5</severity>
+			</li>
+		</comps>
+		<stages />
+	</HediffDef>
 
 	<HediffDef Name="RogueEggIncubationSuccess" ParentName="EggIncubationSuccessBase">
 		<defName>RogueEggIncubationSuccess</defName>
@@ -310,6 +465,7 @@
 		<stages />
 	</HediffDef>
 
+
 	<HediffDef Name="ServantEggIncubationSuccess" ParentName="EggIncubationSuccessBase">
 		<defName>ServantEggIncubationSuccess</defName>
 		<comps>
@@ -348,7 +504,7 @@
 		</comps>
 		<stages />
 	</HediffDef>
-
+	
 	<!-- All checks have passed, incubate that egg! -->
 	
 	<HediffDef Name="EggIncubationBase" Abstract="True">

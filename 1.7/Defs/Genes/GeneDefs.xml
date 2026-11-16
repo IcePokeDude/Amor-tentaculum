@@ -1,12 +1,14 @@
 <Defs>
 
-  <GeneCategoryDef>
-    <defName>HiddenTentacleGenes</defName>
-    <label>Hidden Tentacle-Specific Genes - Don't Use These</label>
-    <displayPriorityInXenotype>-2102</displayPriorityInXenotype>
-  </GeneCategoryDef>
+	<GeneCategoryDef>
+		<defName>HiddenTentacleGenes</defName>
+		<label>Hidden Tentacle-Specific Genes - Don't Use These</label>
+		<displayPriorityInXenotype>-2102</displayPriorityInXenotype>
+	</GeneCategoryDef>
 
-  <GeneDef ParentName="GeneGenitalTypeBase">
+	<!-- Female Hosts-->
+
+	<GeneDef ParentName="GeneGenitalTypeBase">
 		<defName>RJWGenes_AmorTentacleInfestedFemaleGenitalia</defName>
 		<displayCategory>HiddenTentacleGenes</displayCategory>
 		<iconPath>Genes/Tentacle_Vagina</iconPath>
@@ -19,21 +21,6 @@
 			</li>
 		</modExtensions>
 		<displayOrderInCategory>802</displayOrderInCategory>
-	</GeneDef>
-
-	<GeneDef ParentName="GeneGenitalTypeBase">
-		<defName>RJWGenes_AmorTentacleInfestedMaleGenitalia</defName>
-		<displayCategory>HiddenTentacleGenes</displayCategory>
-		<iconPath>Genes/Tentacle_Vagina</iconPath>
-		<modExtensions>
-			<li Class="RJW_Genes.GenitaliaTypeExtension">
-				<penis>TentaclePenis</penis>
-				<vagina>Vagina</vagina>
-				<anus>TentacleAnus</anus>
-				<breasts>Breasts</breasts>
-			</li>
-		</modExtensions>
-		<displayOrderInCategory>803</displayOrderInCategory>
 	</GeneDef>
 
 	<GeneDef>
@@ -59,7 +46,7 @@
 						</bodyParts>
 					</li>
 					<li>
-						<hediff>AmorQueenPregnancy</hediff>
+						<hediff>AmorQueenHost</hediff>
 						<onlyIfNew>true</onlyIfNew>
 						<severity>0.01</severity>
 					</li>
@@ -117,6 +104,167 @@
 	</GeneDef>
 
 	<GeneDef>
+		<defName>AmorBaronessHostBody</defName>
+		<displayCategory>HiddenTentacleGenes</displayCategory>
+		<geneClass>EBSGFramework.HediffAdder</geneClass>
+		<displayOrderInCategory>0.1</displayOrderInCategory>
+		<abilities>
+			<li>TentacleIngest</li>
+			<li>TentacleExpel</li>
+			<li>TentacleTransfer</li>
+		</abilities>
+		<modExtensions>
+			<li Class="EBSGFramework.EBSGExtension">
+				<hediffsToApply>
+					<li>
+						<hediff>AmorBaronessHost</hediff>
+						<onlyIfNew>true</onlyIfNew>
+						<severity>0.01</severity>
+					</li>
+					<li>
+						<hediff>TentacleInfestedVagina</hediff>
+						<onlyIfNew>true</onlyIfNew>
+						<severity>1</severity>
+						<bodyParts>
+							<li>Genitals</li>
+						</bodyParts>
+					</li>
+					<li>
+						<hediff>TentacleStorage</hediff>
+						<onlyIfNew>true</onlyIfNew>
+						<severity>1</severity>
+						<bodyParts>
+							<li>Genitals</li>
+						</bodyParts>
+					</li>
+					<li>
+						<hediff>TentacleInfestedStomach</hediff>
+						<onlyIfNew>true</onlyIfNew>
+						<severity>1</severity>
+						<bodyParts>
+							<li>Stomach</li>
+						</bodyParts>
+					</li>
+					<li>
+						<hediff>TentacleInfestedAnus</hediff>
+						<onlyIfNew>true</onlyIfNew>
+						<severity>1</severity>
+						<bodyParts>
+							<li>Anus</li>
+						</bodyParts>
+					</li>
+					<li>
+						<hediff>TentacleLimbAnus</hediff>
+						<onlyIfNew>true</onlyIfNew>
+						<severity>1</severity>
+						<bodyParts>
+							<li>Anus</li>
+						</bodyParts>
+					</li>
+					<li>
+						<hediff>TentacleLimbVagina</hediff>
+						<onlyIfNew>true</onlyIfNew>
+						<severity>1</severity>
+						<bodyParts>
+							<li>Genitals</li>
+						</bodyParts>
+					</li>
+				</hediffsToApply>
+			</li>
+		</modExtensions>
+	</GeneDef>
+
+	<GeneDef>
+		<defName>AmorNymphHostBody</defName>
+		<displayCategory>HiddenTentacleGenes</displayCategory>
+		<geneClass>EBSGFramework.HediffAdder</geneClass>
+		<displayOrderInCategory>0.1</displayOrderInCategory>
+		<abilities>
+			<li>TentacleIngest</li>
+			<li>TentacleExpel</li>
+			<li>TentacleTransfer</li>
+			<li>SeductionKiss</li>
+			<li>PlacatingKiss</li>
+		</abilities>
+		<modExtensions>
+			<li Class="EBSGFramework.EBSGExtension">
+				<hediffsToApply>
+					<li>
+						<hediff>AmorNymphHost</hediff>
+						<onlyIfNew>true</onlyIfNew>
+						<severity>0.01</severity>
+					</li>
+					<li>
+						<hediff>TentacleInfestedVagina</hediff>
+						<onlyIfNew>true</onlyIfNew>
+						<severity>1</severity>
+						<bodyParts>
+							<li>Genitals</li>
+						</bodyParts>
+					</li>
+					<li>
+						<hediff>TentacleStorage</hediff>
+						<onlyIfNew>true</onlyIfNew>
+						<severity>1</severity>
+						<bodyParts>
+							<li>Genitals</li>
+						</bodyParts>
+					</li>
+					<li>
+						<hediff>TentacleInfestedStomach</hediff>
+						<onlyIfNew>true</onlyIfNew>
+						<severity>1</severity>
+						<bodyParts>
+							<li>Stomach</li>
+						</bodyParts>
+					</li>
+					<li>
+						<hediff>TentacleInfestedAnus</hediff>
+						<onlyIfNew>true</onlyIfNew>
+						<severity>1</severity>
+						<bodyParts>
+							<li>Anus</li>
+						</bodyParts>
+					</li>
+					<li>
+						<hediff>TentacleLimbAnus</hediff>
+						<onlyIfNew>true</onlyIfNew>
+						<severity>1</severity>
+						<bodyParts>
+							<li>Anus</li>
+						</bodyParts>
+					</li>
+					<li>
+						<hediff>TentacleLimbVagina</hediff>
+						<onlyIfNew>true</onlyIfNew>
+						<severity>1</severity>
+						<bodyParts>
+							<li>Genitals</li>
+						</bodyParts>
+					</li>
+				</hediffsToApply>
+			</li>
+		</modExtensions>
+	</GeneDef>
+
+	<!-- Male Hosts-->
+
+	<GeneDef ParentName="GeneGenitalTypeBase">
+		<defName>RJWGenes_AmorTentacleInfestedMaleGenitalia</defName>
+		<displayCategory>HiddenTentacleGenes</displayCategory>
+		<iconPath>Genes/Tentacle_Vagina</iconPath>
+		<modExtensions>
+			<li Class="RJW_Genes.GenitaliaTypeExtension">
+				<penis>TentaclePenis</penis>
+				<vagina>Vagina</vagina>
+				<anus>TentacleAnus</anus>
+				<breasts>Breasts</breasts>
+			</li>
+		</modExtensions>
+		<displayOrderInCategory>803</displayOrderInCategory>
+	</GeneDef>
+
+	<GeneDef>
 		<defName>AmorBaronHostBody</defName>
 		<displayCategory>HiddenTentacleGenes</displayCategory>
 		<geneClass>EBSGFramework.HediffAdder</geneClass>
@@ -130,6 +278,176 @@
 		<modExtensions>
 			<li Class="EBSGFramework.EBSGExtension">
 				<hediffsToApply>
+					<li>
+						<hediff>AmorBaronHost</hediff>
+						<onlyIfNew>true</onlyIfNew>
+						<severity>0.01</severity>
+					</li>
+					<li>
+						<hediff>TentacleStorage</hediff>
+						<onlyIfNew>true</onlyIfNew>
+						<severity>1</severity>
+						<bodyParts>
+							<li>Genitals</li>
+						</bodyParts>
+					</li>
+					<li>
+						<hediff>TentacleInfestedStomach</hediff>
+						<onlyIfNew>true</onlyIfNew>
+						<severity>1</severity>
+						<bodyParts>
+							<li>Stomach</li>
+						</bodyParts>
+					</li>
+					<li>
+						<hediff>TentacleInfestedAnus</hediff>
+						<onlyIfNew>true</onlyIfNew>
+						<severity>1</severity>
+						<bodyParts>
+							<li>Anus</li>
+						</bodyParts>
+					</li>
+					<li>
+						<hediff>TentacleLimbAnus</hediff>
+						<onlyIfNew>true</onlyIfNew>
+						<severity>1</severity>
+						<bodyParts>
+							<li>Anus</li>
+						</bodyParts>
+					</li>
+				</hediffsToApply>
+			</li>
+		</modExtensions>
+	</GeneDef>
+
+	<GeneDef>
+		<defName>AmorRogueHostBody</defName>
+		<displayCategory>HiddenTentacleGenes</displayCategory>
+		<geneClass>EBSGFramework.HediffAdder</geneClass>
+		<displayOrderInCategory>0.1</displayOrderInCategory>
+		<abilities>
+			<li>TentacleIngest</li>
+			<li>TentacleExpel</li>
+			<li>TentacleTransfer</li>
+		</abilities>
+		<modExtensions>
+			<li Class="EBSGFramework.EBSGExtension">
+				<hediffsToApply>
+					<li>
+						<hediff>AmorRogueHost</hediff>
+						<onlyIfNew>true</onlyIfNew>
+						<severity>0.01</severity>
+					</li>
+					<li>
+						<hediff>TentacleStorage</hediff>
+						<onlyIfNew>true</onlyIfNew>
+						<severity>1</severity>
+						<bodyParts>
+							<li>Genitals</li>
+						</bodyParts>
+					</li>
+					<li>
+						<hediff>TentacleInfestedStomach</hediff>
+						<onlyIfNew>true</onlyIfNew>
+						<severity>1</severity>
+						<bodyParts>
+							<li>Stomach</li>
+						</bodyParts>
+					</li>
+					<li>
+						<hediff>TentacleInfestedAnus</hediff>
+						<onlyIfNew>true</onlyIfNew>
+						<severity>1</severity>
+						<bodyParts>
+							<li>Anus</li>
+						</bodyParts>
+					</li>
+					<li>
+						<hediff>TentacleLimbAnus</hediff>
+						<onlyIfNew>true</onlyIfNew>
+						<severity>1</severity>
+						<bodyParts>
+							<li>Anus</li>
+						</bodyParts>
+					</li>
+				</hediffsToApply>
+			</li>
+		</modExtensions>
+	</GeneDef>
+
+	<GeneDef>
+		<defName>AmorKnightHostBody</defName>
+		<displayCategory>HiddenTentacleGenes</displayCategory>
+		<geneClass>EBSGFramework.HediffAdder</geneClass>
+		<displayOrderInCategory>0.1</displayOrderInCategory>
+		<abilities>
+			<li>TentacleIngest</li>
+			<li>TentacleExpel</li>
+			<li>TentacleTransfer</li>
+		</abilities>
+		<modExtensions>
+			<li Class="EBSGFramework.EBSGExtension">
+				<hediffsToApply>
+					<li>
+						<hediff>AmorKnightHost</hediff>
+						<onlyIfNew>true</onlyIfNew>
+						<severity>0.01</severity>
+					</li>
+					<li>
+						<hediff>TentacleStorage</hediff>
+						<onlyIfNew>true</onlyIfNew>
+						<severity>1</severity>
+						<bodyParts>
+							<li>Genitals</li>
+						</bodyParts>
+					</li>
+					<li>
+						<hediff>TentacleInfestedStomach</hediff>
+						<onlyIfNew>true</onlyIfNew>
+						<severity>1</severity>
+						<bodyParts>
+							<li>Stomach</li>
+						</bodyParts>
+					</li>
+					<li>
+						<hediff>TentacleInfestedAnus</hediff>
+						<onlyIfNew>true</onlyIfNew>
+						<severity>1</severity>
+						<bodyParts>
+							<li>Anus</li>
+						</bodyParts>
+					</li>
+					<li>
+						<hediff>TentacleLimbAnus</hediff>
+						<onlyIfNew>true</onlyIfNew>
+						<severity>1</severity>
+						<bodyParts>
+							<li>Anus</li>
+						</bodyParts>
+					</li>
+				</hediffsToApply>
+			</li>
+		</modExtensions>
+	</GeneDef>
+
+	<GeneDef>
+		<defName>AmorServantHostBody</defName>
+		<displayCategory>HiddenTentacleGenes</displayCategory>
+		<geneClass>EBSGFramework.HediffAdder</geneClass>
+		<displayOrderInCategory>0.1</displayOrderInCategory>
+		<abilities>
+			<li>TentacleIngest</li>
+			<li>TentacleExpel</li>
+			<li>TentacleTransfer</li>
+		</abilities>
+		<modExtensions>
+			<li Class="EBSGFramework.EBSGExtension">
+				<hediffsToApply>
+					<li>
+						<hediff>AmorServantHost</hediff>
+						<onlyIfNew>true</onlyIfNew>
+						<severity>0.01</severity>
+					</li>
 					<li>
 						<hediff>TentacleStorage</hediff>
 						<onlyIfNew>true</onlyIfNew>
