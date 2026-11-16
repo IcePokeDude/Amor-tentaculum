@@ -1,17 +1,48 @@
 <Defs>
 
-  <XenotypeDef>
-    <defName>AmorQueenXenotype</defName>
-    <iconPath>Genes/Xenotype-host</iconPath>
-    <inheritable>false</inheritable>
-    <chanceToUseNameMaker>0</chanceToUseNameMaker>
-    <genes>
-      <li>AmorQueenHostBody</li>
-      <li>RJWGenes_AmorTentacleInfestedFemaleGenitalia</li>
-      <li>HostTentacleNeed</li>
-      <li>rjw_genes_female_only</li>
-    </genes>
-  </XenotypeDef>
+	<!-- Female Hosts-->
+
+	<XenotypeDef>
+		<defName>AmorQueenXenotype</defName>
+		<iconPath>Genes/Xenotype-host</iconPath>
+		<inheritable>false</inheritable>
+		<chanceToUseNameMaker>0</chanceToUseNameMaker>
+		<genes>
+			<li>AmorQueenHostBody</li>
+			<li>RJWGenes_AmorTentacleInfestedFemaleGenitalia</li>
+			<li>HostTentacleNeed</li>
+			<li>rjw_genes_female_only</li>
+		</genes>
+	</XenotypeDef>
+
+	<XenotypeDef>
+		<defName>AmorBaronessXenotype</defName>
+		<iconPath>Genes/Xenotype-host</iconPath>
+		<inheritable>false</inheritable>
+		<chanceToUseNameMaker>0</chanceToUseNameMaker>
+		<genes>
+			<li>AmorBaronessHostBody</li>
+			<li>RJWGenes_AmorTentacleInfestedFemaleGenitalia</li>
+			<li>HostTentacleNeed</li>
+			<li>rjw_genes_female_only</li>
+		</genes>
+	</XenotypeDef>
+
+	<XenotypeDef>
+		<defName>AmorNymphXenotype</defName>
+		<iconPath>Genes/Xenotype-host</iconPath>
+		<inheritable>false</inheritable>
+		<chanceToUseNameMaker>0</chanceToUseNameMaker>
+		<genes>
+			<li>AmorNymphHostBody</li>
+			<li>RJWGenes_AmorTentacleInfestedFemaleGenitalia</li>
+			<li>HostTentacleNeed</li>
+			<li>rjw_genes_female_only</li>
+		</genes>
+	</XenotypeDef>
+
+
+	<!-- Male Hosts-->
 
 	<XenotypeDef>
 		<defName>AmorBaronXenotype</defName>
@@ -26,41 +57,43 @@
 		</genes>
 	</XenotypeDef>
 
-	<!-- 
-	
 	<XenotypeDef>
-    <defName>ThostM</defName>
-    <label>Malum Brood Mother</label>
-    <description>A human host that has been modified genetically to birth malar tentacles.</description>
-    <descriptionShort>A human host that has been modified genetically to birth malar tentacles.</descriptionShort>
-    <iconPath>Genes/Xenotype-host</iconPath>
-    <inheritable>false</inheritable>
-    <chanceToUseNameMaker>0</chanceToUseNameMaker>
-    <genes>
-      <li>THostBodyM</li>
-      <li>RJWGenes_AmorTentacleInfestedMaleGenitalia</li>
-      <li>HostTentacleNeedM</li>
-	  <li>MalumHost</li>
-      <li>rjw_genes_male_only</li>
-    </genes>
-  </XenotypeDef>
+		<defName>AmorRogueXenotype</defName>
+		<iconPath>Genes/Xenotype-host</iconPath>
+		<inheritable>false</inheritable>
+		<chanceToUseNameMaker>0</chanceToUseNameMaker>
+		<genes>
+			<li>AmorRogueHostBody</li>
+			<li>RJWGenes_AmorTentacleInfestedMaleGenitalia</li>
+			<li>HostTentacleNeed</li>
+			<li>rjw_genes_male_only</li>
+		</genes>
+	</XenotypeDef>
 
-    <XenotypeDef>
-    <defName>ThostB</defName>
-    <label>Amor Baroness</label>
-    <description>A human host that has been modified genetically to birth amor tentacles.</description>
-    <descriptionShort>A human host that has been modified genetically to birth amor tentacles.</descriptionShort>
-    <iconPath>Genes/Xenotype-host</iconPath>
-    <inheritable>false</inheritable>
-    <chanceToUseNameMaker>0</chanceToUseNameMaker>
-    <genes>
-      <li>THostBodyB</li>
-      <li>RJWGenes_AmorTentacleInfestedFemaleGenitalia</li>
-      <li>rjw_genes_female_only</li>
-      <li>ThostBrooder</li>
-    </genes>
-  </XenotypeDef>
+	<XenotypeDef>
+		<defName>AmorKnightXenotype</defName>
+		<iconPath>Genes/Xenotype-host</iconPath>
+		<inheritable>false</inheritable>
+		<chanceToUseNameMaker>0</chanceToUseNameMaker>
+		<genes>
+			<li>AmorKnightHostBody</li>
+			<li>RJWGenes_AmorTentacleInfestedMaleGenitalia</li>
+			<li>HostTentacleNeed</li>
+			<li>rjw_genes_male_only</li>
+		</genes>
+	</XenotypeDef>
 
--->
+	<XenotypeDef>
+		<defName>AmorServantXenotype</defName>
+		<iconPath>Genes/Xenotype-host</iconPath>
+		<inheritable>false</inheritable>
+		<chanceToUseNameMaker>0</chanceToUseNameMaker>
+		<genes>
+			<li>AmorServantHostBody</li>
+			<li>RJWGenes_AmorTentacleInfestedMaleGenitalia</li>
+			<li>HostTentacleNeed</li>
+			<li>rjw_genes_male_only</li>
+		</genes>
+	</XenotypeDef>
 
 </Defs>

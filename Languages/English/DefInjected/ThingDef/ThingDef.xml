@@ -1,6 +1,7 @@
 <languageData>
 
 	<!-- Buildings -->
+	
 	<Turret_Tentacle.label>tentacle turret</Turret_Tentacle.label>
 	<Turret_Tentacle.description>A portable tentacle that grows more like a plant. Fires low damage spikes at long range.</Turret_Tentacle.description>
 	<Gun_TentacleTurret.label>turret tentacle</Gun_TentacleTurret.label>
@@ -44,10 +45,11 @@
 	<BossSummonWarWomb.comps.CompUsable.useLabel>summon War Womb threat</BossSummonWarWomb.comps.CompUsable.useLabel>
 	
 	<!-- Drugs, food, and other consumables -->
+	
 	<TentBeer.label>amornuum</TentBeer.label>
 	<TentBeer.description>A strange alcohol-like substance. When drunk, induces a "loose" and "relaxed" feeling, as well as minor hallucinations - and an increased drive for sexual activity. Tastes a little bit salty.</TentBeer.description>
 	
-	<!-- TODO: Implants (not yet finalized) -->
+	<!-- Implants, Bionics, etc. -->
 
 	<IndoWorm.label>indoctrination worm</IndoWorm.label>
 	<IndoWorm.description>A parisitic worm, implanted in the victim's brain stem. Keeps them content and willing to sacrifice themselves, even under horrible conditions.</IndoWorm.description>
@@ -62,11 +64,11 @@
 	<TStomachEItem.label>storage stomach</TStomachEItem.label>
 	<TStomachEItem.description>A stomach replacement that lets ingested tentacles handle digestive processes for the Host. This affords the Host with additional tentacle capacity.</TStomachEItem.description>
 	
-	
 	<!-- Tentacle pawn types -->
 	<!-- Note that these should be capitalized! -->
+	
 	<TentacleBroodMother.label>Amor Brood Mother</TentacleBroodMother.label>
-	<TentacleBroodMother.description>A beetle-like Tentacle, dedicated to breeding more creatures for the hive. It has a protective carapace on its thorax as well as several external womb-like body parts for additional egg production. The Amor Brood Mother is the largest of the Tentacle types, and continuously produces Amor Larvae eggs. Those Larvae can then be evolved into other Tentacle types.</TentacleBroodMother.description>
+	<TentacleBroodMother.description>A beetle-like Tentacle, dedicated to breeding more creatures for the hive. It has a protective carapace on its thorax as well as several external womb-like body parts for additional egg production. The Amor Brood Mother is one of the largest of the Tentacle types, and continuously produces Amor Larvae eggs. Those Larvae can then be evolved into other Tentacle types.</TentacleBroodMother.description>
 	<TentacleStinger.label>Amor Stinger</TentacleStinger.label>
 	<TentacleStinger.description>A small flying tentacle creature shaped like a ray. It's actually a sleeve of skin, constantly generating and expelling internally generated gases to keep itself afloat. The flexible tail sports a small stinger, capable of injecting a light paralytic venom through even the smallest gaps. Once a target is sufficietly weakened, the tentacle may wrap itself around the head turning them into nothing but a walking flesh puppet. The mind control persists for several hours, after which the victim's head is consumed.</TentacleStinger.description>
 	<TentacleWarWomb.label>Amor War Womb</TentacleWarWomb.label>
@@ -97,6 +99,7 @@
 	<TentacleStriker.description>A combat-focused mass of tentacles, designed to latch on to and incapacitate hostile enemies with attacks to their genitalia.</TentacleStriker.description>
 
 	<!-- Creature combat tool labels -->
+	
 	<TentacleBorer.tools.0.label>left mass of clawed tentacles</TentacleBorer.tools.0.label>
 	<TentacleBorer.tools.1.label>right mass of clawed tentacles</TentacleBorer.tools.1.label>
 	<TentacleBrewer.tools.0.label>tentacle leg strike</TentacleBrewer.tools.0.label>
@@ -126,12 +129,24 @@
 	<TentacleWarWomb.tools.0.labelNoLocation>tentacle</TentacleWarWomb.tools.0.labelNoLocation>
 	
 	<!-- Host transformation eggs -->
+	
 	<AmorQueenEgg.label>Amor Queen egg</AmorQueenEgg.label>
 	<AmorQueenEgg.description>An Amor Queen Egg. Can be inserted into a pawn, where it will hatch and progressively take over the body, transforming them into an Amor Queen host.\n\nNOTE: This transformation will only work on female pawns. It will cause lethal organ instability in males.</AmorQueenEgg.description>
+	<AmorBaronessEgg.label>Amor Baroness egg</AmorBaronessEgg.label>
+	<AmorBaronessEgg.description>An Amor Baroness Egg. Can be inserted into a pawn, where it will hatch and progressively take over the body, transforming them into an Amor Baroness host.\n\nNOTE: This transformation will only work on female pawns. It will cause lethal organ instability in males.</AmorBaronessEgg.description>
+	<AmorNymphEgg.label>Amor Nymph egg</AmorNymphEgg.label>
+	<AmorNymphEgg.description>An Amor Nymph Egg. Can be inserted into a pawn, where it will hatch and progressively take over the body, transforming them into an Amor Nymph host.\n\nNOTE: This transformation will only work on female pawns. It will cause lethal organ instability in males.</AmorNymphEgg.description>
 	<AmorBaronEgg.label>Amor Baron egg</AmorBaronEgg.label>
 	<AmorBaronEgg.description>An Amor Baron Egg. Can be inserted into a pawn, where it will hatch and progressively take over the body, transforming them into an Amor Baron host.\n\nNOTE: This transformation will only work on male pawns. It will cause lethal organ instability in females.</AmorBaronEgg.description>
+	<AmorRogueEgg.label>Amor Rogue egg</AmorRogueEgg.label>
+	<AmorRogueEgg.description>An Amor Rogue Egg. Can be inserted into a pawn, where it will hatch and progressively take over the body, transforming them into an Amor Rogue host.\n\nNOTE: This transformation will only work on male pawns. It will cause lethal organ instability in females.</AmorRogueEgg.description>
+	<AmorKnightEgg.label>Amor Knight egg</AmorKnightEgg.label>
+	<AmorKnightEgg.description>An Amor Knight Egg. Can be inserted into a pawn, where it will hatch and progressively take over the body, transforming them into an Amor Knight host.\n\nNOTE: This transformation will only work on male pawns. It will cause lethal organ instability in females.</AmorKnightEgg.description>
+	<AmorServantEgg.label>Amor Servant egg</AmorServantEgg.label>
+	<AmorServantEgg.description>An Amor Servant Egg. Can be inserted into a pawn, where it will hatch and progressively take over the body, transforming them into an Amor Servant host.\n\nNOTE: This transformation will only work on male pawns. It will cause lethal organ instability in females.</AmorServantEgg.description>
 		
 	<!-- Tentacle eggs -->
+	
 	<AmorBroodMotherEgg.label>Amor Brood Mother egg</AmorBroodMotherEgg.label>
 	<AmorBroodMotherEgg.description>A huge egg produced in the womb of an Amor Queen Host. Hatches into an Amor Brood Mother, a core component of a tentacle colony. Protect it!</AmorBroodMotherEgg.description>
 	<AmorSquirmerEggUnfert.label>Amor Squirmer egg (unfert.)</AmorSquirmerEggUnfert.label>
@@ -144,6 +159,7 @@
 	<AmorLarvaEggFert.description>A fertilized Amor Larva tentacle egg.</AmorLarvaEggFert.description>	
 	
 	<!-- Resources -->
+	
 	<HardResin.label>hard resin</HardResin.label>
 	<HardResin.description>Hard tentacle resin. It is immune to fire, and while it is brittle, when dried it can be forged into hard and sharp shapes. It is perfect as a material for cutting tools or weapons as well as structures.</HardResin.description>
 	<SoftResin.label>soft resin</SoftResin.label>
@@ -156,6 +172,7 @@
 	<TentacleCatalyst.description>The condensed genetic essence of a human being, ripped out of their flesh by a Recycling Pod. Used to craft other Tentacle and Host forms, as well as advanced equipment and implants.</TentacleCatalyst.description>
 
 	<!-- Boss Drops -->
+	
 	<BossGlandBrewer.label>Brewer gland</BossGlandBrewer.label>
 	<BossGlandBrewer.description>A gland, extracted from Amor Brewer hybrids. It's squishy and slimy, and feels still alive.\n\nThis can be analyzed to unlock additional research, which will allow you to use the gland to craft advanced things, as well as your own Brewers.</BossGlandBrewer.description>
 	<BossGlandBrewer.comps.CompAnalyzableUnlockResearch.activateDescString>Analyze the Brewer gland.</BossGlandBrewer.comps.CompAnalyzableUnlockResearch.activateDescString>
@@ -197,6 +214,7 @@
 	<BossGlandWarWomb.comps.CompAnalyzableUnlockResearch.jobString>analyze War Womb gland</BossGlandWarWomb.comps.CompAnalyzableUnlockResearch.jobString>
 
 	<!-- Filth and Fluids -->
+	
 	<Filth_Slime.label>tentacle slime filth</Filth_Slime.label>
 	
 	<!-- Weapons -->
@@ -204,6 +222,5 @@
 	<!-- Equipment -->
 	<TentacleCollar.label>tentacle collar</TentacleCollar.label>
 	<TentacleCollar.description>A large tentacle, curled tightly around the wearer's neck, used in controlling slaves. The tip goes over the wearer's mouth, hindering their ability to eat. Once settled, a small tendril will be extended inside the mouth, and will secrete drugs that provide a mild euphoric effert, suppressing the slave's resistance, increasing their sex drive, and making them more docile. Not nearly as invasive as an Indoctrination Implant.</TentacleCollar.description>
-	
 	
 </languageData>
