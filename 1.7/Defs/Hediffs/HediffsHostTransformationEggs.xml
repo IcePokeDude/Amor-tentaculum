@@ -192,30 +192,251 @@
 
 	<HediffDef Name="QueenEggOverrideFailure" ParentName="HostTypeOverrideFailureBase">
 		<defName>QueenEggOverrideFailure</defName>
+		<comps>
+			<li Class="EBSGFramework.HediffCompProperties_SeverityByOtherHediffSeverities">
+				<baseSeverity>0</baseSeverity>
+				<hediffSets>
+					<li>
+						<hediff>BaronessEggIncubation</hediff>
+						<factor>0.001</factor>
+					</li>
+					<li>
+						<hediff>NymphEggIncubation</hediff>
+						<factor>0.001</factor>
+					</li>
+					<li>
+						<hediff>BaronessTransform</hediff>
+						<factor>0.001</factor>
+					</li>
+					<li>
+						<hediff>NymphTransform</hediff>
+						<factor>0.001</factor>
+					</li>
+					<li>
+						<hediff>TentacleStorage</hediff>
+						<factor>0.001</factor>
+					</li>
+				</hediffSets>
+			</li>
+		</comps>
 	</HediffDef>
 
 	<HediffDef Name="BaronessEggOverrideFailure" ParentName="HostTypeOverrideFailureBase">
 		<defName>BaronessEggOverrideFailure</defName>
+		<comps>
+			<li Class="EBSGFramework.HediffCompProperties_SeverityByOtherHediffSeverities">
+				<baseSeverity>0</baseSeverity>
+				<hediffSets>
+					<li>
+						<hediff>QueenEggIncubation</hediff>
+						<factor>0.001</factor>
+					</li>
+					<li>
+						<hediff>NymphEggIncubation</hediff>
+						<factor>0.001</factor>
+					</li>
+					<li>
+						<hediff>QueenTransform</hediff>
+						<factor>0.001</factor>
+					</li>
+					<li>
+						<hediff>NymphTransform</hediff>
+						<factor>0.001</factor>
+					</li>
+					<li>
+						<hediff>TentacleStorage</hediff>
+						<factor>0.001</factor>
+					</li>
+				</hediffSets>
+			</li>
+		</comps>
 	</HediffDef>
 
 	<HediffDef Name="NymphEggOverrideFailure" ParentName="HostTypeOverrideFailureBase">
 		<defName>NymphEggOverrideFailure</defName>
+		<comps>
+			<li Class="EBSGFramework.HediffCompProperties_SeverityByOtherHediffSeverities">
+				<baseSeverity>0</baseSeverity>
+				<hediffSets>
+					<li>
+						<hediff>BaronessEggIncubation</hediff>
+						<factor>0.001</factor>
+					</li>
+					<li>
+						<hediff>QueenEggIncubation</hediff>
+						<factor>0.001</factor>
+					</li>
+					<li>
+						<hediff>BaronessTransform</hediff>
+						<factor>0.001</factor>
+					</li>
+					<li>
+						<hediff>QueenTransform</hediff>
+						<factor>0.001</factor>
+					</li>
+					<li>
+						<hediff>TentacleStorage</hediff>
+						<factor>0.001</factor>
+					</li>
+				</hediffSets>
+			</li>
+		</comps>
 	</HediffDef>
 
 	<HediffDef Name="BaronEggOverrideFailure" ParentName="HostTypeOverrideFailureBase">
 		<defName>BaronEggOverrideFailure</defName>
+		<comps>
+			<li Class="EBSGFramework.HediffCompProperties_SeverityByOtherHediffSeverities">
+				<baseSeverity>0</baseSeverity>
+				<hediffSets>
+					<li>
+						<hediff>RogueEggIncubation</hediff>
+						<factor>0.001</factor>
+					</li>
+					<li>
+						<hediff>KnightEggIncubation</hediff>
+						<factor>0.001</factor>
+					</li>
+					<li>
+						<hediff>ServantEggIncubation</hediff>
+						<factor>0.001</factor>
+					</li>
+					<li>
+						<hediff>RogueTransform</hediff>
+						<factor>0.001</factor>
+					</li>
+					<li>
+						<hediff>KnightTransform</hediff>
+						<factor>0.001</factor>
+					</li>
+					<li>
+						<hediff>ServantTransform</hediff>
+						<factor>0.001</factor>
+					</li>
+					<li>
+						<hediff>TentacleStorage</hediff>
+						<factor>0.001</factor>
+					</li>
+				</hediffSets>
+			</li>
+		</comps>
 	</HediffDef>
 	
 	<HediffDef Name="RogueEggOverrideFailure" ParentName="HostTypeOverrideFailureBase">
 		<defName>RogueEggOverrideFailure</defName>
+		<comps>
+			<li Class="EBSGFramework.HediffCompProperties_SeverityByOtherHediffSeverities">
+				<baseSeverity>0</baseSeverity>
+				<hediffSets>
+					<li>
+						<hediff>BaronEggIncubation</hediff>
+						<factor>0.001</factor>
+					</li>
+					<li>
+						<hediff>KnightEggIncubation</hediff>
+						<factor>0.001</factor>
+					</li>
+					<li>
+						<hediff>ServantEggIncubation</hediff>
+						<factor>0.001</factor>
+					</li>
+					<li>
+						<hediff>BaronTransform</hediff>
+						<factor>0.001</factor>
+					</li>
+					<li>
+						<hediff>KnightTransform</hediff>
+						<factor>0.001</factor>
+					</li>
+					<li>
+						<hediff>ServantTransform</hediff>
+						<factor>0.001</factor>
+					</li>
+					<li>
+						<hediff>TentacleStorage</hediff>
+						<factor>0.001</factor>
+					</li>
+				</hediffSets>
+			</li>
+		</comps>
 	</HediffDef>
 	
 	<HediffDef Name="KnightEggOverrideFailure" ParentName="HostTypeOverrideFailureBase">
 		<defName>KnightEggOverrideFailure</defName>
+		<comps>
+			<li Class="EBSGFramework.HediffCompProperties_SeverityByOtherHediffSeverities">
+				<baseSeverity>0</baseSeverity>
+				<hediffSets>
+					<li>
+						<hediff>BaronEggIncubation</hediff>
+						<factor>0.001</factor>
+					</li>
+					<li>
+						<hediff>RogueEggIncubation</hediff>
+						<factor>0.001</factor>
+					</li>
+					<li>
+						<hediff>ServantEggIncubation</hediff>
+						<factor>0.001</factor>
+					</li>
+					<li>
+						<hediff>BaronTransform</hediff>
+						<factor>0.001</factor>
+					</li>
+					<li>
+						<hediff>RogueTransform</hediff>
+						<factor>0.001</factor>
+					</li>
+					<li>
+						<hediff>ServantTransform</hediff>
+						<factor>0.001</factor>
+					</li>
+					<li>
+						<hediff>TentacleStorage</hediff>
+						<factor>0.001</factor>
+					</li>
+				</hediffSets>
+			</li>
+		</comps>
 	</HediffDef>
 	
 	<HediffDef Name="ServantEggOverrideFailure" ParentName="HostTypeOverrideFailureBase">
 		<defName>ServantEggOverrideFailure</defName>
+		<comps>
+			<li Class="EBSGFramework.HediffCompProperties_SeverityByOtherHediffSeverities">
+				<baseSeverity>0</baseSeverity>
+				<hediffSets>
+					<li>
+						<hediff>BaronEggIncubation</hediff>
+						<factor>0.001</factor>
+					</li>
+					<li>
+						<hediff>KnightEggIncubation</hediff>
+						<factor>0.001</factor>
+					</li>
+					<li>
+						<hediff>RogueEggIncubation</hediff>
+						<factor>0.001</factor>
+					</li>
+					<li>
+						<hediff>BaronTransform</hediff>
+						<factor>0.001</factor>
+					</li>
+					<li>
+						<hediff>KnightTransform</hediff>
+						<factor>0.001</factor>
+					</li>
+					<li>
+						<hediff>RogueTransform</hediff>
+						<factor>0.001</factor>
+					</li>
+					<li>
+						<hediff>TentacleStorage</hediff>
+						<factor>0.001</factor>
+					</li>
+				</hediffSets>
+			</li>
+		</comps>
 	</HediffDef>
 
 	<!-- Incubation success (this is actually a gatekeeping hediff, and not the final one) -->
@@ -229,13 +450,9 @@
 		<maxSeverity>1.5</maxSeverity>		
 		<isBad>false</isBad>
 		<tendable>false</tendable>
-	</HediffDef>
-
-	<HediffDef Name="QueenEggIncubationSuccess" ParentName="EggIncubationSuccessBase">
-		<defName>QueenEggIncubationSuccess</defName>
 		<comps>
 			<li Class="HediffCompProperties_SeverityPerDay">
-				<severityPerDay>9</severityPerDay>
+				<severityPerDay>999</severityPerDay>
 				<showHoursToRecover>true</showHoursToRecover>
 			</li>
 			<li Class="EBSGFramework.HediffCompProperties_SeverityByGenes">
@@ -243,9 +460,76 @@
 				<geneEffects>
 					<li>
 						<gene>AmorQueenHostBody</gene>
-						<effect>-1</effect>
+						<effect>-99</effect>
+					</li>
+					<li>
+						<gene>AmorBaronessHostBody</gene>
+						<effect>-99</effect>
+					</li>
+					<li>
+						<gene>AmorNymphHostBody</gene>
+						<effect>-99</effect>
+					</li>
+					<li>
+						<gene>AmorBaronHostBody</gene>
+						<effect>-99</effect>
+					</li>
+					<li>
+						<gene>AmorRogueHostBody</gene>
+						<effect>-99</effect>
+					</li>
+					<li>
+						<gene>AmorKnightHostBody</gene>
+						<effect>-99</effect>
+					</li>
+					<li>
+						<gene>AmorServantHostBody</gene>
+						<effect>-99</effect>
 					</li>
 				</geneEffects>
+			</li>
+		</comps>
+	</HediffDef>
+
+	<HediffDef Name="QueenEggIncubationSuccess" ParentName="EggIncubationSuccessBase">
+		<defName>QueenEggIncubationSuccess</defName>
+		<comps>
+			<li Class="EBSGFramework.HediffCompProperties_SeverityByOtherHediffSeverities">
+				<baseSeverity>0.001</baseSeverity>
+				<hediffSets>
+					<li>
+						<hediff>BaronessEggIncubation</hediff>
+						<factor>-1</factor>
+					</li>
+					<li>
+						<hediff>NymphEggIncubation</hediff>
+						<factor>-1</factor>
+					</li>
+					<li>
+						<hediff>QueenTransform</hediff>
+						<factor>-1</factor>
+					</li>
+					<li>
+						<hediff>BaronessTransform</hediff>
+						<factor>-1</factor>
+					</li>
+					<li>
+						<hediff>NymphTransform</hediff>
+						<factor>-1</factor>
+					</li>
+					<li>
+						<hediff>AmorQueenHost</hediff>
+						<factor>-1</factor>
+					</li>
+					<li>
+						<hediff>AmorBaronessHost</hediff>
+						<factor>-1</factor>
+					</li>
+					<li>
+						<hediff>AmorNymphHost</hediff>
+						<factor>-1</factor>
+					</li>
+				</hediffSets>
 			</li>
 			<li Class="EBSGFramework.HediffCompProperties_SeverityByGender">
 				<genders>
@@ -273,24 +557,48 @@
 	<HediffDef Name="BaronessEggIncubationSuccess" ParentName="EggIncubationSuccessBase">
 		<defName>BaronessEggIncubationSuccess</defName>
 		<comps>
-			<li Class="HediffCompProperties_SeverityPerDay">
-				<severityPerDay>9</severityPerDay>
-				<showHoursToRecover>true</showHoursToRecover>
-			</li>
-			<li Class="EBSGFramework.HediffCompProperties_SeverityByGenes">
-				<baseSeverity>0.001</baseSeverity>
-				<geneEffects>
-					<li>
-						<gene>AmorBaronessHostBody</gene>
-						<effect>-1</effect>
-					</li>
-				</geneEffects>
-			</li>
 			<li Class="EBSGFramework.HediffCompProperties_SeverityByGender">
 				<genders>
 					<Male>0</Male>
 					<Female>1.48</Female>
 				</genders>
+			</li>
+			<li Class="EBSGFramework.HediffCompProperties_SeverityByOtherHediffSeverities">
+				<baseSeverity>0.001</baseSeverity>
+				<hediffSets>
+					<li>
+						<hediff>QueenEggIncubation</hediff>
+						<factor>-1</factor>
+					</li>
+					<li>
+						<hediff>NymphEggIncubation</hediff>
+						<factor>-1</factor>
+					</li>
+					<li>
+						<hediff>QueenTransform</hediff>
+						<factor>-1</factor>
+					</li>
+					<li>
+						<hediff>BaronessTransform</hediff>
+						<factor>-1</factor>
+					</li>
+					<li>
+						<hediff>NymphTransform</hediff>
+						<factor>-1</factor>
+					</li>
+					<li>
+						<hediff>AmorQueenHost</hediff>
+						<factor>-1</factor>
+					</li>
+					<li>
+						<hediff>AmorBaronessHost</hediff>
+						<factor>-1</factor>
+					</li>
+					<li>
+						<hediff>AmorNymphHost</hediff>
+						<factor>-1</factor>
+					</li>
+				</hediffSets>
 			</li>
 			<li Class="EBSGFramework.HediffCompProperties_CreateOtherHediffs">
 				<hediffSets>
@@ -312,24 +620,48 @@
 	<HediffDef Name="NymphEggIncubationSuccess" ParentName="EggIncubationSuccessBase">
 		<defName>NymphEggIncubationSuccess</defName>
 		<comps>
-			<li Class="HediffCompProperties_SeverityPerDay">
-				<severityPerDay>9</severityPerDay>
-				<showHoursToRecover>true</showHoursToRecover>
-			</li>
-			<li Class="EBSGFramework.HediffCompProperties_SeverityByGenes">
-				<baseSeverity>0.001</baseSeverity>
-				<geneEffects>
-					<li>
-						<gene>AmorNymphHostBody</gene>
-						<effect>-1</effect>
-					</li>
-				</geneEffects>
-			</li>
 			<li Class="EBSGFramework.HediffCompProperties_SeverityByGender">
 				<genders>
 					<Male>0</Male>
 					<Female>1.48</Female>
 				</genders>
+			</li>
+			<li Class="EBSGFramework.HediffCompProperties_SeverityByOtherHediffSeverities">
+				<baseSeverity>0.001</baseSeverity>
+				<hediffSets>
+					<li>
+						<hediff>BaronessEggIncubation</hediff>
+						<factor>-1</factor>
+					</li>
+					<li>
+						<hediff>QueenEggIncubation</hediff>
+						<factor>-1</factor>
+					</li>
+					<li>
+						<hediff>QueenTransform</hediff>
+						<factor>-1</factor>
+					</li>
+					<li>
+						<hediff>BaronessTransform</hediff>
+						<factor>-1</factor>
+					</li>
+					<li>
+						<hediff>NymphTransform</hediff>
+						<factor>-1</factor>
+					</li>
+					<li>
+						<hediff>AmorQueenHost</hediff>
+						<factor>-1</factor>
+					</li>
+					<li>
+						<hediff>AmorBaronessHost</hediff>
+						<factor>-1</factor>
+					</li>
+					<li>
+						<hediff>AmorNymphHost</hediff>
+						<factor>-1</factor>
+					</li>
+				</hediffSets>
 			</li>
 			<li Class="EBSGFramework.HediffCompProperties_CreateOtherHediffs">
 				<hediffSets>
@@ -351,24 +683,60 @@
 	<HediffDef Name="BaronEggIncubationSuccess" ParentName="EggIncubationSuccessBase">
 		<defName>BaronEggIncubationSuccess</defName>
 		<comps>
-			<li Class="HediffCompProperties_SeverityPerDay">
-				<severityPerDay>9</severityPerDay>
-				<showHoursToRecover>true</showHoursToRecover>
-			</li>
-			<li Class="EBSGFramework.HediffCompProperties_SeverityByGenes">
-				<baseSeverity>0.001</baseSeverity>
-				<geneEffects>
-					<li>
-						<gene>AmorBaronHostBody</gene>
-						<effect>-1</effect>
-					</li>
-				</geneEffects>
-			</li>
 			<li Class="EBSGFramework.HediffCompProperties_SeverityByGender">
 				<genders>
 					<Male>1.48</Male>
 					<Female>0</Female>
 				</genders>
+			</li>
+			<li Class="EBSGFramework.HediffCompProperties_SeverityByOtherHediffSeverities">
+				<baseSeverity>0.001</baseSeverity>
+				<hediffSets>
+					<li>
+						<hediff>KnightEggIncubation</hediff>
+						<factor>-1</factor>
+					</li>
+					<li>
+						<hediff>RogueEggIncubation</hediff>
+						<factor>-1</factor>
+					</li>
+					<li>
+						<hediff>ServantEggIncubation</hediff>
+						<factor>-1</factor>
+					</li>
+					<li>
+						<hediff>BaronTransform</hediff>
+						<factor>-1</factor>
+					</li>
+					<li>
+						<hediff>RogueTransform</hediff>
+						<factor>-1</factor>
+					</li>
+					<li>
+						<hediff>KnightTransform</hediff>
+						<factor>-1</factor>
+					</li>
+					<li>
+						<hediff>ServantTransform</hediff>
+						<factor>-1</factor>
+					</li>
+					<li>
+						<hediff>AmorBaronHost</hediff>
+						<factor>-1</factor>
+					</li>
+					<li>
+						<hediff>AmorRogueHost</hediff>
+						<factor>-1</factor>
+					</li>
+					<li>
+						<hediff>AmorKnightHost</hediff>
+						<factor>-1</factor>
+					</li>
+					<li>
+						<hediff>AmorServantHost</hediff>
+						<factor>-1</factor>
+					</li>
+				</hediffSets>
 			</li>
 			<li Class="EBSGFramework.HediffCompProperties_CreateOtherHediffs">
 				<hediffSets>
@@ -390,24 +758,60 @@
 	<HediffDef Name="RogueEggIncubationSuccess" ParentName="EggIncubationSuccessBase">
 		<defName>RogueEggIncubationSuccess</defName>
 		<comps>
-			<li Class="HediffCompProperties_SeverityPerDay">
-				<severityPerDay>9</severityPerDay>
-				<showHoursToRecover>true</showHoursToRecover>
-			</li>
-			<li Class="EBSGFramework.HediffCompProperties_SeverityByGenes">
-				<baseSeverity>0.001</baseSeverity>
-				<geneEffects>
-					<li>
-						<gene>AmorRogueHostBody</gene>
-						<effect>-1</effect>
-					</li>
-				</geneEffects>
-			</li>
 			<li Class="EBSGFramework.HediffCompProperties_SeverityByGender">
 				<genders>
 					<Male>1.48</Male>
 					<Female>0</Female>
 				</genders>
+			</li>
+			<li Class="EBSGFramework.HediffCompProperties_SeverityByOtherHediffSeverities">
+				<baseSeverity>0.001</baseSeverity>
+				<hediffSets>
+					<li>
+						<hediff>KnightEggIncubation</hediff>
+						<factor>-1</factor>
+					</li>
+					<li>
+						<hediff>BaronEggIncubation</hediff>
+						<factor>-1</factor>
+					</li>
+					<li>
+						<hediff>ServantEggIncubation</hediff>
+						<factor>-1</factor>
+					</li>
+					<li>
+						<hediff>BaronTransform</hediff>
+						<factor>-1</factor>
+					</li>
+					<li>
+						<hediff>RogueTransform</hediff>
+						<factor>-1</factor>
+					</li>
+					<li>
+						<hediff>KnightTransform</hediff>
+						<factor>-1</factor>
+					</li>
+					<li>
+						<hediff>ServantTransform</hediff>
+						<factor>-1</factor>
+					</li>
+					<li>
+						<hediff>AmorBaronHost</hediff>
+						<factor>-1</factor>
+					</li>
+					<li>
+						<hediff>AmorRogueHost</hediff>
+						<factor>-1</factor>
+					</li>
+					<li>
+						<hediff>AmorKnightHost</hediff>
+						<factor>-1</factor>
+					</li>
+					<li>
+						<hediff>AmorServantHost</hediff>
+						<factor>-1</factor>
+					</li>
+				</hediffSets>
 			</li>
 			<li Class="EBSGFramework.HediffCompProperties_CreateOtherHediffs">
 				<hediffSets>
@@ -429,24 +833,60 @@
 	<HediffDef Name="KnightEggIncubationSuccess" ParentName="EggIncubationSuccessBase">
 		<defName>KnightEggIncubationSuccess</defName>
 		<comps>
-			<li Class="HediffCompProperties_SeverityPerDay">
-				<severityPerDay>9</severityPerDay>
-				<showHoursToRecover>true</showHoursToRecover>
-			</li>
-			<li Class="EBSGFramework.HediffCompProperties_SeverityByGenes">
-				<baseSeverity>0.001</baseSeverity>
-				<geneEffects>
-					<li>
-						<gene>AmorKnightHostBody</gene>
-						<effect>-1</effect>
-					</li>
-				</geneEffects>
-			</li>
 			<li Class="EBSGFramework.HediffCompProperties_SeverityByGender">
 				<genders>
 					<Male>1.48</Male>
 					<Female>0</Female>
 				</genders>
+			</li>
+			<li Class="EBSGFramework.HediffCompProperties_SeverityByOtherHediffSeverities">
+				<baseSeverity>0.001</baseSeverity>
+				<hediffSets>
+					<li>
+						<hediff>BaronEggIncubation</hediff>
+						<factor>-1</factor>
+					</li>
+					<li>
+						<hediff>RogueEggIncubation</hediff>
+						<factor>-1</factor>
+					</li>
+					<li>
+						<hediff>ServantEggIncubation</hediff>
+						<factor>-1</factor>
+					</li>
+					<li>
+						<hediff>BaronTransform</hediff>
+						<factor>-1</factor>
+					</li>
+					<li>
+						<hediff>RogueTransform</hediff>
+						<factor>-1</factor>
+					</li>
+					<li>
+						<hediff>KnightTransform</hediff>
+						<factor>-1</factor>
+					</li>
+					<li>
+						<hediff>ServantTransform</hediff>
+						<factor>-1</factor>
+					</li>
+					<li>
+						<hediff>AmorBaronHost</hediff>
+						<factor>-1</factor>
+					</li>
+					<li>
+						<hediff>AmorRogueHost</hediff>
+						<factor>-1</factor>
+					</li>
+					<li>
+						<hediff>AmorKnightHost</hediff>
+						<factor>-1</factor>
+					</li>
+					<li>
+						<hediff>AmorServantHost</hediff>
+						<factor>-1</factor>
+					</li>
+				</hediffSets>
 			</li>
 			<li Class="EBSGFramework.HediffCompProperties_CreateOtherHediffs">
 				<hediffSets>
@@ -465,28 +905,63 @@
 		<stages />
 	</HediffDef>
 
-
 	<HediffDef Name="ServantEggIncubationSuccess" ParentName="EggIncubationSuccessBase">
 		<defName>ServantEggIncubationSuccess</defName>
 		<comps>
-			<li Class="HediffCompProperties_SeverityPerDay">
-				<severityPerDay>9</severityPerDay>
-				<showHoursToRecover>true</showHoursToRecover>
-			</li>
-			<li Class="EBSGFramework.HediffCompProperties_SeverityByGenes">
-				<baseSeverity>0.001</baseSeverity>
-				<geneEffects>
-					<li>
-						<gene>AmorServantHostBody</gene>
-						<effect>-1</effect>
-					</li>
-				</geneEffects>
-			</li>
 			<li Class="EBSGFramework.HediffCompProperties_SeverityByGender">
 				<genders>
 					<Male>1.48</Male>
 					<Female>0</Female>
 				</genders>
+			</li>
+			<li Class="EBSGFramework.HediffCompProperties_SeverityByOtherHediffSeverities">
+				<baseSeverity>0.001</baseSeverity>
+				<hediffSets>
+					<li>
+						<hediff>KnightEggIncubation</hediff>
+						<factor>-1</factor>
+					</li>
+					<li>
+						<hediff>RogueEggIncubation</hediff>
+						<factor>-1</factor>
+					</li>
+					<li>
+						<hediff>BaronEggIncubation</hediff>
+						<factor>-1</factor>
+					</li>
+					<li>
+						<hediff>BaronTransform</hediff>
+						<factor>-1</factor>
+					</li>
+					<li>
+						<hediff>RogueTransform</hediff>
+						<factor>-1</factor>
+					</li>
+					<li>
+						<hediff>KnightTransform</hediff>
+						<factor>-1</factor>
+					</li>
+					<li>
+						<hediff>ServantTransform</hediff>
+						<factor>-1</factor>
+					</li>
+					<li>
+						<hediff>AmorBaronHost</hediff>
+						<factor>-1</factor>
+					</li>
+					<li>
+						<hediff>AmorRogueHost</hediff>
+						<factor>-1</factor>
+					</li>
+					<li>
+						<hediff>AmorKnightHost</hediff>
+						<factor>-1</factor>
+					</li>
+					<li>
+						<hediff>AmorServantHost</hediff>
+						<factor>-1</factor>
+					</li>
+				</hediffSets>
 			</li>
 			<li Class="EBSGFramework.HediffCompProperties_CreateOtherHediffs">
 				<hediffSets>
