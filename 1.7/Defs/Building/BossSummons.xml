@@ -140,7 +140,7 @@
 	<ThingDef ParentName="BossSummonBase">
 		<defName>BossSummonWarWomb</defName>
 		<graphicData>
-			<texPath>Things/Building/Misc/MechbandDish</texPath>
+			<texPath>Things/Buildings/Summoners/WarWombSummoner</texPath>
 			<graphicClass>Graphic_Multi</graphicClass>
 			<drawSize>(2,2)</drawSize>
 			<shadowData>

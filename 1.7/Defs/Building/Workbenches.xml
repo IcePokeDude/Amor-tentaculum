@@ -63,6 +63,7 @@
 			<li>PlaceWorker_PreventInteractionSpotOverlap</li>
 		</placeWorkers>
 		<researchPrerequisites>
+			<li>DrugProduction</li>
 			<li>ATCore</li>
 		</researchPrerequisites>
 	</ThingDef>
