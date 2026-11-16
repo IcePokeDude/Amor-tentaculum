@@ -1,10 +1,11 @@
 <Defs>
-	
+
 	<!-- Pawn Abilities -->
 
 	<!-- Tentacle Resource Abilities -->
-	
+
 	<!-- Tentacle Ingest -->
+
 	<AbilityDef ParentName="AbilityTouchBase">
 		<defName>TentacleIngest</defName>
 		<iconPath>Abilities/ButtVore</iconPath>
@@ -62,6 +63,7 @@
 	</AbilityDef>
 
 	<!-- Tentacle Expel -->
+
 	<AbilityDef ParentName="AbilityTouchBase">
 		<defName>TentacleExpel</defName>
 		<iconPath>Abilities/ButtVore</iconPath>
@@ -101,6 +103,7 @@
 	</AbilityDef>
 
 	<!-- Tentacle Transfer -->
+
 	<AbilityDef ParentName="AbilityTouchBase">
 		<defName>TentacleTransfer</defName>
 		<iconPath>Abilities/TentacleKiss</iconPath>
@@ -140,6 +143,8 @@
 			</li>
 		</comps>
 	</AbilityDef>
+
+	<!-- Birth Brood Mother Egg -->
 
 	<AbilityDef>
 		<defName>BirthAmorBroodMotherEgg</defName>
@@ -199,7 +204,9 @@
 			</li>
 		</comps>
 	</AbilityDef>
-	
+
+	<!-- Incubate Brood Mother Egg -->
+
 	<AbilityDef>
 		<defName>IncubateAmorBroodMotherEgg</defName>
 		<iconPath>Abilities/OviVag</iconPath>
@@ -262,6 +269,97 @@
 			</li>
 		</comps>
 	</AbilityDef>
+
+	<!-- Seduction Kiss -->
+
+	<AbilityDef ParentName="AbilityTouchBase">
+		<defName>SeductionKiss</defName>
+		<iconPath>Abilities/TentacleKiss</iconPath>
+		<category>Tentacle</category>
+		<targetRequired>true</targetRequired>
+		<stunTargetWhileCasting>true</stunTargetWhileCasting>
+		<cooldownTicksRange>6000</cooldownTicksRange>
+		<hostile>false</hostile>
+		<casterMustBeCapableOfViolence>false</casterMustBeCapableOfViolence>
+		<verbProperties>
+			<verbClass>Verb_CastAbilityTouch</verbClass>
+			<range>1</range>
+			<warmupTime>1</warmupTime>
+			<requireLineOfSight>true</requireLineOfSight>
+			<soundCast>AcidSpray_Resolve</soundCast>
+			<targetParams>
+				<canTargetPawns>true</canTargetPawns>
+				<canTargetAnimals>false</canTargetAnimals>
+			</targetParams>
+		</verbProperties>
+		<comps>
+			<li Class="EBSGFramework.CompProperties_AbilityAbilityValidator">
+				<casterHasAnyOfHediffs>
+					<li>TentacleStorage</li>
+				</casterHasAnyOfHediffs>
+			</li>
+			<li Class="EBSGFramework.CompProperties_AbilityResourceCost">
+				<resourceCost>0.01</resourceCost>
+				<mainResourceGene>HostTentacleNeed</mainResourceGene>
+			</li>
+			<li Class="EBSGFramework.CompProperties_AbilityGiveMultipleHediffs">
+				<hediffsToGive>
+					<li>
+						<hediffDef>NymphSeduction</hediffDef>
+						<onlyApplyToSelf>false</onlyApplyToSelf>
+						<replaceExisting>true</replaceExisting>
+						<severity>1</severity>
+					</li>
+				</hediffsToGive>
+			</li>
+			<li Class="CompProperties_AbilityEffectWithDuration">
+				<compClass>EBSGFramework.CompAbilityEffect_StunNonCaster</compClass>
+				<durationSecondsOverride>15~30</durationSecondsOverride>
+			</li>
+		</comps>
+	</AbilityDef>
+
+	<!-- Placating Kiss -->
+
+	<AbilityDef ParentName="AbilityTouchBase">
+		<defName>PlacatingKiss</defName>
+		<iconPath>Abilities/TentacleKiss</iconPath>
+		<category>Tentacle</category>
+		<targetRequired>true</targetRequired>
+		<cooldownTicksRange>600</cooldownTicksRange>
+		<hostile>false</hostile>
+		<casterMustBeCapableOfViolence>false</casterMustBeCapableOfViolence>
+		<verbProperties>
+			<verbClass>Verb_CastAbilityTouch</verbClass>
+			<range>1</range>
+			<warmupTime>2</warmupTime>
+			<requireLineOfSight>true</requireLineOfSight>
+			<soundCast>AcidSpray_Resolve</soundCast>
+			<targetParams>
+				<canTargetPawns>true</canTargetPawns>
+				<canTargetAnimals>false</canTargetAnimals>
+			</targetParams>
+		</verbProperties>
+		<comps>
+			<li Class="EBSGFramework.CompProperties_AbilityAbilityValidator">
+				<casterHasAnyOfHediffs>
+					<li>TentacleStorage</li>
+				</casterHasAnyOfHediffs>
+			</li>
+			<li Class="EBSGFramework.CompProperties_AbilityResourceCost">
+				<resourceCost>0.01</resourceCost>
+				<mainResourceGene>HostTentacleNeed</mainResourceGene>
+			</li>
+			<li Class="EBSGFramework.CompProperties_AbilityStopMentalNoPsychic">
+				<mustHaveMentalState>true</mustHaveMentalState>
+				<minorChance>1</minorChance>
+				<majorChance>1</majorChance>
+				<extremeChance>1</extremeChance>
+			</li>
+		</comps>
+	</AbilityDef>
+
+	<!-- Cum Spray -->
 
 	<AbilityDef>
 		<defName>TCumSpray</defName>
